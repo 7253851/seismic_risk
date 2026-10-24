@@ -1,0 +1,381 @@
+#!/usr/bin/env python3
+"""Compose the original QGIS risk map with A-B and lake-to-event C-D profiles."""
+from datetime import datetime
+import argparse
+import json
+from pathlib import Path
+import shutil
+import subprocess
+from zoneinfo import ZoneInfo
+
+from transect_support import (
+    ROOT, CONFIG_PATH, SOURCE, SUMMARY, DATA_OUT, FINAL_OUT, CLASSES, COLORS,
+    TEAL, INK, GREY, digest, segment_edges, calculate, save_geodata, format_axis,
+)
+import geopandas as gpd
+import matplotlib.pyplot as plt
+from matplotlib.legend_handler import HandlerBase
+from matplotlib.lines import Line2D
+from matplotlib.patches import FancyArrowPatch, Patch
+from matplotlib.transforms import Bbox
+import numpy as np
+import pandas as pd
+from PIL import Image
+from shapely.geometry import LineString
+
+PLOT_OUT = ROOT / "plot/10_risk_transects/output"
+STEM = "Kunming_Risk_Transects_AB_CD"
+ANALYSIS_COLORS = COLORS
+CURVE_COLOR = COLORS[-1]
+
+
+class LeftLateralHandler(HandlerBase):
+    """Retain the map's paired, opposing arrows in its inset symbol key."""
+    def create_artists(self, legend, orig_handle, xdescent, ydescent, width, height, fontsize, trans):
+        artists=[]
+        for fraction, reverse in ((.72,False),(.28,True)):
+            start,end=(0,width) if not reverse else (width,0)
+            artists.append(FancyArrowPatch((start-xdescent,height*fraction-ydescent),
+                                          (end-xdescent,height*fraction-ydescent),
+                                          transform=trans,arrowstyle='->',mutation_scale=4.2,
+                                          lw=.6,color='#a23d30',shrinkA=0,shrinkB=0))
+        return artists
+
+
+def validate_stats(selected, stats):
+    assert selected.Build_ID.is_unique
+    assert stats.building_count.sum() == len(selected)
+    count_cols = [name.lower().replace(" ", "_") + "_count" for name in CLASSES]
+    assert (stats[count_cols].sum(axis=1) == stats.building_count).all()
+    pct_cols = [name.lower().replace(" ", "_") + "_pct" for name in CLASSES]
+    np.testing.assert_allclose(stats.loc[stats.building_count.gt(0),pct_cols].sum(axis=1),100)
+    for ident, group in selected.groupby("segment_id"):
+        row=stats.loc[stats.segment_id.eq(ident)].iloc[0]
+        assert len(group)==row.building_count
+        assert group.Risk_Class.isin(["High","Very High"]).sum()==row.high_very_high_count
+
+
+def write_analysis(profiles, overlap):
+    summaries=[];segments=[];changes=[];phases=[]
+    for code,profile in profiles.items():
+        selected=profile['selected'];table=profile['stats'].copy()
+        row={'transect':code,'length_km':profile['line'].length/1000,'building_count':len(selected),
+             'risk_median':float(selected.Risk_Final.median())}
+        for label in CLASSES:
+            key=label.lower().replace(' ','_');n=int(selected.Risk_Class.eq(label).sum())
+            row[key+'_count']=n;row[key+'_pct']=n/len(selected)*100
+        row['high_very_high_count']=row['high_count']+row['very_high_count']
+        row['high_very_high_pct']=row['high_very_high_count']/len(selected)*100
+        summaries.append(row);table.insert(0,'transect',code);segments.append(table)
+        for i in range(1,len(table)):
+            previous,current=table.iloc[i-1],table.iloc[i]
+            delta={'transect':code,'from_segment':int(previous.segment_id),'to_segment':int(current.segment_id),
+                   'boundary_km':float(current.start_km)}
+            for label in CLASSES:
+                key=label.lower().replace(' ','_')+'_pct'
+                delta[key.replace('_pct','_change_pp')]=float(current[key]-previous[key])
+            delta['high_very_high_change_pp']=float(current.high_very_high_pct-previous.high_very_high_pct)
+            changes.append(delta)
+    ab=profiles['AB']['stats']
+    for start,end in [(0,10),(10,24),(24,float(ab.end_km.iloc[-1]))]:
+        subset=ab.loc[(ab.start_km>=start-1e-9)&(ab.end_km<=end+1e-9)]
+        n=int(subset.building_count.sum());row={'transect':'AB','start_km':start,'end_km':end,'building_count':n}
+        for label in CLASSES:
+            key=label.lower().replace(' ','_');count=int(subset[key+'_count'].sum())
+            row[key+'_count']=count;row[key+'_pct']=count/n*100
+        row['high_very_high_pct']=(row['high_count']+row['very_high_count'])/n*100;phases.append(row)
+    outputs={}
+    for name,rows in [('grade_summary',summaries),('all_segment_grade_statistics',pd.concat(segments,ignore_index=True)),
+                      ('adjacent_segment_changes',changes),('AB_descriptive_phases',phases)]:
+        target=DATA_OUT/(name+'.csv');pd.DataFrame(rows).to_csv(target,index=False,encoding='utf-8-sig');outputs[name]=str(target)
+    peak=ab.loc[ab.high_very_high_pct.idxmax()];cd=profiles['CD']['stats'];cd_peak=cd.loc[cd.high_very_high_pct.idxmax()]
+    text=(f"双线路风险等级变化分析\n\n统计口径：两侧各1 km、质心筛选、按投影里程唯一归属，采用全域五级Jenks等级。常规分段2 km，末段A-B为2.12 km，C-D为2.61 km。\n\n"
+          f"纵线A-B：{len(profiles['AB']['selected']):,}栋，34.12 km。高与极高风险总体占比{summaries[0]['high_very_high_pct']:.2f}%。整体呈现先下降、后回升的空间变化。"
+          f"0-10 km为{phases[0]['high_very_high_pct']:.2f}%（n={phases[0]['building_count']:,}），10-24 km降至{phases[1]['high_very_high_pct']:.2f}%（n={phases[1]['building_count']:,}），"
+          f"24-34.12 km回升至{phases[2]['high_very_high_pct']:.2f}%（n={phases[2]['building_count']:,}）。这些区间仅用于描述既有分段结果，并非另行分级。"
+          f"单段最高值出现在{peak.start_km:g}-{peak.end_km:g} km，为{peak.high_very_high_pct:.2f}%（n={int(peak.building_count)}），应结合该段较小的建筑数量判断。\n\n"
+          f"横线C-D：{len(profiles['CD']['selected']):,}栋，8.61 km，从滇池北岸向2026年震中附近。高与极高风险总体占比{summaries[1]['high_very_high_pct']:.2f}%。"
+          f"四段高风险占比依次为{'、'.join(f'{v:.2f}%' for v in cd.high_very_high_pct)}，先升后降，峰值位于{cd_peak.start_km:g}-{cd_peak.end_km:g} km。"
+          f"最后一段为{cd.high_very_high_pct.iloc[-1]:.2f}%，相较首段下降{cd.high_very_high_pct.iloc[0]-cd.high_very_high_pct.iloc[-1]:.2f}个百分点。\n\n"
+          f"两条缓冲区共有{overlap:,}栋建筑，分别计入独立剖面；两线样本量不能直接相加为独立建筑总数。等级占比的分母为各段有效建筑数量，"
+          "数量图为各等级原始建筑数，不代表面积标准化密度。图中浅色带为0.5、1.0和1.5 km半宽敏感性范围，不是置信区间。空间差异不代表时间变化，也不能据此认定震中距离导致综合风险差异。\n")
+    target=DATA_OUT/'risk_grade_analysis_CN.txt';target.write_text(text);outputs['analysis_CN']=str(target)
+    return {'summary':summaries,'AB_descriptive_phases':phases,'outputs':outputs}
+
+
+def draw(profiles, map_report, dpi):
+    # Match the supplied reference: compact columns, aligned boxed charts,
+    # inside titles and local legends. The native map body is not restyled.
+    width_mm,height_mm=248,150
+    map_hash=digest(Path(map_report['png']))
+    native_width,native_height=map_report['page_mm']
+    native_left,native_right=0,190.279
+    map_scale=135/native_width
+    frame_left=63
+    map_left=frame_left-10*map_scale
+    map_width=(native_right-native_left)*map_scale
+    frame_width=180.279*map_scale
+    chart_gaps={'AB':4.8,'CD':2}
+    assert map_report['risk_class_colors']==dict(zip(CLASSES,COLORS))
+    view_height=201
+    map_height=view_height*map_scale
+    map_top=8+198.5*map_scale
+    map_bottom=map_top-map_height
+    plt.rcParams.update({'font.family':'Arial','font.weight':'bold','font.size':8,
+                         'axes.labelweight':'bold','axes.titleweight':'bold','axes.linewidth':.75,
+                         'text.color':INK,'axes.labelcolor':INK,'xtick.color':INK,'ytick.color':INK,
+                         'pdf.fonttype':42,'ps.fonttype':42,'axes.unicode_minus':False,
+                         'figure.facecolor':'white','axes.facecolor':'white','savefig.facecolor':'white'})
+    fig=plt.figure(figsize=(width_mm/25.4,height_mm/25.4))
+    def axes(rect):
+        x,y,w,h=rect;return fig.add_axes([x/width_mm,y/height_mm,w/width_mm,h/height_mm])
+    def boxed(axis):
+        axis.tick_params(which='major',labelsize=7.7,length=2.4,width=.7,pad=2,direction='out',top=False,right=False)
+        for spine in axis.spines.values():spine.set_visible(True);spine.set_linewidth(.75);spine.set_color('#252d33')
+        axis.grid(False)
+    map_axis=axes([map_left,map_bottom,map_width,map_height])
+    with Image.open(map_report['png']) as image:
+        map_axis.imshow(np.asarray(image.convert('RGB')),interpolation='none',
+                        extent=(0,native_width,native_height,0),origin='upper')
+    map_axis.set_xlim(native_left,native_right);map_axis.set_ylim(view_height,0)
+    map_axis.set_axis_off()
+    frame_top=map_top-8.5*map_scale
+    frame_bottom=map_top-198.5*map_scale
+    panel_height=38
+    gap=(frame_top-frame_bottom-3*panel_height)/2
+    bottoms=[frame_top-panel_height,frame_top-2*panel_height-gap,frame_bottom]
+    panel_boxes={};legend_specs=[]
+    risk_handles=[Patch(facecolor=fill,edgecolor='none',label=label) for label,fill in zip(CLASSES,COLORS)]
+    def risk_key(axis, name):
+        key=axis.legend(handles=risk_handles,loc='upper left',bbox_to_anchor=(.035,.84),
+                        ncol=2,fontsize=6.5,frameon=False,handlelength=1.05,
+                        handletextpad=.4,columnspacing=.9,labelspacing=.15,
+                        borderpad=0,borderaxespad=0)
+        legend_specs.append((name,key,axis))
+    for index,(code,profile) in enumerate(profiles.items()):
+        column_width=46
+        left=(frame_left-chart_gaps[code]-column_width if index==0
+              else frame_left+frame_width+chart_gaps[code])
+        stats=profile['stats'];color=CURVE_COLOR;length=profile['line'].length/1000
+        name=f'{code[0]}-{code[1]}';x=stats.mid_km.to_numpy();bin_widths=stats.length_km.to_numpy()
+        boxes=[[left,y,column_width,panel_height] for y in bottoms];panel_boxes[code]=boxes
+        top,mid,low=[axes(box) for box in boxes]
+        bottom=np.zeros(len(stats))
+        for label,fill in zip(CLASSES,ANALYSIS_COLORS):
+            values=stats[label.lower().replace(' ','_')+'_pct'].to_numpy()
+            top.bar(x,values,bottom=bottom,width=bin_widths*.965,color=fill,edgecolor='white',linewidth=.2)
+            bottom+=np.nan_to_num(values)
+        # Reserve a clear band for the five-class key above the 100% stacks.
+        top.set_ylim(0,170);top.set_yticks([0,50,100])
+        variants=np.stack([frame.high_very_high_pct.to_numpy() for frame in profile['sensitivity']])
+        band=mid.fill_between(x,np.nanmin(variants,axis=0),np.nanmax(variants,axis=0),color=color,alpha=.14,
+                             linewidth=0,label='Width sensitivity')
+        curve,=mid.plot(x,stats.high_very_high_pct,color=color,lw=1.2,marker='o',ms=3,
+                        markeredgecolor='white',markeredgewidth=.4,label='1 km each side')
+        mid.set_ylim(-3,120);mid.set_yticks([0,50,100])
+        peak=stats.loc[stats.high_very_high_pct.idxmax()]
+        mid.annotate(f'{peak.high_very_high_pct:.1f}%',(peak.mid_km,peak.high_very_high_pct),
+                     xytext=(0,6),textcoords='offset points',ha='right' if index==0 else 'center',
+                     fontsize=7.5,color=color)
+        bottom=np.zeros(len(stats))
+        for label,fill in zip(CLASSES,ANALYSIS_COLORS):
+            values=stats[label.lower().replace(' ','_')+'_count'].to_numpy()
+            low.bar(x,values,bottom=bottom,width=bin_widths*.965,color=fill,edgecolor='white',linewidth=.2)
+            bottom+=values
+        low.set_ylim(0,3000);low.set_yticks([0,1000,2000],['0','1k','2k'])
+        low.text(.80,.975,f"n = {len(profile['selected']):,}",transform=low.transAxes,ha='right',va='top',fontsize=7.3)
+        for axis,title,rect in zip([top,mid,low],['Buildings (%)','High + very high (%)','Buildings (n)'],boxes):
+            boxed(axis);axis.set_xlim(0,length)
+            if index==1:
+                axis.yaxis.tick_right()
+                axis.tick_params(axis='y',labelleft=False,labelright=True,left=False,right=True)
+            axis.set_xticks(np.arange(0,length+1e-6,10 if length>20 else 2))
+            axis.get_xticklabels()[0].set_ha('left')
+            axis.set_xlabel(f'Distance from {code[0]} (km)',fontsize=8,labelpad=3)
+            axis.text(.025,.975,title,transform=axis.transAxes,fontsize=7.8,ha='left',va='top')
+            axis.text(.975,.975,name,transform=axis.transAxes,fontsize=8.5,ha='right',va='top')
+        risk_key(top,code+'_percent_classes')
+        risk_key(low,code+'_count_classes')
+        curve_key=mid.legend(handles=[curve,band],labels=['High + very high','Width sensitivity'],
+                             loc='upper left',bbox_to_anchor=(.04,.83),fontsize=6.5,
+                             frameon=False,borderpad=0,borderaxespad=0,
+                             handlelength=1.8,handletextpad=.5,labelspacing=.35)
+        legend_specs.append((code+'_curve_sensitivity',curve_key,mid))
+
+    # Geographic keys stay within the map; statistical keys stay in their own axes.
+    map_risk=fig.legend(handles=risk_handles,title='Risk level',loc='upper right',
+                        bbox_to_anchor=((frame_left+frame_width-1.5)/width_mm,(frame_top-15)/height_mm),
+                        fontsize=7,title_fontsize=7.1,frameon=True,facecolor='white',
+                        edgecolor='#c4c4c4',framealpha=.95,borderpad=.35,
+                        handlelength=1.25,handletextpad=.5,labelspacing=.15,borderaxespad=0)
+    lateral_handle=object()
+    map_handles=[Line2D([],[],color=profiles['AB']['color'],lw=1.2,label='A-B'),
+                 Line2D([],[],color=profiles['CD']['color'],lw=1.2,label='C-D'),
+                 Line2D([],[],color='#555555',lw=.75,ls='--',label='1 km / side'),
+                 Line2D([],[],marker='^',color='#d32f36',markeredgecolor='#a82b30',
+                        markersize=5,linestyle='none',label='Earthquakes'),
+                 Line2D([],[],marker='*',color='#d32f36',markeredgecolor='#a82b30',
+                        markersize=7,linestyle='none',label='GNSS station'),
+                 Line2D([],[],color='#a23d30',lw=.85,label='Faults'),lateral_handle]
+    map_symbols=fig.legend(handles=map_handles,
+                           labels=['A-B','C-D','1 km / side','Earthquakes','GNSS station','Faults','Left-lateral'],
+                           handler_map={lateral_handle:LeftLateralHandler()},loc='lower left',
+                           bbox_to_anchor=((frame_left+1)/width_mm,(frame_bottom+10)/height_mm),
+                           fontsize=6.7,frameon=False,borderpad=.25,
+                           handlelength=1.65,handletextpad=.5,labelspacing=.15,borderaxespad=0)
+    legend_specs.extend([('map_risk_classes',map_risk,None),('map_symbols',map_symbols,None)])
+    fig.canvas.draw();renderer=fig.canvas.get_renderer();page=fig.bbox
+    texts=list(fig.texts)
+    for axis in fig.axes:
+        if axis.axison:texts += list(axis.texts)+[axis.xaxis.label,axis.yaxis.label]+axis.get_xticklabels()+axis.get_yticklabels()
+    for _,legend,_ in legend_specs:texts += [legend.get_title(),*legend.get_texts()]
+    for text in texts:
+        if not text.get_visible() or not text.get_text():continue
+        box=text.get_window_extent(renderer)
+        assert box.x0>=-1 and box.y0>=-1 and box.x1<=page.width+1 and box.y1<=page.height+1,text.get_text()
+    map_frame=Bbox.from_bounds(frame_left/width_mm,frame_bottom/height_mm,
+                               frame_width/width_mm,(frame_top-frame_bottom)/height_mm)
+    map_frame=fig.transFigure.transform_bbox(map_frame)
+    legend_audit={}
+    for name,legend,parent in legend_specs:
+        bounds=legend.get_window_extent(renderer)
+        region=parent.bbox if parent is not None else map_frame
+        assert region.contains(bounds.x0,bounds.y0) and region.contains(bounds.x1,bounds.y1),name
+        if parent is not None:
+            for text in parent.texts:
+                assert not bounds.overlaps(text.get_window_extent(renderer)),(name,text.get_text())
+            for bar in parent.patches:
+                if bar.get_height()>0:assert not bounds.overlaps(bar.get_window_extent(renderer)),name
+            for line in parent.lines:
+                points=line.get_transform().transform(line.get_xydata())
+                assert not any(bounds.contains(x,y) for x,y in points),name
+        legend_audit[name]={'inside_parent':True,'bounds_mm':[float(v/fig.dpi*25.4) for v in bounds.bounds],
+                            'labels':[t.get_text() for t in legend.get_texts()],
+                            'title':legend.get_title().get_text(),'frame_visible':legend.get_frame_on(),
+                            'font_size_pt':legend.get_texts()[0].get_fontsize()}
+    preview=PLOT_OUT/f'{STEM}_preview.png';png=PLOT_OUT/f'{STEM}_{dpi}dpi.png';pdf=PLOT_OUT/f'{STEM}.pdf'
+    fig.savefig(preview,dpi=220);fig.savefig(png,dpi=dpi)
+    fig.savefig(pdf,dpi=600,metadata={'Title':'Kunming risk profiles: A-B left, original map center, C-D right','Author':'seismic_risk'})
+    plt.close(fig)
+    assert digest(Path(map_report['png']))==map_hash
+    with Image.open(png) as im:pixels=list(im.size);actual_dpi=list(im.info.get('dpi',[]))
+    return {'png':str(png),'pdf':str(pdf),'preview':str(preview),'pixels':pixels,'png_dpi':actual_dpi,
+            'page_mm':[width_mm,height_mm],'layout':'A-B charts left; original QGIS map center; C-D charts right',
+            'map_box_mm':[map_left,map_bottom,map_width,map_height],'panel_boxes_mm':panel_boxes,
+            'map_native_view_mm':[native_left,0,native_right-native_left,view_height],
+            'map_frame_mm':[frame_left,frame_bottom,frame_width,frame_top-frame_bottom],
+            'chart_to_map_gap_mm':chart_gaps,'right_chart_y_ticks':'outside right',
+            'analysis_colors':dict(zip(CLASSES,ANALYSIS_COLORS)),'map_colors':dict(zip(CLASSES,COLORS)),
+            'curve_color':CURVE_COLOR,'legend_audit':legend_audit,
+            'legend_position':'Map class and symbol keys inside map; class keys inside all four bar charts; curve/sensitivity keys inside both line charts',
+            'map_asset_sha256':map_hash,'map_asset_unchanged_during_composition':True,
+            'style_reference':'/var/folders/sc/p3glb7fj0hjfdwyxdxljch8h0000gn/T/codex-clipboard-fd1962db-22fd-4047-9347-ee7de0c0be2c.png',
+            'font':'Arial Bold','axes_style':'boxed, 0.75 pt; inside titles; white bar separators; local inset legends'}
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--dpi',type=int,default=1200);parser.add_argument('--publish',action='store_true')
+    parser.add_argument('--refresh-map',action='store_true');parser.add_argument('--reuse-data',action='store_true')
+    args=parser.parse_args();PLOT_OUT.mkdir(parents=True,exist_ok=True)
+    config=json.loads(CONFIG_PATH.read_text());extra=next(x for x in config['additional_transects'] if x['id']=='CD')
+    protected=[SOURCE,SUMMARY,ROOT/'plot/10_risk_transects/qgis/projects/10_risk_base.qgz',
+               ROOT/'plot/10_risk_transects/output/qgis/map_sources/Kunming_Final_Building_Risk_1200dpi.png']
+    before={str(path):digest(path) for path in protected}
+    risk=gpd.read_file(SOURCE,layer='building_risk_scs').to_crs(config['crs'])
+    assert len(risk)==40000 and risk.Build_ID.is_unique
+    summary=json.loads(SUMMARY.read_text());breaks=np.asarray(summary['jenks_breaks'])
+    expected=np.asarray(CLASSES)[np.searchsorted(breaks[1:-1],risk.Risk_Final,side='left')]
+    assert np.array_equal(expected,risk.Risk_Class.to_numpy())
+    centroids=risk.geometry.centroid
+    ab_line=gpd.read_file(DATA_OUT/'risk_transect.gpkg',layer='transect_AB').geometry.iloc[0]
+    ab_check=gpd.GeoSeries([LineString(config['vertices_wgs84'])],crs=4326).to_crs(risk.crs).iloc[0]
+    assert ab_line.hausdorff_distance(ab_check)<.001
+    # A-B is recomputed from the current risk classes with the same fixed line,
+    # segments and corridor width as C-D, so both profiles follow model updates.
+    ab_edges=segment_edges(ab_line.length,config['segment_length_m'],config['minimum_terminal_segment_m'])
+    ab_selected,ab_stats,ab_buffer=calculate(risk,centroids,ab_line,config['half_width_m'],ab_edges,config['low_sample_threshold'])
+    ab_sensitivity=pd.concat([calculate(risk,centroids,ab_line,width,ab_edges,config['low_sample_threshold'])[1]
+                              for width in config['sensitivity_half_widths_m']],ignore_index=True)
+    validate_stats(ab_selected,ab_stats)
+    if not args.reuse_data:
+        ab_stats.to_csv(DATA_OUT/'segment_statistics.csv',index=False,encoding='utf-8-sig')
+        ab_sensitivity.to_csv(DATA_OUT/'buffer_width_sensitivity.csv',index=False,encoding='utf-8-sig')
+        save_geodata(ab_line,ab_buffer,ab_selected,ab_stats,ab_edges,risk.crs,config['half_width_m'],route_code='AB')
+    profiles={'AB':{'line':ab_line,'selected':ab_selected,'stats':ab_stats,'color':TEAL,
+                    'sensitivity':[group.reset_index(drop=True) for _,group in ab_sensitivity.groupby('half_width_m',sort=True)]}}
+    cd_config=dict(config,**extra);folder=DATA_OUT/'CD';folder.mkdir(parents=True,exist_ok=True)
+    line=gpd.GeoSeries([LineString(extra['vertices_wgs84'])],crs=4326).to_crs(risk.crs).iloc[0]
+    assert line.crosses(ab_line)
+    lake=gpd.read_file(ROOT/extra['shoreline_source']).to_crs(risk.crs).geometry.iloc[0]
+    assert line.interpolate(0).distance(lake.boundary)<.01
+    event=gpd.read_file(ROOT/extra['event_source']).to_crs(risk.crs).geometry.iloc[0]
+    endpoint_to_event=line.interpolate(line.length).distance(event)
+    assert endpoint_to_event<1000
+    edges=segment_edges(line.length,config['segment_length_m'],config['minimum_terminal_segment_m'])
+    selected,stats,buffer=calculate(risk,centroids,line,config['half_width_m'],edges,config['low_sample_threshold'])
+    sensitivity=[calculate(risk,centroids,line,width,edges,config['low_sample_threshold'])[1]
+                 for width in config['sensitivity_half_widths_m']]
+    validate_stats(selected,stats)
+    if args.reuse_data:
+        old=pd.read_csv(folder/'segment_statistics.csv')
+        np.testing.assert_allclose(old.select_dtypes(include='number'),stats.select_dtypes(include='number'),rtol=1e-12,atol=1e-12)
+        assert np.array_equal(pd.read_csv(folder/'building_allocation.csv').Build_ID,selected.Build_ID)
+    else:
+        stats.to_csv(folder/'segment_statistics.csv',index=False,encoding='utf-8-sig')
+        pd.concat(sensitivity,ignore_index=True).to_csv(folder/'buffer_width_sensitivity.csv',index=False,encoding='utf-8-sig')
+        save_geodata(line,buffer,selected,stats,edges,risk.crs,config['half_width_m'],output_dir=folder,route_code='CD')
+    profiles['CD']={'line':line,'selected':selected,'stats':stats,'color':extra['color'],'sensitivity':sensitivity}
+    map_report_path=ROOT/'plot/10_risk_transects/output/qgis/risk_transect/qgis_transect_map_report.json'
+    if (args.refresh_map or not map_report_path.exists()
+            or json.loads(map_report_path.read_text())['config_sha256']!=digest(CONFIG_PATH)):
+        subprocess.run([str(ROOT/'plot/shared/qgis/scripts/run_pyqgis.sh'),str(ROOT/'plot/shared/qgis/scripts/draw_risk_transect.py')],check=True)
+    map_report=json.loads(map_report_path.read_text());assert all(map_report['checks'].values())
+    assert {x['id'] for x in map_report['transects']}=={'AB','CD'}
+    overlap=len(set(ab_selected.Build_ID)&set(selected.Build_ID))
+    analysis=(json.loads((PLOT_OUT/'figure_manifest.json').read_text())['analysis']
+              if args.reuse_data else write_analysis(profiles,overlap))
+    output=draw(profiles,map_report,args.dpi)
+    assert all(digest(path)==before[str(path)] for path in protected)
+    overlap=len(set(ab_selected.Build_ID)&set(selected.Build_ID))
+    report={'created_at':datetime.now(ZoneInfo('Asia/Shanghai')).isoformat(),'config':config,
+            'source':str(SOURCE),'source_sha256':digest(SOURCE),'jenks_breaks':breaks.tolist(),
+            'protected_sha256':before,'endpoint_CD_to_event_m':endpoint_to_event,'shared_buildings_between_corridors':overlap,
+            'overlap_handling':'Buildings are allocated once within each transect. A building in both corridors is retained in both independent profiles; transect sample sizes are not summed to obtain unique buildings.',
+            'qgis_map':map_report,'outputs':output,'analysis':analysis,'profiles':{},
+            'checks':{'AB_recomputed_from_current_risk':True,'source_risk_and_original_map_unchanged':True,
+                      'CD_starts_on_reference_shoreline':True,'CD_crosses_AB':True,'CD_ends_within_1km_of_event':True,
+                      'class_counts_and_percentages_valid':True,'original_QGIS_styling_preserved':True}}
+    for code,profile in profiles.items():
+        table=profile['stats']
+        report['profiles'][code]={'length_km':profile['line'].length/1000,'buildings':len(profile['selected']),
+            'segments':len(table),'segment_building_counts':table.building_count.tolist(),
+            'segment_edges_km':table.start_km.tolist()+[float(table.end_km.iloc[-1])],
+            'color':profile['color'],'high_very_high_pct':float(profile['selected'].Risk_Class.isin(['High','Very High']).mean()*100)}
+    if args.publish:
+        FINAL_OUT.mkdir(parents=True,exist_ok=True)
+        report['published']=[]
+        for key in ['png','pdf']:
+            target=FINAL_OUT/("figure10.png" if key == "png" else Path(output[key]).name);shutil.copy2(output[key],target)
+            assert digest(target)==digest(Path(output[key]));report['published'].append(str(target))
+    for target in [DATA_OUT/'combined_transects_manifest.json',PLOT_OUT/'figure_manifest.json']:
+        target.write_text(json.dumps(report,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
+    caption=(
+        f"图：昆明建筑风险双线路分析。A-B沿用既有城市轴线（{ab_line.length/1000:.2f} km，{len(ab_selected):,}栋）；"
+        f"C-D从滇池2016年参考岸线北岸至2026年地震附近（{line.length/1000:.2f} km，{len(selected):,}栋），终点距用户给定震中{endpoint_to_event/1000:.2f} km。"
+        "地图居中，左侧为A-B纵线分析，右侧为C-D横线分析；两侧分别展示五级占比、高与极高风险占比、各等级建筑数量。统计图采用参考图的Arial Bold字体、方框坐标轴、框内标题及白色柱间隔风格，左右图与地图共用同一黄—红五级色带。两侧图框与地图保留窄间隙，地图左侧纬度注记保留在图框外，右侧分析图的纵轴刻度置于外侧。地图的风险等级与地理符号图例置于地图内；四个堆叠柱状图各自包含风险等级图例，两张折线图各自包含曲线和宽度敏感性图例。两线均采用两侧各1 km、建筑质心筛选及唯一投影里程分配；按2 km分段，末段分别2.12和2.61 km。"
+        "建筑等级沿用全域五级Jenks阈值。阴影为两侧各0.5、1.0、1.5 km缓冲宽度所得比例范围，不是置信区间。"
+        f"两个缓冲区共有{overlap:,}栋建筑，分别计入各自独立剖面，各线样本量不能直接相加为独立建筑总数。"
+        "本图描述空间变化，不能据此认定地震距离造成综合风险差异。滇池为2016年文献参考岸线（Zhu et al., 2019），地形底图为Esri World Hillshade及数据贡献者。\n\n"
+        "Figure. Building-risk profiles along the urban transect A-B and the crossing lake-to-event transect C-D. "
+        "A-B statistics are on the left, the original QGIS map is centered, and C-D statistics are on the right. Each side shows class percentages, High + Very High shares and class-specific building counts. The reference style is reused for boxed charts, inside headings and bold Arial typography. Both chart columns and the map share the same yellow-red palette. Narrow gaps separate the chart frames from the map; original outside latitude annotations are retained and right-column y ticks are on the outer right. Map class and geographic-symbol keys are inside the map; each bar chart has its own class key, and each line chart has its own curve and buffer-width-sensitivity key. Both profiles use 1 km half-width corridors, building-centroid selection, "
+        "unique chainage allocation, 2 km bins and the inventory-wide Jenks classes. "
+        "Final bins are 2.12 km (A-B) and 2.61 km (C-D). Shading is buffer-width sensitivity (0.5, 1.0 and 1.5 km half-widths), "
+        "not a confidence interval. Buildings in both corridors occur in both independent profiles; sample sizes are not additive. "
+        "D is 0.94 km from the user-supplied 2026 epicenter. The profiles are descriptive and do not establish a causal event-distance effect. "
+        "Dian Lake: 2016 literature reference shoreline (Zhu et al., 2019). Terrain: Esri World Hillshade and contributors.\n")
+    (PLOT_OUT/'figure_caption_CN_EN.txt').write_text(caption)
+    print(json.dumps({'profiles':report['profiles'],'outputs':output,'checks':report['checks']},ensure_ascii=False,indent=2),flush=True)
+
+
+if __name__=='__main__':main()

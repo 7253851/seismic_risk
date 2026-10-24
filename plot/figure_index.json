@@ -1,0 +1,829 @@
+{
+  "manuscript": "manuscript/tex/manuscript.tex",
+  "workspace": {
+    "description": "plot/是图件开发与维护的唯一工作区；各图正式采用版本保存在该图output/final/（原顶层figures/镜像已于2026-10-23删除）。",
+    "figure_layout": {
+      "code": "Python统计绘图、数据处理及PyQGIS布局脚本",
+      "qgis": "QGIS工程(projects/)、布局模板与样式(layouts/)、辅助工程(support/)",
+      "data": "仅绘图专用的小型数据；原始数据在data/，模型结果在result/，不重复存储",
+      "output": "工作导出(PNG/TIFF/PDF/SVG)；output/qgis/为QGIS原生导出；output/final/为正式采用版本",
+      "layout": "最终版式源包（已采用图）（A4工程、qpt模板、字号脚本、session.json、导出与核验记录）；新的版式草稿只写入layout/work/；图7、图8共用plot/07_ibsi/layout"
+    },
+    "shared": {
+      "code": "plot/shared/analysis",
+      "qgis_scripts": "plot/shared/qgis/scripts",
+      "pyqgis_runner": "plot/shared/qgis/scripts/run_pyqgis.sh",
+      "qgis_path_helper": "plot/shared/qgis/scripts/qgis_paths.py",
+      "styles": "plot/shared/styles",
+      "checks": "plot/shared/output/qgis",
+      "protected_runner": "plot/shared/run_protected.sh",
+      "protection_policy": "plot/shared/protected_writes.sb"
+    },
+    "input_data_note": "input_data由QGIS工程数据源与code/中的data/、result/路径字面量自动提取，仅列现存文件或目录。",
+    "write_protection": {
+      "description": "run_protected.sh与run_pyqgis.sh默认在沙箱中运行：禁止写入采用图、论文、QGIS主资产、最终版式源包（layout/work除外）、共享样式、索引、data/及历史目录；工作输出、layout/work/与result/可写。确需重建主工程、最终版式源包或发布时设置SEISMIC_ALLOW_PROTECTED_WRITES=1，完成后用sync_figures.py同步。",
+      "protected": [
+        "figures/",
+        "manuscript/",
+        "JPEG/",
+        "data/",
+        "drafts/",
+        "backups/",
+        "archive/",
+        "change_logs/",
+        "plot/figure_index.json",
+        "plot/shared/styles/",
+        "plot/*/output/final/",
+        "plot/NN_*/qgis/",
+        "plot/*/layout/ (layout/work/除外)"
+      ],
+      "opt_in_env": "SEISMIC_ALLOW_PROTECTED_WRITES=1"
+    }
+  },
+  "figures": [
+    {
+      "figure": 1,
+      "title": "研究区与数据",
+      "code_directory": "plot/01_study_area/code",
+      "entry_script": "plot/01_study_area/code/build_study_area.py",
+      "qgis_projects": [
+        "plot/01_study_area/qgis/projects/01_study_area.qgz"
+      ],
+      "work_output": "plot/01_study_area/output",
+      "final_output": "plot/01_study_area/output/final",
+      "layout_package": "plot/01_study_area/layout",
+      "adopted_figure": "plot/01_study_area/output/final/figure01.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure1.jpg",
+      "adopted_sha256": "62bac5da8eaeba20309fab3c55fda85600fbaad784271c58ae334eab6d997ae2",
+      "section": "2",
+      "manuscript_width_fraction": 0.95,
+      "manuscript_physical_page": 5,
+      "adopted_pixels": [
+        3695,
+        2895
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure01.tiff",
+      "adopted_tiff_sha256": "6d34af33c5e5f91699a1aa93c2900607a8d5302a247f9baf7a948c14889e167a",
+      "adopted_layout_pdf": "plot/01_study_area/layout/figure01_A4.pdf",
+      "adopted_source_sha256": "9228bd1e0f5e97b70613d165d95a42644389eff9c1c17bcf1d5e3a4cb0e387e1",
+      "adopted_export_record": "change_logs/2026-10-21_16-16-16_publish_figures_01_04_05_06/export_manifest.json",
+      "adopted_version": "2026-10-21 approved font-adjusted A4 figure; 600 dpi cropped TIFF/PNG",
+      "adopted_layout_project": "plot/01_study_area/layout/01_study_area_A4.qgz",
+      "manuscript_figure_sha256": "ff7223ccea0081bfa6f8f017894e5e221bb04834268cc38f751451c051b22ba6",
+      "manuscript_figure_pixels": [
+        6100,
+        4366
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "qgis_directory": "plot/01_study_area/qgis",
+      "qgis_layouts": [
+        "plot/01_study_area/qgis/layouts/study_area/Kunming_Study_Area.qpt"
+      ],
+      "qgis_exports": "plot/01_study_area/output/qgis",
+      "input_data": [
+        "data/administrative/kunming_streets.shp",
+        "data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_cities.shp",
+        "data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp",
+        "data/dem/yunnan_dem.tif",
+        "data/earthquakes/historical_catalog_2012_2024.shp",
+        "data/faults/02_Kunming_Fault_Processed.shp",
+        "data/study_area/TSX1_Extent.shp",
+        "data/study_area/TSX2_Extent.shp",
+        "data/study_area/built_up.gpkg",
+        "data/validation/cases/event_epicenter.shp",
+        "data/water/dianchi_2016_reference.shp",
+        "result/hazard/scs_pipeline/06_building_hazard.gpkg",
+        "result/intermediate/cartography/study_area_terrain/terrain_detail_d10624ab0050bfad.tif"
+      ],
+      "layout_draft_output": "plot/01_study_area/layout/work"
+    },
+    {
+      "figure": 2,
+      "title": "概念框架",
+      "code_directory": "plot/02_conceptual_framework/code",
+      "entry_script": "plot/02_conceptual_framework/code/draw_concept.py",
+      "qgis_projects": [],
+      "work_output": "plot/02_conceptual_framework/output",
+      "final_output": "plot/02_conceptual_framework/output/final",
+      "adopted_figure": "plot/02_conceptual_framework/output/final/figure02.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure2.jpg",
+      "adopted_sha256": "2875309970d3e95006df9f20dc8f5fc2229211a483d9c5df3cfeb08e9ed08bda",
+      "section": "3",
+      "manuscript_width_fraction": 0.7,
+      "manuscript_physical_page": 6,
+      "adopted_tiff": "manuscript/figures/tiff/figure02.tiff",
+      "adopted_tiff_sha256": "3f5ba4a0e904e942ce1e6bbf460a449378d4896b5d402ec91928652b0a16239f",
+      "adopted_pixels": [
+        4252,
+        3874
+      ],
+      "adopted_dpi": 600,
+      "adopted_version": "2026-10-21 TIFF wrapped from adopted PNG without resampling",
+      "manuscript_figure_sha256": "23d4a879dd6fa5696674ddcb3fe6423d562531d7df8fae7f85d1cde2fb579a54",
+      "manuscript_figure_pixels": [
+        4658,
+        4241
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "input_data": [],
+      "input_data_note": "示意图，无数据输入"
+    },
+    {
+      "figure": 3,
+      "title": "技术流程",
+      "code_directory": "plot/03_technical_workflow/code",
+      "entry_script": null,
+      "qgis_projects": [],
+      "work_output": "plot/03_technical_workflow/output",
+      "final_output": "plot/03_technical_workflow/output/final",
+      "adopted_figure": "plot/03_technical_workflow/output/final/figure03.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure3.jpg",
+      "adopted_sha256": "efee9c9da44b65815f1cea950f0458ff75268c1053f3585b189542719120bb5e",
+      "source_note": "Current PNG is authoritative. Editable workflow PPTX is retained in plot/03_technical_workflow/source/; no exact automatic drawing script was found.",
+      "section": "3",
+      "manuscript_width_fraction": 0.9,
+      "manuscript_physical_page": 7,
+      "editable_source": "plot/03_technical_workflow/source/paper_figures_editable.pptx",
+      "adopted_tiff": "manuscript/figures/tiff/figure03.tiff",
+      "adopted_tiff_sha256": "6ca664134ce8193e16fd5abd1446699f186a39e83261b3002ad824bc6b1eab91",
+      "adopted_pixels": [
+        3889,
+        1862
+      ],
+      "adopted_dpi": 600,
+      "adopted_version": "2026-10-21 TIFF wrapped from adopted PNG without resampling",
+      "manuscript_figure_sha256": "c37bad9a269a880ccec406f7c17cf82365d59e70c1e574373e31e3cc292630e7",
+      "manuscript_figure_pixels": [
+        7349,
+        3516
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "input_data": [],
+      "input_data_note": "示意图，无数据输入"
+    },
+    {
+      "figure": 4,
+      "title": "建筑危险性分布与统计",
+      "code_directory": "plot/04_seismic_hazard/code",
+      "entry_script": "plot/04_seismic_hazard/code/build_pga_abcd.py",
+      "qgis_projects": [
+        "plot/04_seismic_hazard/qgis/projects/04_seismic_hazard.qgz"
+      ],
+      "work_output": "plot/04_seismic_hazard/output",
+      "final_output": "plot/04_seismic_hazard/output/final",
+      "layout_package": "plot/04_seismic_hazard/layout",
+      "adopted_figure": "plot/04_seismic_hazard/output/final/figure04.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure4.jpg",
+      "adopted_sha256": "6b5fce4da0bc70ee013a33dfd94eb5fe272b30e864542cf0156c11c642613904",
+      "section": "4.1",
+      "manuscript_width_fraction": 0.85,
+      "manuscript_physical_page": 12,
+      "adopted_pixels": [
+        3306,
+        3305
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure04.tiff",
+      "adopted_tiff_sha256": "96f4a5fbc8a58d4d803a1b722fe5c6d49eec1ba8316f5471d5c999d8b41a4adb",
+      "adopted_layout_pdf": "plot/04_seismic_hazard/layout/figure04_A4.pdf",
+      "adopted_source_sha256": "e38793855a143fc13c9355c64f1552564fb1667c30649f65f5c851646f884225",
+      "adopted_export_record": "change_logs/2026-10-21_16-16-16_publish_figures_01_04_05_06/export_manifest.json",
+      "adopted_version": "2026-10-21 approved font-adjusted A4 figure; 600 dpi cropped TIFF/PNG",
+      "adopted_layout_project": "plot/04_seismic_hazard/layout/04_seismic_hazard_A4.qgz",
+      "manuscript_figure_sha256": "d32e97ab285ce768a38d937fd2aee4034da20f9d03c2b25bbcc31cff489fdcc1",
+      "manuscript_figure_pixels": [
+        2539,
+        2484
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "qgis_directory": "plot/04_seismic_hazard/qgis",
+      "qgis_layouts": [
+        "plot/04_seismic_hazard/qgis/layouts/hazard/Kunming_Hazard_PGA.qpt",
+        "plot/04_seismic_hazard/qgis/layouts/hazard_streets/Kunming_Hazard_PGA_Streets.qpt"
+      ],
+      "qgis_exports": "plot/04_seismic_hazard/output/qgis",
+      "plot_data": "plot/04_seismic_hazard/data",
+      "input_data": [
+        "data/administrative/kunming_city_boundary.gpkg",
+        "data/administrative/kunming_districts.shp",
+        "data/administrative/kunming_streets.shp",
+        "data/cartography/kunming_simple_basemap.gpkg",
+        "data/cartography/terrain/kunming_esri_hillshade.tif",
+        "data/earthquakes/historical_catalog_2012_2024.shp",
+        "data/earthquakes/kunming_surrounding_earthquakes.shp",
+        "data/faults/China_faults.gpkg",
+        "data/faults/kunming_faults_literature.gpkg",
+        "data/study_area/TSX1_Extent.shp",
+        "data/study_area/TSX2_Extent.shp",
+        "data/study_area/TSX_Total_Extent.shp",
+        "data/validation/campuses/yufe_north/yufe_longquan_north_campus_boundary.shp",
+        "data/validation/campuses/yufe_south/yufe_longquan_campus_boundary.shp",
+        "data/validation/cases/case_candidates.gpkg",
+        "data/validation/cases/event_epicenter.shp",
+        "data/validation/cases/validation_selection_areas.shp",
+        "data/validation/cases/validation_site_boundaries.shp",
+        "data/validation/cases/validation_site_points.shp",
+        "data/water/dianchi_2016_reference.shp",
+        "data/water/dianchi_historical_reference.shp",
+        "result/hazard/scs_pipeline/06_building_hazard.gpkg",
+        "result/hazard/scs_pipeline/pga_class_breaks.csv",
+        "result/statistics/Hazard/analysis",
+        "result/statistics/Hazard/scs_pipeline/scenario_statistics.csv"
+      ],
+      "layout_draft_output": "plot/04_seismic_hazard/layout/work"
+    },
+    {
+      "figure": 5,
+      "title": "距离与场地响应",
+      "code_directory": "plot/05_distance_site_response/code",
+      "entry_script": "plot/05_distance_site_response/code/combine_hazard_site_response.py",
+      "qgis_projects": [],
+      "work_output": "plot/05_distance_site_response/output",
+      "final_output": "plot/05_distance_site_response/output/final",
+      "layout_package": "plot/05_distance_site_response/layout",
+      "adopted_figure": "plot/05_distance_site_response/output/final/figure05.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure5.jpg",
+      "adopted_sha256": "c75b0e830ed7c95cce82f3de38fdb79a77f22fb5d03a18ecfa3e9b8324faa9ec",
+      "layout": "Compact 2x2 with aligned inset horizontal colorbars in (a,b) and response legend/parameters inside (d)",
+      "work_figure_stem": "plot/05_distance_site_response/output/current/pga_distance_and_gmpe_site_response_abcd_2x2",
+      "section": "4.1",
+      "manuscript_width_fraction": 0.8,
+      "manuscript_physical_page": 13,
+      "adopted_pixels": [
+        3138,
+        2493
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure05.tiff",
+      "adopted_tiff_sha256": "28a29ff037da7231810eb4d783eb62077e46b951f4f9c3a6f4815dd753d94a33",
+      "adopted_layout_pdf": "plot/05_distance_site_response/layout/figure05_A4.pdf",
+      "adopted_source_sha256": "c2c11721802f1af4841adfff92a123176980462eb8fe8955caccf9e2186c035f",
+      "adopted_export_record": "change_logs/2026-10-21_16-16-16_publish_figures_01_04_05_06/export_manifest.json",
+      "adopted_version": "2026-10-21 approved font-adjusted A4 figure; 600 dpi cropped TIFF/PNG",
+      "current_font_entry": "plot/05_distance_site_response/layout/code/build_figure05_a4.py",
+      "manuscript_figure_sha256": "72aa911701bc9da00ab9015d23ede25c39f891b665de40aa440a18347a93e660",
+      "manuscript_figure_pixels": [
+        3080,
+        2470
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "input_data": [
+        "result/statistics/Hazard/analysis"
+      ],
+      "layout_draft_output": "plot/05_distance_site_response/layout/work"
+    },
+    {
+      "figure": 6,
+      "title": "形变观测与GNSS",
+      "code_directory": "plot/06_insar_deformation/code",
+      "entry_script": "plot/06_insar_deformation/code/build_deformation_figure.py",
+      "qgis_projects": [
+        "plot/06_insar_deformation/qgis/projects/06_insar_deformation.qgz"
+      ],
+      "work_output": "plot/06_insar_deformation/output",
+      "final_output": "plot/06_insar_deformation/output/final",
+      "layout_package": "plot/06_insar_deformation/layout",
+      "adopted_figure": "plot/06_insar_deformation/output/final/figure06.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure6.jpg",
+      "adopted_sha256": "f45fa9753ba9916f4226d0e0f0df5892b100305b6f572a5181acdd8388a42c62",
+      "section": "4.2.1",
+      "manuscript_width_fraction": 0.9,
+      "manuscript_physical_page": 14,
+      "adopted_pixels": [
+        4271,
+        3857
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure06.tiff",
+      "adopted_tiff_sha256": "e0415e143fd369c0da56f795c95c8a9a96341c79b0187fb6bad28c3272537f97",
+      "adopted_layout_pdf": "plot/06_insar_deformation/layout/figure06_A4.pdf",
+      "adopted_source_sha256": "54f2594407ddffda0f0ef588a407f6740bc8cade4a5a04e06a338ec3ed104876",
+      "adopted_export_record": "plot/06_insar_deformation/layout/export_record_figure06.json",
+      "adopted_version": "2026-10-22 as submitted (SCS_Submission Fig06.jpg): corrected InSAR vertical rates, panel labels, paper-size typography; full text width",
+      "adopted_layout_project": "plot/06_insar_deformation/layout/06_insar_deformation_A4.qgz",
+      "current_font_entry": "plot/06_insar_deformation/layout/code/build_figure06_a4.py",
+      "manuscript_figure_sha256": "3806114345bc0db87bd5c5b7e5b532f6c60e55a312783bf1990541c24131b659",
+      "manuscript_figure_pixels": [
+        4271,
+        3857
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "qgis_directory": "plot/06_insar_deformation/qgis",
+      "qgis_layouts": [
+        "plot/06_insar_deformation/qgis/layouts/tsx_deformation/Kunming_TSX_Vertical_Deformation.qpt"
+      ],
+      "qgis_exports": "plot/06_insar_deformation/output/qgis",
+      "input_data": [
+        "data/TSX_PS/TSX_merged_v_vertical_20m.tif",
+        "data/administrative/kunming_districts.shp",
+        "data/cartography/kunming_simple_basemap.gpkg",
+        "data/cartography/terrain/kunming_esri_hillshade.tif",
+        "data/earthquakes/historical_catalog_2012_2024.shp",
+        "data/faults/kunming_faults_literature.gpkg",
+        "data/validation/cases/event_epicenter.shp",
+        "data/water/dianchi_2016_reference.shp",
+        "result/statistics/Deformation",
+        "result/validation/gnss_velocity/current"
+      ],
+      "submission_figure": "manuscript/SCS_Submission/Fig06.jpg"
+    },
+    {
+      "figure": 7,
+      "title": "建筑形变指标与IBSI",
+      "code_directory": "plot/07_ibsi/code",
+      "entry_script": "plot/07_ibsi/code/plot_IBSI_components_and_spatial_distribution.py",
+      "qgis_projects": [
+        "plot/07_ibsi/qgis/projects/07_ibsi.qgz"
+      ],
+      "work_output": "plot/07_ibsi/output",
+      "final_output": "plot/07_ibsi/output/final",
+      "layout_package": "plot/07_ibsi/layout",
+      "adopted_figure": "plot/07_ibsi/output/final/figure07.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure7.jpg",
+      "adopted_sha256": "754f844946862ddf7e5257eb24940790fcf069a66b401c218f0b08de6ee1ab08",
+      "section": "4.2.2",
+      "manuscript_width_fraction": 1.0,
+      "manuscript_physical_page": 15,
+      "adopted_pixels": [
+        4253,
+        2517
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure07.tiff",
+      "adopted_tiff_sha256": "c69f87cf314cdf867c7c172d2d32de0d5ef682dc13d74fc584f716577c6ec120",
+      "adopted_layout_pdf": "plot/07_ibsi/layout/output/pdf/figure07_A4_fonts_updated.pdf",
+      "adopted_source_sha256": "db69a16c0fd4afaec619ba64425d6f18c5f22b28d2313e75b43011390ab18569",
+      "adopted_layout_project": "plot/07_ibsi/layout/07_ibsi_A4.qgz",
+      "adopted_layout_projects": [
+        "plot/07_ibsi/layout/07_ibsi_A4.qgz"
+      ],
+      "adopted_layout_templates": [
+        "plot/07_ibsi/layout/Figure07_ibsi_A4.qpt"
+      ],
+      "current_font_entry": "plot/07_ibsi/layout/code/build_native_maps.py",
+      "current_chart_entry": "plot/07_ibsi/layout/code/build_ibsi_charts.py",
+      "adopted_export_record": "plot/07_ibsi/layout/export_record_figure07.json",
+      "adopted_version": "2026-10-22 as submitted (SCS_Submission Fig07.jpg): corrected InSAR vertical rates, panel labels, paper-size typography",
+      "manuscript_figure_sha256": "1da1f528c7b7d6c069aea554b8b55bcb4115a0dfa2148b709865fd8a9523d4d9",
+      "manuscript_figure_pixels": [
+        4253,
+        2517
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "qgis_directory": "plot/07_ibsi/qgis",
+      "input_data": [
+        "data/TSX_PS/README.md",
+        "data/administrative",
+        "data/administrative/kunming_districts.shp",
+        "data/administrative/kunming_streets.shp",
+        "data/cartography/kunming_simple_basemap.gpkg",
+        "data/cartography/terrain/kunming_esri_hillshade.tif",
+        "data/earthquakes/kunming_surrounding_earthquakes.shp",
+        "data/faults/kunming_faults_literature.gpkg",
+        "data/study_area",
+        "data/study_area/README.md",
+        "data/study_area/TSX_Total_Extent.shp",
+        "data/validation/cases/event_epicenter.shp",
+        "data/water",
+        "data/water/dianchi_2016_reference.shp",
+        "result/intermediate/vulnerability_inputs/building_ps_points.gpkg",
+        "result/intermediate/vulnerability_inputs/input_manifest.json",
+        "result/vulnerability/scs_paper_method",
+        "result/vulnerability/scs_paper_method/01_building_vulnerability_metrics.gpkg"
+      ],
+      "paper_font_scale": 1.0938,
+      "submission_figure": "manuscript/SCS_Submission/Fig07.jpg"
+    },
+    {
+      "figure": 8,
+      "title": "脆弱性与暴露度空间分布",
+      "code_directory": "plot/08_vulnerability_exposure/code",
+      "entry_script": "plot/08_vulnerability_exposure/code/compose_maps.py",
+      "qgis_projects": [
+        "plot/08_vulnerability_exposure/qgis/projects/08a_vulnerability.qgz",
+        "plot/08_vulnerability_exposure/qgis/projects/08b_exposure.qgz"
+      ],
+      "work_output": "plot/08_vulnerability_exposure/output",
+      "final_output": "plot/08_vulnerability_exposure/output/final",
+      "layout_package": "plot/07_ibsi/layout",
+      "adopted_figure": "plot/08_vulnerability_exposure/output/final/figure08.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure8.jpg",
+      "adopted_sha256": "1f395bb4f065fc78c263ae5989816c7425647cebf4ef5e672d6fdbf554776b17",
+      "manuscript_label": "fig:vulnerability-exposure-spatial",
+      "section": "4.3.1",
+      "manuscript_width_fraction": 1.0,
+      "manuscript_physical_page": 16,
+      "adopted_pixels": [
+        4276,
+        2282
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure08.tiff",
+      "adopted_tiff_sha256": "6b16feae429138fa5b0b127525b13184e10d1dcc068d71fa531117b8cc38a5c4",
+      "adopted_layout_pdf": "plot/07_ibsi/layout/output/pdf/figure08_A4_fonts_updated.pdf",
+      "adopted_source_sha256": "2a725047fd86b1b920245da08ed5b0a530128bac089bbb335c6ab388a279cea4",
+      "adopted_layout_project": "plot/07_ibsi/layout/08_vulnerability_A4.qgz",
+      "adopted_layout_projects": [
+        "plot/07_ibsi/layout/08_vulnerability_A4.qgz",
+        "plot/07_ibsi/layout/08_exposure_A4.qgz"
+      ],
+      "adopted_layout_templates": [
+        "plot/07_ibsi/layout/Figure08_vulnerability_A4.qpt",
+        "plot/07_ibsi/layout/Figure08_exposure_A4.qpt"
+      ],
+      "current_font_entry": "plot/07_ibsi/layout/code/build_native_maps.py",
+      "current_chart_entry": null,
+      "adopted_export_record": "plot/07_ibsi/layout/export_record_figure08.json",
+      "adopted_version": "2026-10-22 as submitted (SCS_Submission Fig08.jpg): corrected InSAR vertical rates, panel labels, paper-size typography",
+      "manuscript_figure_sha256": "1d4162a5727107d5b86d8bf209506af84a9c42f19f140344062a0b5ee13809cb",
+      "manuscript_figure_pixels": [
+        4276,
+        2282
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "qgis_directory": "plot/08_vulnerability_exposure/qgis",
+      "qgis_layouts": [
+        "plot/08_vulnerability_exposure/qgis/layouts/exposure/Kunming_Exposure.qpt",
+        "plot/08_vulnerability_exposure/qgis/layouts/vulnerability/Kunming_Vulnerability.qpt"
+      ],
+      "qgis_exports": "plot/08_vulnerability_exposure/output/qgis",
+      "input_data": [
+        "data/administrative/kunming_city_boundary.gpkg",
+        "data/administrative/kunming_districts.shp",
+        "data/administrative/kunming_streets.shp",
+        "data/cartography/kunming_simple_basemap.gpkg",
+        "data/cartography/terrain/kunming_esri_hillshade.tif",
+        "data/earthquakes/historical_catalog_2012_2024.shp",
+        "data/earthquakes/kunming_surrounding_earthquakes.shp",
+        "data/faults/China_faults.gpkg",
+        "data/faults/kunming_faults_literature.gpkg",
+        "data/study_area/TSX1_Extent.shp",
+        "data/study_area/TSX2_Extent.shp",
+        "data/study_area/TSX_Total_Extent.shp",
+        "data/validation/campuses/yufe_north/yufe_longquan_north_campus_boundary.shp",
+        "data/validation/campuses/yufe_south/yufe_longquan_campus_boundary.shp",
+        "data/validation/cases/case_candidates.gpkg",
+        "data/validation/cases/event_epicenter.shp",
+        "data/validation/cases/validation_selection_areas.shp",
+        "data/validation/cases/validation_site_boundaries.shp",
+        "data/validation/cases/validation_site_points.shp",
+        "data/water/dianchi_2016_reference.shp",
+        "data/water/dianchi_historical_reference.shp",
+        "result/exposure/scs_paper_method/building_exposure.gpkg",
+        "result/risk/scs_paper_method/building_risk.gpkg",
+        "result/vulnerability/scs_paper_method/02_building_comprehensive_vulnerability.gpkg"
+      ],
+      "adopted_source_note": "PDF rebuilt after TIFF export (metadata only): its 600 dpi render within the recorded crop is pixel-identical to the adopted TIFF; export-time SHA-256 d4a33a2a5e302a6d8d3a9537d8b4247967eccc652056422afcfd5adc01b829eb",
+      "paper_font_scale": 1.0972,
+      "submission_figure": "manuscript/SCS_Submission/Fig08.jpg"
+    },
+    {
+      "figure": 9,
+      "title": "四指标等级构成",
+      "code_directory": "plot/09_class_composition/code",
+      "entry_script": "plot/09_class_composition/code/draw_charts.py",
+      "qgis_projects": [],
+      "work_output": "plot/09_class_composition/output",
+      "final_output": "plot/09_class_composition/output/final",
+      "layout_package": "plot/09_class_composition/layout",
+      "adopted_figure": "plot/09_class_composition/output/final/figure09.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure9.jpg",
+      "adopted_sha256": "c1d2aeecdd254544aa1b75b4586eea71c8e1fb18fe4ba65c12cc09123aa708fb",
+      "manuscript_label": "fig:class-composition",
+      "section": "4.3.1",
+      "manuscript_width_fraction": 1.0,
+      "manuscript_physical_page": 17,
+      "adopted_pixels": [
+        4263,
+        2553
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure09.tiff",
+      "adopted_tiff_sha256": "99be22acc21b82b02413e0246bc41287b696798571355b9724048ac92138262c",
+      "adopted_layout_pdf": "plot/09_class_composition/layout/output/pdf/figure09_A4_fonts_updated.pdf",
+      "adopted_source_sha256": "3d3150511910b0f60ad61feae924903c0b5603023aaebfebaa8c3f9d0f4f49a2",
+      "current_font_entry": "plot/09_class_composition/layout/code/build_figure09_fonts.py",
+      "current_a4_entry": "plot/09_class_composition/layout/code/compose_and_verify.py",
+      "current_font_settings": "plot/09_class_composition/layout/session.json",
+      "current_editable_source": "plot/09_class_composition/layout/source/draw_charts.py",
+      "adopted_font_verification": "plot/09_class_composition/layout/actual_font_sizes.csv",
+      "adopted_export_record": "plot/09_class_composition/layout/export_record_figure09.json",
+      "adopted_version": "2026-10-22 as submitted (SCS_Submission Fig09.jpg): corrected InSAR vertical rates, panel labels, paper-size typography",
+      "manuscript_figure_sha256": "2999881b1f38aa823a54ffba4bd967acaa27e884102153dcd68038f6212088fb",
+      "manuscript_figure_pixels": [
+        4263,
+        2553
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "input_data": [
+        "result/statistics",
+        "result/statistics/FourIndicators"
+      ],
+      "submission_figure": "manuscript/SCS_Submission/Fig09.jpg"
+    },
+    {
+      "figure": 10,
+      "title": "A–B和C–D双剖面风险",
+      "code_directory": "plot/10_risk_transects/code",
+      "entry_script": "plot/10_risk_transects/code/draw_risk_transects.py",
+      "qgis_projects": [
+        "plot/10_risk_transects/qgis/projects/10_risk_transects.qgz",
+        "plot/10_risk_transects/qgis/projects/10_risk_base.qgz"
+      ],
+      "work_output": "plot/10_risk_transects/output",
+      "final_output": "plot/10_risk_transects/output/final",
+      "layout_package": "plot/10_risk_transects/layout",
+      "adopted_figure": "plot/10_risk_transects/output/final/figure10.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure10.jpg",
+      "adopted_sha256": "7becd3cd4dc1f5f831059ed1a4026508322517bfa0906824d3829b59d0953142",
+      "manuscript_label": "fig:risk-transects",
+      "legend_layout": "Map-only legends within map; geographic-symbol legend has no title, frame or background; statistical legends inside their charts",
+      "section": "4.3.2",
+      "manuscript_width_fraction": 1.0,
+      "manuscript_physical_page": 18,
+      "adopted_pixels": [
+        4253,
+        2584
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure10.tiff",
+      "adopted_tiff_sha256": "6aadda811318caef4a0f1e9c119aec210f1e0f3654ce2e477dcb3bb2d45ab6db",
+      "adopted_layout_pdf": "plot/10_risk_transects/layout/output/pdf/figure10_A4_fonts_updated.pdf",
+      "adopted_source_sha256": "f4cbe9fc7db10463174be3df7da0b64075558b5f4265fd7733361b3885f0a75f",
+      "current_font_entry": "plot/10_risk_transects/layout/code/build_chart_fonts.py",
+      "current_a4_entry": "plot/10_risk_transects/layout/code/compose_and_verify.py",
+      "current_font_settings": "plot/10_risk_transects/layout/session.json",
+      "current_editable_source": "plot/10_risk_transects/layout/source/draw_risk_transects.py",
+      "adopted_font_verification": "plot/10_risk_transects/layout/actual_font_sizes.csv",
+      "adopted_export_record": "plot/10_risk_transects/layout/export_record_figure10.json",
+      "current_map_font_entry": "plot/10_risk_transects/layout/code/build_map_fonts.py",
+      "current_qgis_projects": [
+        "plot/10_risk_transects/layout/10_risk_transects_fonts.qgz"
+      ],
+      "current_qpt_layouts": [
+        "plot/10_risk_transects/layout/Figure10_Map_Fonts_For_A4.qpt"
+      ],
+      "adopted_version": "2026-10-22 as submitted (SCS_Submission Fig10.jpg): corrected InSAR vertical rates, panel labels, paper-size typography",
+      "manuscript_figure_sha256": "df02b3b5c6b57dd4812a87fa3b6231bf30f6004ea2a4914ad627d5dcd82f06bb",
+      "manuscript_figure_pixels": [
+        4253,
+        2584
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "qgis_directory": "plot/10_risk_transects/qgis",
+      "qgis_layouts": [
+        "plot/10_risk_transects/qgis/layouts/final_risk/Kunming_Final_Risk.qpt",
+        "plot/10_risk_transects/qgis/layouts/risk_transect/Kunming_Risk_Transects_AB_CD.qpt"
+      ],
+      "qgis_exports": "plot/10_risk_transects/output/qgis",
+      "input_data": [
+        "data/administrative/kunming_city_boundary.gpkg",
+        "data/administrative/kunming_districts.shp",
+        "data/administrative/kunming_streets.shp",
+        "data/cartography/kunming_simple_basemap.gpkg",
+        "data/cartography/terrain/kunming_esri_hillshade.tif",
+        "data/earthquakes/historical_catalog_2012_2024.shp",
+        "data/earthquakes/kunming_surrounding_earthquakes.shp",
+        "data/faults/China_faults.gpkg",
+        "data/faults/kunming_faults_literature.gpkg",
+        "data/study_area/TSX1_Extent.shp",
+        "data/study_area/TSX2_Extent.shp",
+        "data/study_area/TSX_Total_Extent.shp",
+        "data/validation/campuses/yufe_north/yufe_longquan_north_campus_boundary.shp",
+        "data/validation/campuses/yufe_south/yufe_longquan_campus_boundary.shp",
+        "data/validation/cases/case_candidates.gpkg",
+        "data/validation/cases/event_epicenter.shp",
+        "data/validation/cases/validation_selection_areas.shp",
+        "data/validation/cases/validation_site_boundaries.shp",
+        "data/validation/cases/validation_site_points.shp",
+        "data/water/dianchi_2016_reference.shp",
+        "data/water/dianchi_historical_reference.shp",
+        "result/risk/scs_paper_method/building_risk.gpkg",
+        "result/statistics/Risk/transect",
+        "result/statistics/Risk/transect/CD/risk_transect.gpkg",
+        "result/statistics/Risk/transect/CD/station_markers.gpkg",
+        "result/statistics/Risk/transect/risk_transect.gpkg",
+        "result/statistics/Risk/transect/station_markers.gpkg"
+      ],
+      "submission_figure": "manuscript/SCS_Submission/Fig10.jpg"
+    },
+    {
+      "figure": 11,
+      "title": "街道P90与行政区构成",
+      "code_directory": "plot/11_street_patterns/code",
+      "entry_script": "plot/11_street_patterns/code/compose_street_p90_maps.py",
+      "qgis_projects": [],
+      "work_output": "plot/11_street_patterns/output",
+      "final_output": "plot/11_street_patterns/output/final",
+      "adopted_figure": "plot/11_street_patterns/output/final/figure11.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure11.jpg",
+      "adopted_sha256": "d7f6293a8a3a6f2cb03bdb1b5ee509f8e0bc58853fe6456e37cc2221fd34a7f9",
+      "manuscript_label": "fig:street-p90-risk",
+      "section": "4.3.3",
+      "manuscript_width_fraction": 0.9,
+      "manuscript_physical_page": 20,
+      "manuscript_placement": "Immediately after the 4.3.3 heading, on the same page with explanatory text.",
+      "adopted_tiff": "manuscript/figures/tiff/figure11.tiff",
+      "adopted_tiff_sha256": "060c30d0bca4f08000be64e70c7c56cbb0fb522c7cfff5eb04ac9c47b1ae34a3",
+      "adopted_pixels": [
+        4960,
+        5450
+      ],
+      "adopted_dpi": 600,
+      "adopted_version": "2026-10-22 as submitted (SCS_Submission Fig11.jpg): corrected InSAR vertical rates, panel labels, paper-size typography",
+      "manuscript_figure_sha256": "c555a36df7ee0040d7d1b8370f45576a02fbdb5324e059071400e1151ccd4710",
+      "manuscript_figure_pixels": [
+        4960,
+        5450
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "input_data": [
+        "result/statistics/combined"
+      ],
+      "layout_package": "plot/11_street_patterns/layout",
+      "adopted_layout_png": "plot/11_street_patterns/layout/output/street_p90_hazard_vulnerability_exposure_risk_2x2_A4_75pct.png",
+      "adopted_source_sha256": "7b3185c3570f602cc21aea77bb3eeaa0087c7dc7ac13747bb923686c1037c0f9",
+      "current_editable_source": "plot/11_street_patterns/layout/code/compose_street_p90_maps.py",
+      "adopted_export_record": "change_logs/2026-10-22_figures06_13_update/README.md",
+      "submission_figure": "manuscript/SCS_Submission/Fig11.jpg"
+    },
+    {
+      "figure": 12,
+      "title": "InSAR状态信息的增量作用与配对建筑对比",
+      "code_directory": "plot/12_insar_contribution/code",
+      "entry_script": "plot/12_insar_contribution/code/build_latest_static_baseline_composite.py",
+      "qgis_projects": [
+        "plot/12_insar_contribution/qgis/projects/12_insar_contribution.qgz"
+      ],
+      "work_output": "plot/12_insar_contribution/output",
+      "final_output": "plot/12_insar_contribution/output/final",
+      "layout_package": "plot/12_insar_contribution/layout",
+      "adopted_figure": "plot/12_insar_contribution/output/final/figure12.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure12.jpg",
+      "adopted_sha256": "93cd35c23c5f1748b03d8a8050232e5cf1f139946f81b8aa2eaf77cf354cfa86",
+      "manuscript_label": "fig:insar-contribution",
+      "source_note": "2026-10-21 A4 typography draft adopted: 4253 x 4325 pixels at 600 dpi; blue matched-pair marker and connector. Both schemes use frozen Static-only normalization and Jenks boundaries; pair 39899/39929. Original experiment figure 5.1 remains in the font draft and backup.",
+      "section": "5.1",
+      "experiment_entry": "project/code/12_insar_contribution/run_static_baseline.py",
+      "data_directory": "result/discussion/12_insar_contribution/static_baseline",
+      "manuscript_width_fraction": 0.9,
+      "manuscript_physical_page": 21,
+      "manuscript_placement": "Near the first paragraph of 5.1, sharing its page with discussion text.",
+      "adopted_pixels": [
+        4328,
+        4325
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure12.tiff",
+      "adopted_tiff_sha256": "161d178e5a3ad9b210e8c608105cc2af58f0f489ca9b31587ee9c1aa9a7b2935",
+      "adopted_layout_pdf": "plot/12_insar_contribution/layout/output/pdf/figure12_A4_fonts_updated.pdf",
+      "adopted_source_sha256": "b975e19c77ae3722f3b5b9dd53fd319a4286b363fed2a6e9fda9a85242c7a6a0",
+      "adopted_export_record": "plot/12_insar_contribution/layout/export_record_figure12.json",
+      "adopted_version": "2026-10-22 as submitted (SCS_Submission Fig12.jpg): corrected InSAR vertical rates, panel labels, paper-size typography",
+      "current_a4_entry": "plot/12_insar_contribution/layout/code/compose_and_verify.py",
+      "current_font_settings": "plot/12_insar_contribution/layout/session.json",
+      "current_qgis_projects": [
+        "plot/12_insar_contribution/layout/12_insar_contribution_fonts.qgz"
+      ],
+      "current_qpt_layouts": [
+        "plot/12_insar_contribution/layout/Figure12_Fonts_For_A4.qpt"
+      ],
+      "manuscript_figure_sha256": "d0d781668c8ea450b82122c2987327edbb9cfe1b1152594cf706158bc8f3554c",
+      "manuscript_figure_pixels": [
+        4328,
+        4325
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "qgis_directory": "plot/12_insar_contribution/qgis",
+      "qgis_layouts": [
+        "plot/12_insar_contribution/qgis/layouts/12_insar_contribution/12_insar_contribution.qpt",
+        "plot/12_insar_contribution/qgis/layouts/12_insar_contribution/static_baseline.qpt"
+      ],
+      "qgis_support_projects": [
+        "plot/12_insar_contribution/qgis/support/static_baseline.qgz"
+      ],
+      "input_data": [
+        "data/administrative/kunming_districts.shp",
+        "data/administrative/kunming_streets.shp",
+        "data/cartography/kunming_simple_basemap.gpkg",
+        "data/cartography/terrain/kunming_esri_hillshade.tif",
+        "data/earthquakes/kunming_surrounding_earthquakes.shp",
+        "data/faults/kunming_faults_literature.gpkg",
+        "data/validation/cases/event_epicenter.shp",
+        "data/water/dianchi_2016_reference.shp",
+        "result/discussion/12_insar_contribution/static_baseline",
+        "result/discussion/12_insar_contribution/static_baseline/QGIS/data/static_baseline_5_1.gpkg",
+        "result/intermediate/12_insar_contribution/cartography/latest_static_baseline_block.gpkg",
+        "result/intermediate/12_insar_contribution/cartography/latest_static_baseline_map.gpkg",
+        "result/intermediate/buildings/building_height_repaired.gpkg",
+        "result/intermediate/vulnerability_inputs/building_ps_points.gpkg",
+        "result/risk/scs_paper_method/building_risk.gpkg"
+      ],
+      "submission_figure": "manuscript/SCS_Submission/Fig12.jpg"
+    },
+    {
+      "figure": 13,
+      "title": "昆明地震受损校园建筑案例验证",
+      "code_directory": "plot/13_event_validation/code",
+      "entry_script": "plot/13_event_validation/code/build_event_validation_composite.py",
+      "qgis_projects": [
+        "plot/13_event_validation/qgis/projects/13_event_validation.qgz"
+      ],
+      "work_output": "plot/13_event_validation/output",
+      "final_output": "plot/13_event_validation/output/final",
+      "layout_package": "plot/13_event_validation/layout",
+      "adopted_figure": "plot/13_event_validation/output/final/figure13.png",
+      "manuscript_figure": "manuscript/figures/jpg/Figure13.jpg",
+      "adopted_sha256": "b749064b8a10696af1fa625cff0c9eaed46dc9922d42df5dd7eecbad6eb4ef63",
+      "manuscript_label": "fig:event-validation",
+      "source_note": "2026-10-21 A4 layout draft adopted: 4253 x 2866 pixels at 600 dpi; 4 pt class captions, 1.1 mm PS markers without outline, D1/D2 gap 4.0 mm. D1 34360 and D2 35945. Original author PNG retained in the pre-publication backup.",
+      "section": "5.2",
+      "experiment_entry": "project/code/13_event_validation/prepare_campus_scope.py",
+      "data_directory": "result/validation/13_event_validation",
+      "derived_export_note": "Current figure derives from plot/13_event_validation/layout; derived QGIS exports remain under plot/13_event_validation/output/derived.",
+      "manuscript_width_fraction": 1.0,
+      "manuscript_physical_page": 23,
+      "adopted_pixels": [
+        4253,
+        2866
+      ],
+      "adopted_dpi": 600,
+      "adopted_tiff": "manuscript/figures/tiff/figure13.tiff",
+      "adopted_tiff_sha256": "3752ba1305e7c3128aa784bf822ef31ec5d9304f2e5eec416630dcc4af3f127e",
+      "adopted_layout_pdf": "plot/13_event_validation/layout/output/pdf/figure13_A4_layout.pdf",
+      "adopted_source_sha256": "dc171dc3af5f22f11b1a8b7e5b72aa99954fc8555892d3bc16a6b4781b733eeb",
+      "adopted_export_record": "plot/13_event_validation/layout/export_record_figure13.json",
+      "adopted_version": "2026-10-22 as submitted (SCS_Submission Fig13.jpg): corrected InSAR vertical rates, panel labels, paper-size typography",
+      "current_a4_entry": "plot/13_event_validation/layout/code/compose_and_verify.py",
+      "current_font_settings": "plot/13_event_validation/layout/session.json",
+      "current_qgis_projects": [
+        "plot/13_event_validation/layout/13_event_validation_aligned.qgz"
+      ],
+      "current_qpt_layouts": [
+        "plot/13_event_validation/layout/Figure13_Aligned_Layout.qpt"
+      ],
+      "manuscript_figure_sha256": "da2cd6b9a9df642c6a90b33422736e5fb49a7e02354b44878fefad587af752a2",
+      "manuscript_figure_pixels": [
+        4253,
+        2866
+      ],
+      "manuscript_figure_format": "JPEG (baseline, RGB, embedded without re-encoding)",
+      "qgis_directory": "plot/13_event_validation/qgis",
+      "qgis_layouts": [
+        "plot/13_event_validation/qgis/layouts/13_event_validation/13_event_locations.qpt",
+        "plot/13_event_validation/qgis/layouts/13_event_validation/13_event_validation.qpt"
+      ],
+      "qgis_support_projects": [
+        "plot/13_event_validation/qgis/support/13_event_locations.qgz",
+        "plot/13_event_validation/qgis/support/validation_campuses_2x3.qgz",
+        "plot/13_event_validation/qgis/support/validation_campuses_2x5.qgz",
+        "plot/13_event_validation/qgis/support/validation_damage_cases_2x3.qgz"
+      ],
+      "input_data": [
+        "data/administrative/kunming_districts.shp",
+        "data/administrative/kunming_streets.shp",
+        "data/cartography/kunming_simple_basemap.gpkg",
+        "data/cartography/terrain/kunming_esri_hillshade.tif",
+        "data/earthquakes/kunming_surrounding_earthquakes.shp",
+        "data/faults/kunming_faults_literature.gpkg",
+        "data/validation/cases/case_candidates.gpkg",
+        "data/validation/cases/event_epicenter.shp",
+        "data/water/dianchi_2016_reference.shp",
+        "result/intermediate/13_event_validation/cartography",
+        "result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg",
+        "result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg",
+        "result/intermediate/13_event_validation/cartography/satellite",
+        "result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif",
+        "result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif",
+        "result/intermediate/buildings/building_height_repaired.gpkg",
+        "result/intermediate/vulnerability_inputs/building_ps_points.gpkg",
+        "result/risk/scs_paper_method/calculation_summary.json",
+        "result/validation/13_event_validation/maps",
+        "result/validation/13_event_validation/maps/campus_2x3/CF_satellite.tif",
+        "result/validation/13_event_validation/maps/campus_2x3/CF_vertical_velocity.tif",
+        "result/validation/13_event_validation/maps/campus_2x3/NY_satellite.tif",
+        "result/validation/13_event_validation/maps/campus_2x3/NY_vertical_velocity.tif",
+        "result/validation/13_event_validation/maps/campus_2x3/campus_panel_data.gpkg",
+        "result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb",
+        "result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb",
+        "result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb",
+        "result/validation/13_event_validation/maps/campus_hver/data_manifest.json",
+        "result/validation/13_event_validation/maps/damage_cases_2x3/CF_satellite_full.tif",
+        "result/validation/13_event_validation/maps/damage_cases_2x3/NY_satellite_full.tif",
+        "result/validation/13_event_validation/maps/damage_distribution_collage",
+        "result/validation/13_event_validation/results/campus_boundary_scope.gpkg"
+      ],
+      "submission_figure": "manuscript/SCS_Submission/Fig13.jpg"
+    }
+  ],
+  "supplementary": {
+    "figures": [
+      "plot/supplementary/output/final/figureS1.png",
+      "plot/supplementary/output/final/figureS2.png"
+    ],
+    "source_directory": "manuscript/tex/supplementary_figures",
+    "build_entry": "manuscript/build.sh",
+    "final_output": "plot/supplementary/output/final"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "data_root": "data",
+  "inputs": {
+    "hazard": {
+      "path": "result/hazard/scs_pipeline/06_building_hazard.gpkg",
+      "layer": "building_hazard",
+      "id_field": "Build_ID",
+      "pga_field": "PGA_Final_g"
+    },
+    "vulnerability": {
+      "path": "result/vulnerability/scs_paper_method/02_building_comprehensive_vulnerability.gpkg",
+      "layer": "building_comprehensive_vulnerability",
+      "id_field": "Build_ID",
+      "index_field": "Vul_Index"
+    },
+    "exposure": {
+      "path": "result/exposure/scs_paper_method/building_exposure.gpkg",
+      "layer": "building_exposure_scs",
+      "id_field": "Build_ID",
+      "index_field": "Exp_Final"
+    }
+  },
+  "outputs": {
+    "results_dir": "result/risk/scs_paper_method",
+    "risk": "building_risk.gpkg"
+  },
+  "model": {
+    "risk_classes": 5,
+    "jenks_quantile_representatives": 2000
+  },
+  "path_base": "workspace root",
+  "input_path_base": "workspace root",
+  "shared_path_module": "project/code/paths.py"
+}

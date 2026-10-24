@@ -1,0 +1,32 @@
+{
+  "name": "Kunming urban transect A-B",
+  "crs": "EPSG:32648",
+  "vertices_wgs84": [
+    [102.650, 25.075],
+    [102.690, 25.040],
+    [102.730, 25.000],
+    [102.790, 24.940],
+    [102.816, 24.900],
+    [102.848, 24.865],
+    [102.850, 24.835]
+  ],
+  "half_width_m": 1000,
+  "segment_length_m": 2000,
+  "minimum_terminal_segment_m": 1000,
+  "sensitivity_half_widths_m": [500, 1000, 1500],
+  "low_sample_threshold": 30,
+  "selection_basis": "A descriptive NW-SE urban transect through the main built-up area, Guandu and Chenggong. Vertices were selected from building coverage and the existing map, without optimizing risk values. This is an illustrative urban axis, not a surveyed road centerline or a fault-normal profile. Half-width and segment length were adjusted for sample coverage; the route was frozen before reporting risk summaries.",
+  "additional_transects": [
+    {
+      "id": "CD",
+      "name": "Dian Lake to the vicinity of the 2026 earthquake",
+      "color": "#5b3d91",
+      "vertices_wgs84": [[102.67151898773973, 25.023000000650576], [102.727, 25.082]],
+      "station_interval_m": 5000,
+      "label_offsets_mm": {"C": [-6, 0], "D": [-6, 1], "5 km": [2, -2]},
+      "shoreline_source": "data/water/dianchi_2016_reference.shp",
+      "event_source": "data/validation/cases/event_epicenter.shp",
+      "selection_basis": "A straight crossing transect from the nearest point on the 2016 Dian Lake reference shoreline to the target 102.672 E, 25.023 N, towards the vicinity of the user-supplied 2026 epicenter at 102.73 E, 25.09 N. D is about 0.94 km southwest of the epicenter to preserve its original map symbol. Geographic endpoints were fixed before inspecting risk summaries."
+    }
+  ]
+}

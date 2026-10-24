@@ -1,0 +1,22 @@
+(version 1)
+; Write protection applied by plot/shared/run_protected.sh and run_pyqgis.sh.
+; Figure scripts may write working outputs (plot/*/output except final/, layout/work/, result/),
+; but never adopted figures, the manuscript, QGIS master assets, final layout packages or history.
+; Override for an intentional rebuild: SEISMIC_ALLOW_PROTECTED_WRITES=1
+(allow default)
+(deny file-write*
+  (subpath "/Users/bin/Projects/seismic_risk/figures")
+  (subpath "/Users/bin/Projects/seismic_risk/manuscript")
+  (subpath "/Users/bin/Projects/seismic_risk/JPEG")
+  (subpath "/Users/bin/Projects/seismic_risk/data")
+  (subpath "/Users/bin/Projects/seismic_risk/drafts")
+  (subpath "/Users/bin/Projects/seismic_risk/backups")
+  (subpath "/Users/bin/Projects/seismic_risk/archive")
+  (subpath "/Users/bin/Projects/seismic_risk/change_logs")
+  (literal "/Users/bin/Projects/seismic_risk/plot/figure_index.json")
+  (subpath "/Users/bin/Projects/seismic_risk/plot/shared/styles")
+  (regex #"^/Users/bin/Projects/seismic_risk/plot/[^/]+/output/final(/|$)")
+  (regex #"^/Users/bin/Projects/seismic_risk/plot/[0-9][0-9]_[^/]+/qgis(/|$)")
+  (regex #"^/Users/bin/Projects/seismic_risk/plot/[^/]+/layout(/|$)"))
+(allow file-write*
+  (regex #"^/Users/bin/Projects/seismic_risk/plot/[^/]+/layout/work(/|$)"))

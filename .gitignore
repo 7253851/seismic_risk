@@ -1,0 +1,56 @@
+# seismic_risk — 开源范围：代码、QGIS 工程与样式、每幅图一张最终 PNG。
+# 论文稿、输入数据、中间数据和模型结果只留在本地，不进 Git。
+# 采用白名单：默认全部忽略，只放行下面列出的文件。
+
+*
+!*/
+
+# --- 公开说明（本地 README 等笔记不上传）---------------------------------
+!/.gitignore
+!/.github/README.md
+!/docs/*.md
+
+# --- 数值模型与实验入口 ---------------------------------------------------
+!/project/**/*.py
+!/project/**/config.json
+!/project/experiment_index.json
+!/project/experiments/*
+
+# --- 图件：绘图代码、QGIS 工程/版式/样式 ------------------------------------
+!/plot/**/*.py
+!/plot/**/*.mjs
+!/plot/**/*.sh
+!/plot/**/*.sb
+!/plot/**/*.qgz
+!/plot/**/*.qpt
+!/plot/**/*.qml
+!/plot/figure_index.json
+!/plot/**/code/*.json
+!/plot/shared/styles/**
+!/plot/*/qgis/**/*.svg
+
+# --- 图件成品：figures/ 下每幅图一张压缩 PNG（1600px，原图留在 plot/*/output/final/）
+!/figures/*.png
+
+# --- 始终排除 -------------------------------------------------------------
+/manuscript/
+/change_logs/
+/plot/*/data/
+.DS_Store
+.vscode/
+.claude/
+__pycache__/
+*.pyc
+mplconfig/
+.mplconfig/
+matplotlib_cache/
+*.aux.xml
+*~
+/plot/*/layout/work/
+/plot/*/layout/review/
+/plot/*/layout/log/
+/plot/*/layout/tmp/
+/plot/diagnostics/*/output/
+/plot/shared/styles/**/*.png
+/plot/shared/styles/**/*.md
+/project/experiments/README.md

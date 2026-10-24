@@ -1,0 +1,19 @@
+{
+  "event_assumption": "2026-09-30 Kunming Panlong M4.3; project epicenter interpreted as WGS84",
+  "case_assumption": "Only YUFE and YNAU campus cases; user confirmed damage for the three screenshot buildings matched to IDs 34360,45948,35945. Other building damage states remain unknown.",
+  "inputs": {
+    "candidates": "result/validation/13_event_validation/results/campus_boundary_candidates.csv",
+    "regions": "result/validation/13_event_validation/results/campus_boundary_scope.gpkg"
+  },
+  "active_scope": "YUFE screenshot boundaries and YNAU east/west OSM boundaries; no analytical buffer scopes. Only two active validation sites.",
+  "seed": 20260930,
+  "reference_windows_per_case": 999,
+  "maximum_attempts_per_case": 100000,
+  "translation_radius_m": 3000,
+  "building_count_relative_tolerance": 0.25,
+  "epicentral_distance_relative_tolerance": 0.2,
+  "epicentral_distance_minimum_tolerance_m": 500,
+  "risk_coverage_absolute_tolerance": 0.15,
+  "top_fraction": 0.1,
+  "selection_rule": "Building representative point intersects the fixed selection polygon."
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "path_base": "workspace root",
+  "data_root": "data",
+  "input_path_base": "workspace root",
+  "shared_path_module": "project/code/paths.py",
+  "inputs": {
+    "buildings": {
+      "path": "result/intermediate/buildings/building_height_repaired.gpkg",
+      "id_field": "Build_ID",
+      "role": "基于原建筑底图修复无效几何的有效建筑输入",
+      "raw_alternative": "data/buildings/raw/build.shp"
+    },
+    "study_area": {
+      "path": "data/study_area/TSX_Total_Extent.shp",
+      "role": "研究区面边界"
+    },
+    "faults": {
+      "path": "data/faults/raw/CN-faults.gmt",
+      "format": "GMT",
+      "encoding": "gb18030",
+      "role": "原始断层线及其属性"
+    },
+    "vs30": {
+      "path": "data/vs30/China_Mainland_VS30_NewSCK_30arcsec_Ver2024.dbf",
+      "format": "DBF point table",
+      "longitude_field": "LONGITUDE",
+      "latitude_field": "LATITUDE",
+      "value_field": "VS30",
+      "units": "m/s"
+    }
+  },
+  "outputs": {
+    "results_dir": "result/hazard/scs_pipeline",
+    "statistics_dir": "result/statistics/Hazard/scs_pipeline"
+  },
+  "model": {
+    "reference": "SCS_current_S1",
+    "gmpe": "Zhang2022_SWChina_PGA_simplified",
+    "site_reference": "zero_site_term_S1_eq_S8",
+    "distance_crs": "EPSG:4547",
+    "study_buffer_km": 100.0,
+    "name_join_distance_m": 3000.0,
+    "name_join_angle_deg": 45.0,
+    "name_join_iterations": 10,
+    "magnitude_relationship": "WellsCoppersmith1994_all_slip_types",
+    "magnitude_caps": {
+      "Puduhe": 6.5,
+      "Baiyi-Hengchong": 6.0,
+      "Dachunhe-Yiduoyun": 6.0,
+      "Heilongtan-Guandu": 6.0,
+      "Machang-Xianjie": 6.0
+    },
+    "equivalent_depth_km": 10.0,
+    "rrup_range_km": [
+      10.0,
+      200.0
+    ],
+    "mechanism": "strike-slip",
+    "rupture_top_depth_km": 1.0,
+    "hanging_wall": false,
+    "vs30_range": [
+      140.0,
+      1130.0
+    ],
+    "vs30_resolution_deg": 0.00833333333,
+    "vs30_buffer_deg": 0.1,
+    "dbf_chunk_size": 500000,
+    "csv_chunk_size": 250000,
+    "pga_units": "g"
+  }
+}

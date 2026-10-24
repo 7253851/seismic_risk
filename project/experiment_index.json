@@ -1,0 +1,47 @@
+{
+  "order": "manuscript sections",
+  "entries": [
+    {
+      "section": "3.1",
+      "directory": "project/experiments/03_01_seismic_hazard",
+      "title": "危险性",
+      "entry": "project/code/Hazard/pipeline.py"
+    },
+    {
+      "section": "3.2",
+      "directory": "project/experiments/03_02_building_vulnerability",
+      "title": "脆弱性与IBSI",
+      "entry": "project/code/Vulnerability/pipeline.py"
+    },
+    {
+      "section": "3.3",
+      "directory": "project/experiments/03_03_building_exposure",
+      "title": "暴露度",
+      "entry": "project/code/Exposure/pipeline.py"
+    },
+    {
+      "section": "3.4",
+      "directory": "project/experiments/03_04_seismic_risk",
+      "title": "风险集成",
+      "entry": "project/code/Risk/pipeline.py"
+    },
+    {
+      "section": "4.2.1",
+      "directory": "project/experiments/04_02_01_gnss_validation",
+      "title": "GNSS验证",
+      "entry": "project/code/Validation/gnss_velocity.py"
+    },
+    {
+      "section": "5.1",
+      "directory": "project/experiments/05_01_insar_contribution",
+      "title": "InSAR增量实验",
+      "entry": "project/code/12_insar_contribution/run_static_baseline.py"
+    },
+    {
+      "section": "5.2",
+      "directory": "project/experiments/05_02_event_validation",
+      "title": "地震案例验证",
+      "entry": "project/code/13_event_validation/prepare_campus_scope.py"
+    }
+  ]
+}

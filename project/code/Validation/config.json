@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "method": "supplementary_trend_top10",
+  "inputs": {
+    "ps_gpkg": "data/TSX_PS/TSX_PS.gpkg",
+    "station": "data/GNSS/raw/location.csv",
+    "gnss_daily": "data/GNSS/processed/GNSS_U_Full_TS.csv",
+    "scenes": [
+      {
+        "name": "TSX1",
+        "layer": "TSX1_PS",
+        "gnss_series": "data/GNSS/processed/GNSS_PS_Windows/GNSS_U_raw_on_TSX1_dates_for_validation.csv"
+      },
+      {
+        "name": "TSX2",
+        "layer": "TSX2_PS",
+        "gnss_series": "data/GNSS/processed/GNSS_PS_Windows/GNSS_U_raw_on_TSX2_dates_for_validation.csv"
+      }
+    ]
+  },
+  "selection": {
+    "coherence_min": 0.8,
+    "top_n": 10,
+    "require_same_trend_sign": true,
+    "distance_weight": 0.3,
+    "allow_increment_lag": true,
+    "max_increment_lag": 1,
+    "chunk_size": 50000
+  },
+  "outputs": {
+    "results_dir": "result/validation/gnss_velocity/current",
+    "plot_dir": "plot/06_insar_deformation/output/gnss",
+    "final_figure_dir": "archive/2026-10-19_process_data/figures/validation"
+  }
+}

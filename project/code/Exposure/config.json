@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "data_root": "data",
+  "inputs": {
+    "buildings": {
+      "path": "result/intermediate/buildings/building_height_repaired.gpkg",
+      "layer": "building_height_repaired",
+      "id_field": "Build_ID",
+      "crs": "EPSG:32648"
+    },
+    "population": {
+      "path": "result/intermediate/exposure_inputs/building_population_prepared.gpkg",
+      "layer": "building_population_exposure",
+      "id_field": "Build_ID",
+      "population_field": "Pop_Value"
+    },
+    "economic": {
+      "path": "result/intermediate/exposure_inputs/building_economic_prepared.gpkg",
+      "layer": "building_economic_exposure",
+      "id_field": "Build_ID",
+      "area_field": "Area_m2",
+      "height_field": "Height_m",
+      "unit_price_field": "UnitPrice",
+      "price_fill_field": "PriceFill"
+    }
+  },
+  "outputs": {
+    "results_dir": "result/exposure/scs_paper_method",
+    "exposure": "building_exposure.gpkg"
+  },
+  "model": {
+    "height_alpha": 0.2,
+    "population_weight": 0.6,
+    "economic_weight": 0.4,
+    "height_cap_percentile": 99
+  },
+  "path_base": "workspace root",
+  "input_path_base": "workspace root",
+  "shared_path_module": "project/code/paths.py"
+}

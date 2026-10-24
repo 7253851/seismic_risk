@@ -1,0 +1,14 @@
+(version 1)
+(allow default)
+(deny file-write*
+  (subpath "/Users/bin/Projects/seismic_risk/QGIS")
+  (subpath "/Users/bin/Projects/seismic_risk/plot")
+  (subpath "/Users/bin/Projects/seismic_risk/figures")
+  (subpath "/Users/bin/Projects/seismic_risk/manuscript")
+  (subpath "/Users/bin/Projects/seismic_risk/project")
+  (subpath "/Users/bin/Projects/seismic_risk/data")
+  (subpath "/Users/bin/Projects/seismic_risk/result")
+  (subpath "/Users/bin/Projects/seismic_risk/backups")
+)
+(allow file-write*
+  (subpath "/Users/bin/Projects/seismic_risk/plot/13_event_validation/layout"))

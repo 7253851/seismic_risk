@@ -1,0 +1,385 @@
+{
+  "saved_at": "2026-10-17T19:16:35.275942+08:00",
+  "source_project": "/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/qgis/projects/04_seismic_hazard.qgz",
+  "name": "Kunming Indicator Framework Distribution",
+  "layout": "Kunming_Indicator_Framework_Distribution",
+  "layers": [
+    {
+      "order_top_to_bottom": 1,
+      "key": "event_2026",
+      "name": "2026 地震",
+      "source_layer": "地震震中 · 深度 10 km",
+      "qml": "layer_styles/event_2026.qml",
+      "qml_reload_success": true
+    },
+    {
+      "order_top_to_bottom": 2,
+      "key": "earthquakes",
+      "name": "2023 地震",
+      "source_layer": "昆明周边历史地震 · 原项目84点",
+      "qml": "layer_styles/earthquakes.qml",
+      "qml_reload_success": true
+    },
+    {
+      "order_top_to_bottom": 3,
+      "key": "faults",
+      "name": "断层",
+      "source_layer": "断层 · 危险性计算输入（59 条记录）",
+      "qml": "layer_styles/faults.qml",
+      "qml_reload_success": true
+    },
+    {
+      "order_top_to_bottom": 4,
+      "key": "dianchi",
+      "name": "滇池",
+      "source_layer": "滇池边界 · 2016年文献参考岸线",
+      "qml": "layer_styles/dianchi.qml",
+      "qml_reload_success": true
+    },
+    {
+      "order_top_to_bottom": 5,
+      "key": "districts",
+      "name": "县级行政边界",
+      "source_layer": "昆明区县边界 · 原项目14面",
+      "qml": "layer_styles/districts.qml",
+      "qml_reload_success": true
+    },
+    {
+      "order_top_to_bottom": 6,
+      "key": "streets",
+      "name": "乡镇／街道行政边界",
+      "source_layer": "昆明乡镇街道边界 · 原项目134面",
+      "qml": "layer_styles/streets.qml",
+      "qml_reload_success": true
+    },
+    {
+      "order_top_to_bottom": 7,
+      "key": "hazard",
+      "name": "Indicator",
+      "source_layer": "建筑危险性 H · PGA（g）",
+      "qml": "layer_styles/indicator.qml",
+      "qml_reload_success": true
+    },
+    {
+      "order_top_to_bottom": 8,
+      "key": "waterways",
+      "name": "河流",
+      "source_layer": "OSM waterways · 无标注",
+      "qml": "layer_styles/waterways.qml",
+      "qml_reload_success": true
+    },
+    {
+      "order_top_to_bottom": 9,
+      "key": "hillshade",
+      "name": "灰色山体阴影",
+      "source_layer": "灰色山体阴影 · Esri World Hillshade（底图缓存）",
+      "qml": "layer_styles/hillshade.qml",
+      "qml_reload_success": true
+    }
+  ],
+  "pga_legend_included": false,
+  "removed_legend_ids": [
+    "Legend_title",
+    "Legend_class_0",
+    "Legend_range_0",
+    "Legend_class_1",
+    "Legend_range_1",
+    "Legend_class_2",
+    "Legend_range_2",
+    "Legend_class_3",
+    "Legend_range_3",
+    "Legend_class_4",
+    "Legend_range_4"
+  ],
+  "administrative_level": "five county-level districts + township/subdistrict",
+  "county_boundary_pt": 2.0,
+  "street_boundary_pt": 0.6,
+  "basemap_roads_visible": false,
+  "symbols": [
+    "2023 地震",
+    "2026 地震",
+    "GNSS station",
+    "Indicator / High",
+    "Indicator / Low",
+    "Indicator / Moderate",
+    "Indicator / Very High",
+    "Indicator / Very Low",
+    "乡镇／街道行政边界",
+    "县级行政边界",
+    "图例 / GNSS station",
+    "图例 / 地震",
+    "图例 / 左旋断层",
+    "图例 / 断层",
+    "指北针 / 黑色",
+    "断层 / Faults",
+    "断层 / Left-lateral faults",
+    "河流",
+    "滇池"
+  ],
+  "text_formats": [
+    "2023 地震标注 / Arial Bold 12 pt",
+    "2026 地震标注 / Arial Bold 12 pt",
+    "GNSS 标注 / Arial Bold 12 pt",
+    "图内图例 / Arial Bold 8.5 pt",
+    "指北针 N / Arial Bold 10.5 pt",
+    "断层名 / Arial Bold 11.5 pt",
+    "比例尺 / Arial Bold 8 pt",
+    "滇池 / Arial Bold 18 pt",
+    "经纬度 / Arial Bold 12 pt",
+    "行政区名 / Arial Bold 14 pt"
+  ],
+  "color_ramps": [
+    "Indicator / Five-class warm palette",
+    "山体阴影 / 中性灰"
+  ],
+  "style_library_reimport_success": true,
+  "template_reload_success": true,
+  "svg_markers_embedded": true,
+  "working_project_and_exports_unchanged": true,
+  "working_files_sha256": {
+    "/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/qgis/projects/04_seismic_hazard.qgz": "24c527545ebd5a4b4798439ecaaa28d538c3d6dcf83837e3c89af8b596b38024",
+    "/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/qgis/layouts/hazard/Kunming_Hazard_PGA.qpt": "8f3738252fa892a379da5b50fb28fff2df77d5eed5bfbd8d894d1cf298ea6c00",
+    "/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/output/qgis/Kunming_Building_Hazard_1200dpi.png": "6342c25657c8d48ba0a94052181a666bfd865c2d13771e5b72fbbe5b0bd57983"
+  },
+  "layout_settings": {
+    "page_mm": [
+      195,
+      211
+    ],
+    "font_family": "Arial",
+    "graticule_font_size_pt": 12,
+    "graticule_tick_length_mm": 1.8,
+    "graticule_tick_width_mm": 0.4,
+    "building_outline_pt": 0.1,
+    "district_boundary_pt": 2,
+    "map_frame_width_mm": 0.45,
+    "context_legend_entries": [
+      "Earthquakes",
+      "GNSS station",
+      "Faults",
+      "Left-lateral"
+    ],
+    "context_legend_position": "inside map, lower left",
+    "context_legend_background": "transparent",
+    "scale_bar_km": 2,
+    "map_annotation_entries": [
+      {
+        "id": "Wuhua",
+        "text": "Wuhua",
+        "font_pt": 14,
+        "center_mm": [
+          64.10377527161734,
+          37.70374409401663
+        ],
+        "rotation": 0,
+        "font_italic": false,
+        "text_color": "#24282b"
+      },
+      {
+        "id": "Panlong",
+        "text": "Panlong",
+        "font_pt": 14,
+        "center_mm": [
+          110.74080670427576,
+          42.71199665518763
+        ],
+        "rotation": 0,
+        "font_italic": false,
+        "text_color": "#24282b"
+      },
+      {
+        "id": "Xishan",
+        "text": "Xishan",
+        "font_pt": 14,
+        "center_mm": [
+          28.929177072633173,
+          61.789327418096256
+        ],
+        "rotation": 0,
+        "font_italic": false,
+        "text_color": "#24282b"
+      },
+      {
+        "id": "Guandu",
+        "text": "Guandu",
+        "font_pt": 14,
+        "center_mm": [
+          163.63747649079386,
+          70.126605273618
+        ],
+        "rotation": 0,
+        "font_italic": false,
+        "text_color": "#24282b"
+      },
+      {
+        "id": "Chenggong",
+        "text": "Chenggong",
+        "font_pt": 14,
+        "center_mm": [
+          158.40798040878622,
+          136.17993898144456
+        ],
+        "rotation": 0,
+        "font_italic": false,
+        "text_color": "#24282b"
+      },
+      {
+        "id": "Dian_Lake",
+        "text": "Dian Lake",
+        "font_pt": 18,
+        "center_mm": [
+          80.3718574476503,
+          148.6022308118995
+        ],
+        "rotation": 0,
+        "font_italic": false,
+        "text_color": "#153b50"
+      },
+      {
+        "id": "Fault_Puduhe",
+        "text": "Puduhe fault",
+        "font_pt": 11.5,
+        "center_mm": [
+          43,
+          29
+        ],
+        "rotation": -78,
+        "fault_uid": "KMF_0013",
+        "font_italic": false,
+        "text_color": "#8a3e32"
+      },
+      {
+        "id": "Fault_Heilongtan",
+        "text": "Heilongtan-Guandu fault",
+        "font_pt": 11.5,
+        "center_mm": [
+          96,
+          97
+        ],
+        "rotation": -88,
+        "fault_uid": "KMF_0007",
+        "font_italic": false,
+        "text_color": "#8a3e32"
+      },
+      {
+        "id": "Fault_Baiyi",
+        "text": "Baiyi-Hengchong fault",
+        "font_pt": 11.5,
+        "center_mm": [
+          142,
+          39
+        ],
+        "rotation": -88,
+        "fault_uid": "KMF_0000",
+        "font_italic": false,
+        "text_color": "#8a3e32"
+      },
+      {
+        "id": "Fault_Machang",
+        "text": "Machang-Xianjie fault",
+        "font_pt": 11.5,
+        "center_mm": [
+          27,
+          89
+        ],
+        "rotation": -48,
+        "fault_uid": "KMF_0009",
+        "font_italic": false,
+        "text_color": "#8a3e32"
+      },
+      {
+        "id": "Fault_Dachunhe",
+        "text": "Dachunhe-Yiduoyun fault",
+        "font_pt": 11.5,
+        "center_mm": [
+          163.5,
+          100.5
+        ],
+        "rotation": -42,
+        "fault_uid": "KMF_0003",
+        "font_italic": false,
+        "text_color": "#8a3e32"
+      },
+      {
+        "id": "Fault_Xiaojiang",
+        "text": "Xiaojiang fault\n(western branch)",
+        "font_pt": 11.5,
+        "center_mm": [
+          163,
+          181
+        ],
+        "rotation": 0,
+        "fault_uid": "KMF_0022",
+        "font_italic": false,
+        "text_color": "#8a3e32"
+      },
+      {
+        "id": "Historical_event_0",
+        "text": "2023-01-27\nMw 2.1",
+        "font_pt": 12,
+        "center_mm": [
+          27,
+          48.5
+        ],
+        "rotation": 0,
+        "font_italic": true,
+        "text_color": "#e22d32"
+      },
+      {
+        "id": "Event_2026_annotation",
+        "text": "2026-09-30\nMw 4.3",
+        "font_pt": 12,
+        "center_mm": [
+          105,
+          23.5
+        ],
+        "rotation": 0,
+        "font_italic": true,
+        "text_color": "#e22d32"
+      },
+      {
+        "id": "GNSS_station_label",
+        "text": "GNSS station",
+        "font_pt": 12,
+        "font_italic": true,
+        "text_color": "#E22D32",
+        "center_mm": [
+          139.2136605768731,
+          73.29958951607603
+        ]
+      }
+    ]
+  },
+  "files_sha256": {
+    "archive/2026-10-19_process_data/system_cache/.DS_Store": "9a1dcf2cded6e84224379d432ca2a9bf1b3b977274bafed0c90c02c0ffd6b636",
+    "Kunming_Indicator_Framework_Distribution.xml": "83c320f5a6011eb9bd60fc235b180679153e0438fc07739e48cf0599416cd5f2",
+    "style_preview.png": "67b05223b69aa936da4301be3a1dc7901fa970f5448768b9255346ac4be5c2ad",
+    "layer_styles/hillshade.qml": "0d5754b6c8974fe7c5397c6f9608f8cc07336918b09904d8875581bcd463a675",
+    "layer_styles/streets.qml": "5e6b5466e181cf527c25ab86edb530186d633f46280b4f45979314995235cdbe",
+    "layer_styles/dianchi.qml": "39df65fe42bdc1d11c81725d8e5250a7a9b752178b6e1384d3e65967be76963f",
+    "layer_styles/districts.qml": "39cfbd2a3ef96c968cc75c63cf26b9fcfa8bcec7651feb9efa70978f4d561f8d",
+    "layer_styles/event_2026.qml": "0e92b08718260b0af916cde930a96d0e42176b1ee3bc0bb0f072bd9dd729cf04",
+    "layer_styles/indicator.qml": "931fc704becb51b03584801c155eb40ee385e7fe4e8286c75ce672ed37ea4d96",
+    "layer_styles/faults.qml": "082179190aebb4609bc3599be6c27a75d8963b99faef4b8346fd0e09855d791a",
+    "layer_styles/earthquakes.qml": "2b09dee7b7ea153c437ef01a64c4931e53d1f1f4e4a5cb0fc0cf57a8160cd0b4",
+    "layer_styles/waterways.qml": "c93c59484da94f0050eeedf107f51cb9e32f9876a957afebf686b44640a2f2d9",
+    "layout_templates/Kunming_Indicator_Framework_Distribution.qpt": "7d7f8eadf6e8305f4fbb3864ceb262c8899f4cbf39f03ec1f4a813d557f5309c",
+    "symbols/left_lateral_arrows.svg": "26f385093407f3b94b60597c0fe1914e6415b934c265c38acde46df58c3d4942",
+    "symbols/north_arrow.svg": "ca66434ecd06ec79527c9cf1c91bd84432c6057d79f35f1eccd00751600a6022"
+  },
+  "path_relocation_checked_on": "2026-10-19",
+  "current_file_hashes": {
+    "layer_styles/hillshade.qml": "059df7cac1077cc70c58751fdfc8ee02fda36064bd3271d6fe772dba1cb77515",
+    "layer_styles/streets.qml": "9cceb59fc005741c6bb563ced1dc30578bf874a75f59724def79baf31db97318",
+    "layer_styles/dianchi.qml": "b975487184cf9b58c61a9873c40d189e032f93df29627c957da7a7d997e3ce5e",
+    "layer_styles/districts.qml": "329eb5ade9596052c12e9d5c0367a423c016589f3834aaa23b0c0bb35e9e9f12",
+    "layer_styles/event_2026.qml": "8f6a29011bda2c76902a5520ab3b97acdb9d926cd8ce23c27c1d4befe875ed55",
+    "layer_styles/indicator.qml": "cda41d9341cff2e0f9d53e0f3947bf0ae789e0022d2d29f4cb75a8b4d42d9044",
+    "layer_styles/faults.qml": "83acc9145471bbe7af2ea293bbac6129ac87e2160c6f4e5232a9ce1553225e4c",
+    "layer_styles/earthquakes.qml": "69df2a029dd93259e21c5c6aa6e6edf94d1b4aee01fc21bb332108e85e4b60c1",
+    "layer_styles/waterways.qml": "4339212a0a689566730de9e5bfe685d6b21b3d513f0b83ecf60b2bfb03367e9a",
+    "layout_templates/Kunming_Indicator_Framework_Distribution.qpt": "ab5f3216351938ff15b14aee3c61072f85446d156cccdd09559228ebcc987af0",
+    "symbols/left_lateral_arrows.svg": "26f385093407f3b94b60597c0fe1914e6415b934c265c38acde46df58c3d4942",
+    "symbols/north_arrow.svg": "ca66434ecd06ec79527c9cf1c91bd84432c6057d79f35f1eccd00751600a6022"
+  }
+}
