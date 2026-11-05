@@ -5,10 +5,12 @@
 # A .py first argument runs with $PYTHON (default: the seismic conda env).
 # SEISMIC_ALLOW_PROTECTED_WRITES=1 disables the protection for an intentional rebuild/publish.
 set -eu
-POLICY="${0:A:h}/protected_writes.sb"
+ROOT="${0:A:h:h:h}"
+POLICY="$(mktemp -t protected_writes).sb"
+sed "s#@ROOT@#${ROOT}#g" "${0:A:h}/protected_writes.sb" > "$POLICY"
 export PYTHONDONTWRITEBYTECODE=1
 if [[ "${1:-}" == *.py ]]; then
-  set -- "${PYTHON:-/Users/bin/miniforge3/envs/seismic/bin/python}" "$@"
+  set -- "${PYTHON:-python}" "$@"
 fi
 if [[ "${SEISMIC_ALLOW_PROTECTED_WRITES:-0}" == 1 ]]; then
   print -u2 "run_protected: protection DISABLED (SEISMIC_ALLOW_PROTECTED_WRITES=1)"

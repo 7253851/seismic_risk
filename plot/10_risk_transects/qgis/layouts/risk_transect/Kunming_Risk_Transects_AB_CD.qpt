@@ -4060,24 +4060,24 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/station_markers.gpkg|layername=transect_stations" name="Distance markers A-B">Distance_markers_A_B_a406d9a5_6044_4b45_b41c_427082c2ad0b</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/risk_transect.gpkg|layername=transect_AB" name="Transect A-B">Transect_A_B_e446e8a7_554b_41c7_9226_a26247afbf89</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/risk_transect.gpkg|layername=corridor_1000m" name="Buffer A-B: 1 km each side">Buffer_A_B__1_km_each_side_921e10de_159c_4001_b638_65a47e3696d8</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/CD/station_markers.gpkg|layername=transect_stations" name="Distance markers C-D">Distance_markers_C_D_afad89ad_7aa8_4e3e_9a02_a7063a1b2de5</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/CD/risk_transect.gpkg|layername=transect_CD" name="Transect C-D">Transect_C_D_6f94c187_8998_45d5_956e_98e94c583f95</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/CD/risk_transect.gpkg|layername=corridor_1000m" name="Buffer C-D: 1 km each side">Buffer_C_D__1_km_each_side_a1c38c52_3050_47ea_b891_884855e77e7b</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp" name="地震震中 · 深度 10 km">__________10_km_3cddf192_2cc1_4106_b678_95e5c0589ef4</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp" name="昆明周边历史地震 · 原项目84点">______________84__edd1d178_ecfb_4b0e_bc06_056068f627d0</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched" name="断层 · 危险性计算输入（59 条记录）">_____________59______aff55151_d216_4549_890a_4d2050d99eda</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp" name="滇池边界 · 2016年文献参考岸线">_______2016________aadd870a_4324_47ef_8cca_bcaabe07512a</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" name="五大区县级边界 · 五华/盘龙/西山/官渡/呈贡">____________14__f286df56_d4d7_440f_9fe7_b414d6da29e3</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp" name="昆明乡镇街道边界 · 原项目134面">______________134__c1dc1597_8c4e_41cf_a9b3_c79161a1ac27</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/result/risk/scs_paper_method/building_risk.gpkg|layername=building_risk_scs" name="建筑最终风险 R · SCS 五级">_______R_c6c2d25d_a3f1_427c_bb62_db32a013d141</Layer>
-   <Layer provider="ogr" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways" name="OSM waterways · 无标注">OSM_waterways_______87071cc0_b295_4a41_8228_12a15e5aeb29</Layer>
-   <Layer provider="gdal" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif" name="灰色山体阴影 · Esri World Hillshade（底图缓存）">_______Esri_World_Hillshade_______1c6ca26a_163e_4015_bc1c_cb087ad04012</Layer>
+   <Layer provider="ogr" source="../../../../../result/statistics/Risk/transect/station_markers.gpkg|layername=transect_stations" name="Distance markers A-B">Distance_markers_A_B_a406d9a5_6044_4b45_b41c_427082c2ad0b</Layer>
+   <Layer provider="ogr" source="../../../../../result/statistics/Risk/transect/risk_transect.gpkg|layername=transect_AB" name="Transect A-B">Transect_A_B_e446e8a7_554b_41c7_9226_a26247afbf89</Layer>
+   <Layer provider="ogr" source="../../../../../result/statistics/Risk/transect/risk_transect.gpkg|layername=corridor_1000m" name="Buffer A-B: 1 km each side">Buffer_A_B__1_km_each_side_921e10de_159c_4001_b638_65a47e3696d8</Layer>
+   <Layer provider="ogr" source="../../../../../result/statistics/Risk/transect/CD/station_markers.gpkg|layername=transect_stations" name="Distance markers C-D">Distance_markers_C_D_afad89ad_7aa8_4e3e_9a02_a7063a1b2de5</Layer>
+   <Layer provider="ogr" source="../../../../../result/statistics/Risk/transect/CD/risk_transect.gpkg|layername=transect_CD" name="Transect C-D">Transect_C_D_6f94c187_8998_45d5_956e_98e94c583f95</Layer>
+   <Layer provider="ogr" source="../../../../../result/statistics/Risk/transect/CD/risk_transect.gpkg|layername=corridor_1000m" name="Buffer C-D: 1 km each side">Buffer_C_D__1_km_each_side_a1c38c52_3050_47ea_b891_884855e77e7b</Layer>
+   <Layer provider="ogr" source="../../../../../data/validation/cases/event_epicenter.shp" name="地震震中 · 深度 10 km">__________10_km_3cddf192_2cc1_4106_b678_95e5c0589ef4</Layer>
+   <Layer provider="ogr" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp" name="昆明周边历史地震 · 原项目84点">______________84__edd1d178_ecfb_4b0e_bc06_056068f627d0</Layer>
+   <Layer provider="ogr" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched" name="断层 · 危险性计算输入（59 条记录）">_____________59______aff55151_d216_4549_890a_4d2050d99eda</Layer>
+   <Layer provider="ogr" source="../../../../../data/water/dianchi_2016_reference.shp" name="滇池边界 · 2016年文献参考岸线">_______2016________aadd870a_4324_47ef_8cca_bcaabe07512a</Layer>
+   <Layer provider="ogr" source="../../../../../data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" name="五大区县级边界 · 五华/盘龙/西山/官渡/呈贡">____________14__f286df56_d4d7_440f_9fe7_b414d6da29e3</Layer>
+   <Layer provider="ogr" source="../../../../../data/administrative/kunming_streets.shp" name="昆明乡镇街道边界 · 原项目134面">______________134__c1dc1597_8c4e_41cf_a9b3_c79161a1ac27</Layer>
+   <Layer provider="ogr" source="../../../../../result/risk/scs_paper_method/building_risk.gpkg|layername=building_risk_scs" name="建筑最终风险 R · SCS 五级">_______R_c6c2d25d_a3f1_427c_bb62_db32a013d141</Layer>
+   <Layer provider="ogr" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways" name="OSM waterways · 无标注">OSM_waterways_______87071cc0_b295_4a41_8228_12a15e5aeb29</Layer>
+   <Layer provider="gdal" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif" name="灰色山体阴影 · Esri World Hillshade（底图缓存）">_______Esri_World_Hillshade_______1c6ca26a_163e_4015_bc1c_cb087ad04012</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" layerid="Buffer_A_B__1_km_each_side_921e10de_159c_4001_b638_65a47e3696d8" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/risk_transect.gpkg|layername=corridor_1000m" name="Buffer A-B: 1 km each side">
+   <LayerStyle provider="ogr" layerid="Buffer_A_B__1_km_each_side_921e10de_159c_4001_b638_65a47e3696d8" source="../../../../../result/statistics/Risk/transect/risk_transect.gpkg|layername=corridor_1000m" name="Buffer A-B: 1 km each side">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" version="3.44.15-Solothurn" maxScale="0" readOnly="0" simplifyDrawingHints="1">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4355,7 +4355,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="Buffer_C_D__1_km_each_side_a1c38c52_3050_47ea_b891_884855e77e7b" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/CD/risk_transect.gpkg|layername=corridor_1000m" name="Buffer C-D: 1 km each side">
+   <LayerStyle provider="ogr" layerid="Buffer_C_D__1_km_each_side_a1c38c52_3050_47ea_b891_884855e77e7b" source="../../../../../result/statistics/Risk/transect/CD/risk_transect.gpkg|layername=corridor_1000m" name="Buffer C-D: 1 km each side">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" version="3.44.15-Solothurn" maxScale="0" readOnly="0" simplifyDrawingHints="1">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4633,7 +4633,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="Distance_markers_A_B_a406d9a5_6044_4b45_b41c_427082c2ad0b" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/station_markers.gpkg|layername=transect_stations" name="Distance markers A-B">
+   <LayerStyle provider="ogr" layerid="Distance_markers_A_B_a406d9a5_6044_4b45_b41c_427082c2ad0b" source="../../../../../result/statistics/Risk/transect/station_markers.gpkg|layername=transect_stations" name="Distance markers A-B">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" version="3.44.15-Solothurn" maxScale="0" readOnly="0" simplifyDrawingHints="1">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4919,7 +4919,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="Distance_markers_C_D_afad89ad_7aa8_4e3e_9a02_a7063a1b2de5" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/CD/station_markers.gpkg|layername=transect_stations" name="Distance markers C-D">
+   <LayerStyle provider="ogr" layerid="Distance_markers_C_D_afad89ad_7aa8_4e3e_9a02_a7063a1b2de5" source="../../../../../result/statistics/Risk/transect/CD/station_markers.gpkg|layername=transect_stations" name="Distance markers C-D">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" version="3.44.15-Solothurn" maxScale="0" readOnly="0" simplifyDrawingHints="1">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5205,7 +5205,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="OSM_waterways_______87071cc0_b295_4a41_8228_12a15e5aeb29" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways" name="OSM waterways · 无标注">
+   <LayerStyle provider="ogr" layerid="OSM_waterways_______87071cc0_b295_4a41_8228_12a15e5aeb29" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways" name="OSM waterways · 无标注">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" readOnly="1" maxScale="0" version="3.44.15-Solothurn" simplifyDrawingHints="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5510,7 +5510,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="Transect_A_B_e446e8a7_554b_41c7_9226_a26247afbf89" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/risk_transect.gpkg|layername=transect_AB" name="Transect A-B">
+   <LayerStyle provider="ogr" layerid="Transect_A_B_e446e8a7_554b_41c7_9226_a26247afbf89" source="../../../../../result/statistics/Risk/transect/risk_transect.gpkg|layername=transect_AB" name="Transect A-B">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" version="3.44.15-Solothurn" maxScale="0" readOnly="0" simplifyDrawingHints="1">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5842,7 +5842,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="Transect_C_D_6f94c187_8998_45d5_956e_98e94c583f95" source="/Users/bin/Projects/seismic_risk/result/statistics/Risk/transect/CD/risk_transect.gpkg|layername=transect_CD" name="Transect C-D">
+   <LayerStyle provider="ogr" layerid="Transect_C_D_6f94c187_8998_45d5_956e_98e94c583f95" source="../../../../../result/statistics/Risk/transect/CD/risk_transect.gpkg|layername=transect_CD" name="Transect C-D">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" version="3.44.15-Solothurn" maxScale="0" readOnly="0" simplifyDrawingHints="1">
      <flags>
       <Identifiable>1</Identifiable>
@@ -6174,7 +6174,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="_______2016________aadd870a_4324_47ef_8cca_bcaabe07512a" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp" name="滇池边界 · 2016年文献参考岸线">
+   <LayerStyle provider="ogr" layerid="_______2016________aadd870a_4324_47ef_8cca_bcaabe07512a" source="../../../../../data/water/dianchi_2016_reference.shp" name="滇池边界 · 2016年文献参考岸线">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" readOnly="1" maxScale="0" version="3.44.15-Solothurn" simplifyDrawingHints="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -6463,7 +6463,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" layerid="_______Esri_World_Hillshade_______1c6ca26a_163e_4015_bc1c_cb087ad04012" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif" name="灰色山体阴影 · Esri World Hillshade（底图缓存）">
+   <LayerStyle provider="gdal" layerid="_______Esri_World_Hillshade_______1c6ca26a_163e_4015_bc1c_cb087ad04012" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif" name="灰色山体阴影 · Esri World Hillshade（底图缓存）">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" version="3.44.15-Solothurn">
      <flags>
       <Identifiable>1</Identifiable>
@@ -6629,7 +6629,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="_______R_c6c2d25d_a3f1_427c_bb62_db32a013d141" source="/Users/bin/Projects/seismic_risk/result/risk/scs_paper_method/building_risk.gpkg|layername=building_risk_scs" name="建筑最终风险 R · SCS 五级">
+   <LayerStyle provider="ogr" layerid="_______R_c6c2d25d_a3f1_427c_bb62_db32a013d141" source="../../../../../result/risk/scs_paper_method/building_risk.gpkg|layername=building_risk_scs" name="建筑最终风险 R · SCS 五级">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" readOnly="1" maxScale="0" version="3.44.15-Solothurn" simplifyDrawingHints="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7230,7 +7230,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="__________10_km_3cddf192_2cc1_4106_b678_95e5c0589ef4" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp" name="地震震中 · 深度 10 km">
+   <LayerStyle provider="ogr" layerid="__________10_km_3cddf192_2cc1_4106_b678_95e5c0589ef4" source="../../../../../data/validation/cases/event_epicenter.shp" name="地震震中 · 深度 10 km">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" maxScale="0" readOnly="1" version="3.44.15-Solothurn" simplifyDrawingHints="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7664,7 +7664,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="____________14__f286df56_d4d7_440f_9fe7_b414d6da29e3" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" name="五大区县级边界 · 五华/盘龙/西山/官渡/呈贡">
+   <LayerStyle provider="ogr" layerid="____________14__f286df56_d4d7_440f_9fe7_b414d6da29e3" source="../../../../../data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" name="五大区县级边界 · 五华/盘龙/西山/官渡/呈贡">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" maxScale="0" readOnly="1" version="3.44.15-Solothurn" simplifyDrawingHints="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -8051,7 +8051,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="_____________59______aff55151_d216_4549_890a_4d2050d99eda" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched" name="断层 · 危险性计算输入（59 条记录）">
+   <LayerStyle provider="ogr" layerid="_____________59______aff55151_d216_4549_890a_4d2050d99eda" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched" name="断层 · 危险性计算输入（59 条记录）">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" readOnly="1" maxScale="0" version="3.44.15-Solothurn" simplifyDrawingHints="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -8537,7 +8537,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option type="QString" name="fault_literature/original_source" value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" />
+       <Option type="QString" name="fault_literature/original_source" value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" />
        <Option type="QString" name="fault_literature/review_date" value="2026-10-14" />
        <Option type="QString" name="fault_literature/reviewed_input_sha256" value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" />
        <Option type="QString" name="seismic_building/base_key" value="faults" />
@@ -8963,7 +8963,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="______________134__c1dc1597_8c4e_41cf_a9b3_c79161a1ac27" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp" name="昆明乡镇街道边界 · 原项目134面">
+   <LayerStyle provider="ogr" layerid="______________134__c1dc1597_8c4e_41cf_a9b3_c79161a1ac27" source="../../../../../data/administrative/kunming_streets.shp" name="昆明乡镇街道边界 · 原项目134面">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" maxScale="0" readOnly="1" version="3.44.15-Solothurn" simplifyDrawingHints="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -9337,7 +9337,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" layerid="______________84__edd1d178_ecfb_4b0e_bc06_056068f627d0" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp" name="昆明周边历史地震 · 原项目84点">
+   <LayerStyle provider="ogr" layerid="______________84__edd1d178_ecfb_4b0e_bc06_056068f627d0" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp" name="昆明周边历史地震 · 原项目84点">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" maxScale="0" readOnly="1" version="3.44.15-Solothurn" simplifyDrawingHints="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -9918,7 +9918,7 @@
    <Option type="QString" name="seismic_building/print_optimized" value="english_map_annotations_v12" />
    <Option type="QString" name="seismic_building/reference_point_symbols" value="{'earthquake_symbol': 'red triangle with white casing', 'earthquake_size_mm': 3.8, 'earthquake_color': '#E22D32', 'gnss_symbol': 'red five-point star with white casing', 'gnss_longitude': 102.8, 'gnss_latitude': 25.03, 'gnss_size_mm': 6.0, 'gnss_label': 'GNSS station', 'gnss_label_font_pt': 12, 'gnss_label_leader': False, 'gnss_reference': '01_study_area/layouts/study_area/build_layout.py and verification.json', 'legend_entries': ['Earthquakes', 'GNSS station', 'Faults', 'Left-lateral'], 'background': 'transparent'}" />
    <Option type="QString" name="seismic_building/result" value="SCS_final_risk" />
-   <Option type="QString" name="seismic_building/style_pack" value="/Users/bin/Projects/seismic_risk/plot/shared/styles/Kunming_Indicator_Framework_Distribution" />
+   <Option type="QString" name="seismic_building/style_pack" value="../../../../../plot/shared/styles/Kunming_Indicator_Framework_Distribution" />
    <Option type="bool" name="singleFile" value="true" />
   </Option>
  </customproperties>

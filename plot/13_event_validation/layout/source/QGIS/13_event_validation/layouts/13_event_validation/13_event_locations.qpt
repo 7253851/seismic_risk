@@ -1109,11 +1109,11 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer name="Validation-building outlines - satellite insets" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr">Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda</Layer>
-   <Layer name="A - YUFE South - World Imagery L19" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif" provider="gdal">A___YUFE_South___World_Imagery_L19_e9d430be_cbbb_4deb_a488_99e904c1a399</Layer>
+   <Layer name="Validation-building outlines - satellite insets" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr">Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda</Layer>
+   <Layer name="A - YUFE South - World Imagery L19" source="../../../../../../../../result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif" provider="gdal">A___YUFE_South___World_Imagery_L19_e9d430be_cbbb_4deb_a488_99e904c1a399</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle name="A - YUFE South - World Imagery L19" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif" provider="gdal" layerid="A___YUFE_South___World_Imagery_L19_e9d430be_cbbb_4deb_a488_99e904c1a399">
+   <LayerStyle name="A - YUFE South - World Imagery L19" source="../../../../../../../../result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif" provider="gdal" layerid="A___YUFE_South___World_Imagery_L19_e9d430be_cbbb_4deb_a488_99e904c1a399">
     <qgis maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08">
      <flags>
       <Identifiable>1</Identifiable>
@@ -1269,7 +1269,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Validation-building outlines - satellite insets" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr" layerid="Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda">
+   <LayerStyle name="Validation-building outlines - satellite insets" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr" layerid="Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -1732,11 +1732,11 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer name="Validation-building outlines - satellite insets" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr">Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda</Layer>
-   <Layer name="C - YNAU West - World Imagery L19" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif" provider="gdal">C___YNAU_West___World_Imagery_L19_589e0e5e_719b_474a_ae5a_646767d50867</Layer>
+   <Layer name="Validation-building outlines - satellite insets" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr">Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda</Layer>
+   <Layer name="C - YNAU West - World Imagery L19" source="../../../../../../../../result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif" provider="gdal">C___YNAU_West___World_Imagery_L19_589e0e5e_719b_474a_ae5a_646767d50867</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle name="C - YNAU West - World Imagery L19" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif" provider="gdal" layerid="C___YNAU_West___World_Imagery_L19_589e0e5e_719b_474a_ae5a_646767d50867">
+   <LayerStyle name="C - YNAU West - World Imagery L19" source="../../../../../../../../result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif" provider="gdal" layerid="C___YNAU_West___World_Imagery_L19_589e0e5e_719b_474a_ae5a_646767d50867">
     <qgis maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08">
      <flags>
       <Identifiable>1</Identifiable>
@@ -1892,7 +1892,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Validation-building outlines - satellite insets" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr" layerid="Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda">
+   <LayerStyle name="Validation-building outlines - satellite insets" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr" layerid="Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4475,21 +4475,21 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer name="Validation sites - YUFE and YNAU" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=validation_locations" provider="ogr">Validation_sites___YUFE_and_YNAU_3a9c0162_65d2_4902_8bdf_4b19d776b589</Layer>
-   <Layer name="2026-09-30 epicenter" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=event_epicenter" provider="ogr">2026_09_30_epicenter_319fb489_5ba1_48e5_856b_4c362fdb47b1</Layer>
-   <Layer name="Validation buildings - 34360 and 35945" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr">Validation_buildings___34360_and_35945_b772ab36_7a53_4f6a_819c_137984c87acf</Layer>
-   <Layer name="Satellite inset extents A and C" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=inset_extents" provider="ogr">Satellite_inset_extents_A_and_C_cab7d844_6175_4ee3_b9d8_a9dc433d8645</Layer>
-   <Layer name="Campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_boundaries" provider="ogr">Campus_reference_boundaries_3350700e_d5c7_404d_b040_6a32a8426aef</Layer>
-   <Layer name="Local fault traces" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=local_faults" provider="ogr">Local_fault_traces_581fae68_5add_4c88_900e_91a89209c323</Layer>
-   <Layer name="District boundaries" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" provider="ogr">_________________________5467471f_7da7_43e3_a6b2_da8da1d309d2</Layer>
-   <Layer name="Subdistrict boundaries" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp" provider="ogr">______________134__8f0e2d7f_17b9_4367_97a3_dcefb97f35df</Layer>
-   <Layer name="Campus building inventory - 188" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_buildings" provider="ogr">Campus_building_inventory___188_2f59672b_7423_465a_aaa2_b08f346c9fd0</Layer>
-   <Layer name="Building footprints - gray model" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=white_model_buildings" provider="ogr">Building_footprints___gray_model_e4ee54ae_3c22_45ae_acb6_768b8eb7b27d</Layer>
-   <Layer name="Waterways" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways" provider="ogr">OSM_waterways_______2475fd1a_db62_497f_ab45_9b49798f1bce</Layer>
-   <Layer name="Gray hillshade - local cache" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif" provider="gdal">_________Esri_World_Hillshade_______8ba5de5b_02d7_432b_afc1_d5aea042a7ba</Layer>
+   <Layer name="Validation sites - YUFE and YNAU" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=validation_locations" provider="ogr">Validation_sites___YUFE_and_YNAU_3a9c0162_65d2_4902_8bdf_4b19d776b589</Layer>
+   <Layer name="2026-09-30 epicenter" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=event_epicenter" provider="ogr">2026_09_30_epicenter_319fb489_5ba1_48e5_856b_4c362fdb47b1</Layer>
+   <Layer name="Validation buildings - 34360 and 35945" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr">Validation_buildings___34360_and_35945_b772ab36_7a53_4f6a_819c_137984c87acf</Layer>
+   <Layer name="Satellite inset extents A and C" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=inset_extents" provider="ogr">Satellite_inset_extents_A_and_C_cab7d844_6175_4ee3_b9d8_a9dc433d8645</Layer>
+   <Layer name="Campus reference boundaries" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_boundaries" provider="ogr">Campus_reference_boundaries_3350700e_d5c7_404d_b040_6a32a8426aef</Layer>
+   <Layer name="Local fault traces" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=local_faults" provider="ogr">Local_fault_traces_581fae68_5add_4c88_900e_91a89209c323</Layer>
+   <Layer name="District boundaries" source="../../../../../../../../data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" provider="ogr">_________________________5467471f_7da7_43e3_a6b2_da8da1d309d2</Layer>
+   <Layer name="Subdistrict boundaries" source="../../../../../../../../data/administrative/kunming_streets.shp" provider="ogr">______________134__8f0e2d7f_17b9_4367_97a3_dcefb97f35df</Layer>
+   <Layer name="Campus building inventory - 188" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_buildings" provider="ogr">Campus_building_inventory___188_2f59672b_7423_465a_aaa2_b08f346c9fd0</Layer>
+   <Layer name="Building footprints - gray model" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=white_model_buildings" provider="ogr">Building_footprints___gray_model_e4ee54ae_3c22_45ae_acb6_768b8eb7b27d</Layer>
+   <Layer name="Waterways" source="../../../../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways" provider="ogr">OSM_waterways_______2475fd1a_db62_497f_ab45_9b49798f1bce</Layer>
+   <Layer name="Gray hillshade - local cache" source="../../../../../../../../data/cartography/terrain/kunming_esri_hillshade.tif" provider="gdal">_________Esri_World_Hillshade_______8ba5de5b_02d7_432b_afc1_d5aea042a7ba</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle name="2026-09-30 epicenter" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=event_epicenter" provider="ogr" layerid="2026_09_30_epicenter_319fb489_5ba1_48e5_856b_4c362fdb47b1">
+   <LayerStyle name="2026-09-30 epicenter" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=event_epicenter" provider="ogr" layerid="2026_09_30_epicenter_319fb489_5ba1_48e5_856b_4c362fdb47b1">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4819,7 +4819,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Building footprints - gray model" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=white_model_buildings" provider="ogr" layerid="Building_footprints___gray_model_e4ee54ae_3c22_45ae_acb6_768b8eb7b27d">
+   <LayerStyle name="Building footprints - gray model" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=white_model_buildings" provider="ogr" layerid="Building_footprints___gray_model_e4ee54ae_3c22_45ae_acb6_768b8eb7b27d">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5097,7 +5097,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Campus building inventory - 188" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_buildings" provider="ogr" layerid="Campus_building_inventory___188_2f59672b_7423_465a_aaa2_b08f346c9fd0">
+   <LayerStyle name="Campus building inventory - 188" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_buildings" provider="ogr" layerid="Campus_building_inventory___188_2f59672b_7423_465a_aaa2_b08f346c9fd0">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5650,7 +5650,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_boundaries" provider="ogr" layerid="Campus_reference_boundaries_3350700e_d5c7_404d_b040_6a32a8426aef">
+   <LayerStyle name="Campus reference boundaries" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_boundaries" provider="ogr" layerid="Campus_reference_boundaries_3350700e_d5c7_404d_b040_6a32a8426aef">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -6082,7 +6082,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Local fault traces" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=local_faults" provider="ogr" layerid="Local_fault_traces_581fae68_5add_4c88_900e_91a89209c323">
+   <LayerStyle name="Local fault traces" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=local_faults" provider="ogr" layerid="Local_fault_traces_581fae68_5add_4c88_900e_91a89209c323">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="1">
      <flags>
       <Identifiable>1</Identifiable>
@@ -6829,7 +6829,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Waterways" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways" provider="ogr" layerid="OSM_waterways_______2475fd1a_db62_497f_ab45_9b49798f1bce">
+   <LayerStyle name="Waterways" source="../../../../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways" provider="ogr" layerid="OSM_waterways_______2475fd1a_db62_497f_ab45_9b49798f1bce">
     <qgis readOnly="1" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7142,7 +7142,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Satellite inset extents A and C" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=inset_extents" provider="ogr" layerid="Satellite_inset_extents_A_and_C_cab7d844_6175_4ee3_b9d8_a9dc433d8645">
+   <LayerStyle name="Satellite inset extents A and C" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=inset_extents" provider="ogr" layerid="Satellite_inset_extents_A_and_C_cab7d844_6175_4ee3_b9d8_a9dc433d8645">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7420,7 +7420,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Validation buildings - 34360 and 35945" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr" layerid="Validation_buildings___34360_and_35945_b772ab36_7a53_4f6a_819c_137984c87acf">
+   <LayerStyle name="Validation buildings - 34360 and 35945" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings" provider="ogr" layerid="Validation_buildings___34360_and_35945_b772ab36_7a53_4f6a_819c_137984c87acf">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7808,7 +7808,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Validation sites - YUFE and YNAU" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=validation_locations" provider="ogr" layerid="Validation_sites___YUFE_and_YNAU_3a9c0162_65d2_4902_8bdf_4b19d776b589">
+   <LayerStyle name="Validation sites - YUFE and YNAU" source="../../../../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=validation_locations" provider="ogr" layerid="Validation_sites___YUFE_and_YNAU_3a9c0162_65d2_4902_8bdf_4b19d776b589">
     <qgis readOnly="0" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -8190,7 +8190,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Gray hillshade - local cache" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif" provider="gdal" layerid="_________Esri_World_Hillshade_______8ba5de5b_02d7_432b_afc1_d5aea042a7ba">
+   <LayerStyle name="Gray hillshade - local cache" source="../../../../../../../../data/cartography/terrain/kunming_esri_hillshade.tif" provider="gdal" layerid="_________Esri_World_Hillshade_______8ba5de5b_02d7_432b_afc1_d5aea042a7ba">
     <qgis maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08">
      <flags>
       <Identifiable>1</Identifiable>
@@ -8356,7 +8356,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="Subdistrict boundaries" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp" provider="ogr" layerid="______________134__8f0e2d7f_17b9_4367_97a3_dcefb97f35df">
+   <LayerStyle name="Subdistrict boundaries" source="../../../../../../../../data/administrative/kunming_streets.shp" provider="ogr" layerid="______________134__8f0e2d7f_17b9_4367_97a3_dcefb97f35df">
     <qgis readOnly="1" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -8738,7 +8738,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="District boundaries" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" provider="ogr" layerid="_________________________5467471f_7da7_43e3_a6b2_da8da1d309d2">
+   <LayerStyle name="District boundaries" source="../../../../../../../../data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" provider="ogr" layerid="_________________________5467471f_7da7_43e3_a6b2_da8da1d309d2">
     <qgis readOnly="1" maxScale="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" simplifyMaxScale="1" autoRefreshTime="0" minScale="100000000" labelsEnabled="0">
      <flags>
       <Identifiable>1</Identifiable>

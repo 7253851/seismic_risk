@@ -16,12 +16,12 @@ import sys
 from collections import Counter
 from pathlib import Path
 import sys
-sys.path.insert(0, "/Users/bin/Projects/seismic_risk/project/code")
-sys.path.insert(0, "/Users/bin/Projects/seismic_risk/plot/shared")
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "project/code"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "plot/shared"))
 
 os.environ.setdefault("MPLCONFIGDIR", "/private/tmp/seismic-hazard-mpl")
 os.environ.setdefault("XDG_CACHE_HOME", "/private/tmp/seismic-hazard-cache")
-SCRIPT_ROOT = Path("/Users/bin/Projects/seismic_risk/project/code")
+SCRIPT_ROOT = (Path(__file__).resolve().parents[3] / "project/code")
 if str(SCRIPT_ROOT) not in sys.path:
     sys.path.insert(0, str(SCRIPT_ROOT))
 

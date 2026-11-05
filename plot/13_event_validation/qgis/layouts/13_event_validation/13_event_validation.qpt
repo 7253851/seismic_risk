@@ -17574,11 +17574,11 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Validation-building outlines - satellite insets" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda</Layer>
-   <Layer provider="gdal" name="C - YNAU West - World Imagery L19" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif">C___YNAU_West___World_Imagery_L19_589e0e5e_719b_474a_ae5a_646767d50867</Layer>
+   <Layer provider="ogr" name="Validation-building outlines - satellite insets" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda</Layer>
+   <Layer provider="gdal" name="C - YNAU West - World Imagery L19" source="../../../../../result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif">C___YNAU_West___World_Imagery_L19_589e0e5e_719b_474a_ae5a_646767d50867</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="gdal" name="C - YNAU West - World Imagery L19" layerid="C___YNAU_West___World_Imagery_L19_589e0e5e_719b_474a_ae5a_646767d50867" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif">
+   <LayerStyle provider="gdal" name="C - YNAU West - World Imagery L19" layerid="C___YNAU_West___World_Imagery_L19_589e0e5e_719b_474a_ae5a_646767d50867" source="../../../../../result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -17734,7 +17734,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Validation-building outlines - satellite insets" layerid="Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">
+   <LayerStyle provider="ogr" name="Validation-building outlines - satellite insets" layerid="Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -18197,11 +18197,11 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Validation-building outlines - satellite insets" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda</Layer>
-   <Layer provider="gdal" name="A - YUFE South - World Imagery L19" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif">A___YUFE_South___World_Imagery_L19_e9d430be_cbbb_4deb_a488_99e904c1a399</Layer>
+   <Layer provider="ogr" name="Validation-building outlines - satellite insets" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda</Layer>
+   <Layer provider="gdal" name="A - YUFE South - World Imagery L19" source="../../../../../result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif">A___YUFE_South___World_Imagery_L19_e9d430be_cbbb_4deb_a488_99e904c1a399</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="gdal" name="A - YUFE South - World Imagery L19" layerid="A___YUFE_South___World_Imagery_L19_e9d430be_cbbb_4deb_a488_99e904c1a399" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif">
+   <LayerStyle provider="gdal" name="A - YUFE South - World Imagery L19" layerid="A___YUFE_South___World_Imagery_L19_e9d430be_cbbb_4deb_a488_99e904c1a399" source="../../../../../result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -18357,7 +18357,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Validation-building outlines - satellite insets" layerid="Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">
+   <LayerStyle provider="ogr" name="Validation-building outlines - satellite insets" layerid="Validation_buildings___34360_and_35945_82a69d43_14ee_4fe2_bab0_5e13a536ffda" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -23268,19 +23268,19 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54</Layer>
-   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
-   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
-   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
-   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · risk" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Risk_Final&quot; IS NOT NULL">YNAU___risk_d7cf6465_904f_4a27_84b4_05643e64abf7</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · risk unavailable" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Risk_Final&quot; IS NULL">YNAU___risk_unavailable_d14579a5_4e56_4803_8348_a994d3ec41de</Layer>
-   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
-   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · campus reference boundaries" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54</Layer>
+   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="../../../../../data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
+   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
+   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
+   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="../../../../../data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · risk" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Risk_Final&quot; IS NOT NULL">YNAU___risk_d7cf6465_904f_4a27_84b4_05643e64abf7</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · risk unavailable" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Risk_Final&quot; IS NULL">YNAU___risk_unavailable_d14579a5_4e56_4803_8348_a994d3ec41de</Layer>
+   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
+   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -23587,7 +23587,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · campus reference boundaries" layerid="YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">
+   <LayerStyle provider="ogr" name="Case source - YNAU · campus reference boundaries" layerid="YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -24030,7 +24030,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" layerid="YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">
+   <LayerStyle provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" layerid="YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -24443,7 +24443,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · risk" layerid="YNAU___risk_d7cf6465_904f_4a27_84b4_05643e64abf7" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Risk_Final&quot; IS NOT NULL">
+   <LayerStyle provider="ogr" name="Case source - YNAU · risk" layerid="YNAU___risk_d7cf6465_904f_4a27_84b4_05643e64abf7" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Risk_Final&quot; IS NOT NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -24938,7 +24938,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · risk unavailable" layerid="YNAU___risk_unavailable_d14579a5_4e56_4803_8348_a994d3ec41de" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Risk_Final&quot; IS NULL">
+   <LayerStyle provider="ogr" name="Case source - YNAU · risk unavailable" layerid="YNAU___risk_unavailable_d14579a5_4e56_4803_8348_a994d3ec41de" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Risk_Final&quot; IS NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -25304,7 +25304,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">
+   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="../../../../../data/water/dianchi_2016_reference.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -25595,7 +25595,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -25763,7 +25763,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">
+   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="../../../../../data/validation/cases/event_epicenter.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -26199,7 +26199,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
+   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -26685,7 +26685,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
+       <Option value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
        <Option value="2026-10-14" name="fault_literature/review_date" type="QString" />
        <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" name="fault_literature/reviewed_input_sha256" type="QString" />
        <Option value="faults" name="seismic_building/base_key" type="QString" />
@@ -27106,7 +27106,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">
+   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -27550,19 +27550,19 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54</Layer>
-   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
-   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
-   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
-   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · exposure" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Exp_Final&quot; IS NOT NULL">YNAU___exposure_489ee071_0b38_4614_b61b_f444c7ab8f63</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · exposure unavailable" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Exp_Final&quot; IS NULL">YNAU___exposure_unavailable_ea44cd34_eb4b_4fe2_b03b_b5eed0064119</Layer>
-   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
-   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · campus reference boundaries" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54</Layer>
+   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="../../../../../data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
+   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
+   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
+   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="../../../../../data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · exposure" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Exp_Final&quot; IS NOT NULL">YNAU___exposure_489ee071_0b38_4614_b61b_f444c7ab8f63</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · exposure unavailable" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Exp_Final&quot; IS NULL">YNAU___exposure_unavailable_ea44cd34_eb4b_4fe2_b03b_b5eed0064119</Layer>
+   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
+   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -27869,7 +27869,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · campus reference boundaries" layerid="YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">
+   <LayerStyle provider="ogr" name="Case source - YNAU · campus reference boundaries" layerid="YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -28312,7 +28312,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · exposure" layerid="YNAU___exposure_489ee071_0b38_4614_b61b_f444c7ab8f63" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Exp_Final&quot; IS NOT NULL">
+   <LayerStyle provider="ogr" name="Case source - YNAU · exposure" layerid="YNAU___exposure_489ee071_0b38_4614_b61b_f444c7ab8f63" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Exp_Final&quot; IS NOT NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -28807,7 +28807,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · exposure unavailable" layerid="YNAU___exposure_unavailable_ea44cd34_eb4b_4fe2_b03b_b5eed0064119" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Exp_Final&quot; IS NULL">
+   <LayerStyle provider="ogr" name="Case source - YNAU · exposure unavailable" layerid="YNAU___exposure_unavailable_ea44cd34_eb4b_4fe2_b03b_b5eed0064119" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Exp_Final&quot; IS NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -29173,7 +29173,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" layerid="YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">
+   <LayerStyle provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" layerid="YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -29586,7 +29586,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">
+   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="../../../../../data/water/dianchi_2016_reference.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -29877,7 +29877,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -30045,7 +30045,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">
+   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="../../../../../data/validation/cases/event_epicenter.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -30481,7 +30481,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
+   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -30967,7 +30967,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
+       <Option value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
        <Option value="2026-10-14" name="fault_literature/review_date" type="QString" />
        <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" name="fault_literature/reviewed_input_sha256" type="QString" />
        <Option value="faults" name="seismic_building/base_key" type="QString" />
@@ -31388,7 +31388,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">
+   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -31832,19 +31832,19 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54</Layer>
-   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
-   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
-   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
-   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · vulnerability" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Vul_Index&quot; IS NOT NULL">YNAU___vulnerability_b3c4fd9e_1d94_49bd_85ef_686580d1a618</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · vulnerability unavailable" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Vul_Index&quot; IS NULL">YNAU___vulnerability_unavailable_0cf52acd_74a5_4ff7_a7d6_fe2dad6a2fa9</Layer>
-   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
-   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · campus reference boundaries" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54</Layer>
+   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="../../../../../data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
+   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
+   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
+   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="../../../../../data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · vulnerability" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Vul_Index&quot; IS NOT NULL">YNAU___vulnerability_b3c4fd9e_1d94_49bd_85ef_686580d1a618</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · vulnerability unavailable" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Vul_Index&quot; IS NULL">YNAU___vulnerability_unavailable_0cf52acd_74a5_4ff7_a7d6_fe2dad6a2fa9</Layer>
+   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
+   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -32151,7 +32151,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · campus reference boundaries" layerid="YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">
+   <LayerStyle provider="ogr" name="Case source - YNAU · campus reference boundaries" layerid="YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -32594,7 +32594,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" layerid="YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">
+   <LayerStyle provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" layerid="YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -33007,7 +33007,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · vulnerability" layerid="YNAU___vulnerability_b3c4fd9e_1d94_49bd_85ef_686580d1a618" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Vul_Index&quot; IS NOT NULL">
+   <LayerStyle provider="ogr" name="Case source - YNAU · vulnerability" layerid="YNAU___vulnerability_b3c4fd9e_1d94_49bd_85ef_686580d1a618" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Vul_Index&quot; IS NOT NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -33502,7 +33502,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · vulnerability unavailable" layerid="YNAU___vulnerability_unavailable_0cf52acd_74a5_4ff7_a7d6_fe2dad6a2fa9" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Vul_Index&quot; IS NULL">
+   <LayerStyle provider="ogr" name="Case source - YNAU · vulnerability unavailable" layerid="YNAU___vulnerability_unavailable_0cf52acd_74a5_4ff7_a7d6_fe2dad6a2fa9" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Vul_Index&quot; IS NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -33868,7 +33868,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">
+   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="../../../../../data/water/dianchi_2016_reference.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -34159,7 +34159,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -34327,7 +34327,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">
+   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="../../../../../data/validation/cases/event_epicenter.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -34763,7 +34763,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
+   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -35249,7 +35249,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
+       <Option value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
        <Option value="2026-10-14" name="fault_literature/review_date" type="QString" />
        <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" name="fault_literature/reviewed_input_sha256" type="QString" />
        <Option value="faults" name="seismic_building/base_key" type="QString" />
@@ -35670,7 +35670,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">
+   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -36114,19 +36114,19 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54</Layer>
-   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
-   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
-   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
-   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · hazard" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;PGA_Final_g&quot; IS NOT NULL">YNAU___hazard_2f5f5445_ed5a_4c5a_bad2_cdc76010a85d</Layer>
-   <Layer provider="ogr" name="Case source - YNAU · hazard unavailable" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;PGA_Final_g&quot; IS NULL">YNAU___hazard_unavailable_71116a32_99d0_435a_b15b_342c163ddfee</Layer>
-   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
-   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · campus reference boundaries" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54</Layer>
+   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="../../../../../data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
+   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
+   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
+   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="../../../../../data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · hazard" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;PGA_Final_g&quot; IS NOT NULL">YNAU___hazard_2f5f5445_ed5a_4c5a_bad2_cdc76010a85d</Layer>
+   <Layer provider="ogr" name="Case source - YNAU · hazard unavailable" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;PGA_Final_g&quot; IS NULL">YNAU___hazard_unavailable_71116a32_99d0_435a_b15b_342c163ddfee</Layer>
+   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
+   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -36433,7 +36433,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · campus reference boundaries" layerid="YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">
+   <LayerStyle provider="ogr" name="Case source - YNAU · campus reference boundaries" layerid="YNAU___campus_reference_boundaries_a9e789f8_fb52_4ddd_89e5_d988edeacd54" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='NY'">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -36876,7 +36876,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · hazard" layerid="YNAU___hazard_2f5f5445_ed5a_4c5a_bad2_cdc76010a85d" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;PGA_Final_g&quot; IS NOT NULL">
+   <LayerStyle provider="ogr" name="Case source - YNAU · hazard" layerid="YNAU___hazard_2f5f5445_ed5a_4c5a_bad2_cdc76010a85d" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;PGA_Final_g&quot; IS NOT NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -37371,7 +37371,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · hazard unavailable" layerid="YNAU___hazard_unavailable_71116a32_99d0_435a_b15b_342c163ddfee" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;PGA_Final_g&quot; IS NULL">
+   <LayerStyle provider="ogr" name="Case source - YNAU · hazard unavailable" layerid="YNAU___hazard_unavailable_71116a32_99d0_435a_b15b_342c163ddfee" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='NY' AND &quot;PGA_Final_g&quot; IS NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -37737,7 +37737,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" layerid="YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">
+   <LayerStyle provider="ogr" name="Case source - YNAU · photographed damage D2 · indicator emphasis" layerid="YNAU___photographed_damage_D2___indicator_emphasis_1f3587b6_0118_41c4_befb_e69bab9fbe49" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='NY' AND &quot;Build_ID&quot;=35945">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -38150,7 +38150,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">
+   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="../../../../../data/water/dianchi_2016_reference.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -38441,7 +38441,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -38609,7 +38609,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">
+   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="../../../../../data/validation/cases/event_epicenter.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -39045,7 +39045,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
+   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -39531,7 +39531,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
+       <Option value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
        <Option value="2026-10-14" name="fault_literature/review_date" type="QString" />
        <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" name="fault_literature/reviewed_input_sha256" type="QString" />
        <Option value="faults" name="seismic_building/base_key" type="QString" />
@@ -39952,7 +39952,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">
+   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -40396,11 +40396,11 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="D2 - observed PS for building 35945" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg|layername=observed_building_PS|subset=&quot;Build_ID&quot; = 35945">Observed_PS___buildings_34360_and_35945_8edb56fa_aa6e_4055_8ec5_dd7dcedbef7e</Layer>
-   <Layer provider="gdal" name="D2 - native L19 satellite imagery" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif">D2___native_L19_satellite_imagery_f1ae20f1_dfef_49ba_9d6b_3dcf14e4d430</Layer>
+   <Layer provider="ogr" name="D2 - observed PS for building 35945" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg|layername=observed_building_PS|subset=&quot;Build_ID&quot; = 35945">Observed_PS___buildings_34360_and_35945_8edb56fa_aa6e_4055_8ec5_dd7dcedbef7e</Layer>
+   <Layer provider="gdal" name="D2 - native L19 satellite imagery" source="../../../../../result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif">D2___native_L19_satellite_imagery_f1ae20f1_dfef_49ba_9d6b_3dcf14e4d430</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="gdal" name="D2 - native L19 satellite imagery" layerid="D2___native_L19_satellite_imagery_f1ae20f1_dfef_49ba_9d6b_3dcf14e4d430" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif">
+   <LayerStyle provider="gdal" name="D2 - native L19 satellite imagery" layerid="D2___native_L19_satellite_imagery_f1ae20f1_dfef_49ba_9d6b_3dcf14e4d430" source="../../../../../result/intermediate/13_event_validation/cartography/satellite/C_building_35945_satellite.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -40556,7 +40556,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="D2 - observed PS for building 35945" layerid="Observed_PS___buildings_34360_and_35945_8edb56fa_aa6e_4055_8ec5_dd7dcedbef7e" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg|layername=observed_building_PS|subset=&quot;Build_ID&quot; = 35945">
+   <LayerStyle provider="ogr" name="D2 - observed PS for building 35945" layerid="Observed_PS___buildings_34360_and_35945_8edb56fa_aa6e_4055_8ec5_dd7dcedbef7e" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg|layername=observed_building_PS|subset=&quot;Build_ID&quot; = 35945">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" symbologyReferenceScale="-1" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" simplifyMaxScale="1" readOnly="0" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -43482,19 +43482,19 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3</Layer>
-   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
-   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
-   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
-   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · risk" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Risk_Final&quot; IS NOT NULL">YUFE___risk_3d12a15f_b80b_42e1_946e_25e23cfeac8a</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · risk unavailable" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Risk_Final&quot; IS NULL">YUFE___risk_unavailable_2f6a188b_3b71_488c_a35a_0571370c1e7b</Layer>
-   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
-   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · campus reference boundaries" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3</Layer>
+   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="../../../../../data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
+   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
+   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
+   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="../../../../../data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · risk" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Risk_Final&quot; IS NOT NULL">YUFE___risk_3d12a15f_b80b_42e1_946e_25e23cfeac8a</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · risk unavailable" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Risk_Final&quot; IS NULL">YUFE___risk_unavailable_2f6a188b_3b71_488c_a35a_0571370c1e7b</Layer>
+   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
+   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -43801,7 +43801,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · campus reference boundaries" layerid="YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">
+   <LayerStyle provider="ogr" name="Case source - YUFE · campus reference boundaries" layerid="YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -44244,7 +44244,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" layerid="YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">
+   <LayerStyle provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" layerid="YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -44657,7 +44657,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · risk" layerid="YUFE___risk_3d12a15f_b80b_42e1_946e_25e23cfeac8a" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Risk_Final&quot; IS NOT NULL">
+   <LayerStyle provider="ogr" name="Case source - YUFE · risk" layerid="YUFE___risk_3d12a15f_b80b_42e1_946e_25e23cfeac8a" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Risk_Final&quot; IS NOT NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -45152,7 +45152,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · risk unavailable" layerid="YUFE___risk_unavailable_2f6a188b_3b71_488c_a35a_0571370c1e7b" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Risk_Final&quot; IS NULL">
+   <LayerStyle provider="ogr" name="Case source - YUFE · risk unavailable" layerid="YUFE___risk_unavailable_2f6a188b_3b71_488c_a35a_0571370c1e7b" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Risk_Final&quot; IS NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -45518,7 +45518,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">
+   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="../../../../../data/water/dianchi_2016_reference.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -45809,7 +45809,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -45977,7 +45977,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">
+   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="../../../../../data/validation/cases/event_epicenter.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -46413,7 +46413,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
+   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -46899,7 +46899,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
+       <Option value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
        <Option value="2026-10-14" name="fault_literature/review_date" type="QString" />
        <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" name="fault_literature/reviewed_input_sha256" type="QString" />
        <Option value="faults" name="seismic_building/base_key" type="QString" />
@@ -47320,7 +47320,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">
+   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -47764,19 +47764,19 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3</Layer>
-   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
-   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
-   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
-   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · exposure" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Exp_Final&quot; IS NOT NULL">YUFE___exposure_94374603_2057_4195_bb66_23aaa4423204</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · exposure unavailable" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Exp_Final&quot; IS NULL">YUFE___exposure_unavailable_2763d3fa_7425_4097_8874_bc9d1b21187b</Layer>
-   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
-   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · campus reference boundaries" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3</Layer>
+   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="../../../../../data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
+   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
+   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
+   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="../../../../../data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · exposure" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Exp_Final&quot; IS NOT NULL">YUFE___exposure_94374603_2057_4195_bb66_23aaa4423204</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · exposure unavailable" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Exp_Final&quot; IS NULL">YUFE___exposure_unavailable_2763d3fa_7425_4097_8874_bc9d1b21187b</Layer>
+   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
+   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -48083,7 +48083,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · campus reference boundaries" layerid="YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">
+   <LayerStyle provider="ogr" name="Case source - YUFE · campus reference boundaries" layerid="YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -48526,7 +48526,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · exposure" layerid="YUFE___exposure_94374603_2057_4195_bb66_23aaa4423204" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Exp_Final&quot; IS NOT NULL">
+   <LayerStyle provider="ogr" name="Case source - YUFE · exposure" layerid="YUFE___exposure_94374603_2057_4195_bb66_23aaa4423204" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Exp_Final&quot; IS NOT NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -49021,7 +49021,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · exposure unavailable" layerid="YUFE___exposure_unavailable_2763d3fa_7425_4097_8874_bc9d1b21187b" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Exp_Final&quot; IS NULL">
+   <LayerStyle provider="ogr" name="Case source - YUFE · exposure unavailable" layerid="YUFE___exposure_unavailable_2763d3fa_7425_4097_8874_bc9d1b21187b" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Exp_Final&quot; IS NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -49387,7 +49387,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" layerid="YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">
+   <LayerStyle provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" layerid="YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -49800,7 +49800,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">
+   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="../../../../../data/water/dianchi_2016_reference.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -50091,7 +50091,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -50259,7 +50259,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">
+   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="../../../../../data/validation/cases/event_epicenter.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -50695,7 +50695,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
+   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -51181,7 +51181,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
+       <Option value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
        <Option value="2026-10-14" name="fault_literature/review_date" type="QString" />
        <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" name="fault_literature/reviewed_input_sha256" type="QString" />
        <Option value="faults" name="seismic_building/base_key" type="QString" />
@@ -51602,7 +51602,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">
+   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -52046,19 +52046,19 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3</Layer>
-   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
-   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
-   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
-   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · vulnerability" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Vul_Index&quot; IS NOT NULL">YUFE___vulnerability_e5f426e9_605b_4c30_a238_48f30322d32c</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · vulnerability unavailable" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Vul_Index&quot; IS NULL">YUFE___vulnerability_unavailable_a611425e_9f72_4944_936e_40b891eac4af</Layer>
-   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
-   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · campus reference boundaries" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3</Layer>
+   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="../../../../../data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
+   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
+   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
+   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="../../../../../data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · vulnerability" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Vul_Index&quot; IS NOT NULL">YUFE___vulnerability_e5f426e9_605b_4c30_a238_48f30322d32c</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · vulnerability unavailable" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Vul_Index&quot; IS NULL">YUFE___vulnerability_unavailable_a611425e_9f72_4944_936e_40b891eac4af</Layer>
+   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
+   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -52365,7 +52365,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · campus reference boundaries" layerid="YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">
+   <LayerStyle provider="ogr" name="Case source - YUFE · campus reference boundaries" layerid="YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -52808,7 +52808,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" layerid="YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">
+   <LayerStyle provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" layerid="YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -53221,7 +53221,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · vulnerability" layerid="YUFE___vulnerability_e5f426e9_605b_4c30_a238_48f30322d32c" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Vul_Index&quot; IS NOT NULL">
+   <LayerStyle provider="ogr" name="Case source - YUFE · vulnerability" layerid="YUFE___vulnerability_e5f426e9_605b_4c30_a238_48f30322d32c" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Vul_Index&quot; IS NOT NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -53716,7 +53716,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · vulnerability unavailable" layerid="YUFE___vulnerability_unavailable_a611425e_9f72_4944_936e_40b891eac4af" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Vul_Index&quot; IS NULL">
+   <LayerStyle provider="ogr" name="Case source - YUFE · vulnerability unavailable" layerid="YUFE___vulnerability_unavailable_a611425e_9f72_4944_936e_40b891eac4af" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Vul_Index&quot; IS NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -54082,7 +54082,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">
+   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="../../../../../data/water/dianchi_2016_reference.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -54373,7 +54373,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -54541,7 +54541,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">
+   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="../../../../../data/validation/cases/event_epicenter.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -54977,7 +54977,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
+   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -55463,7 +55463,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
+       <Option value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
        <Option value="2026-10-14" name="fault_literature/review_date" type="QString" />
        <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" name="fault_literature/reviewed_input_sha256" type="QString" />
        <Option value="faults" name="seismic_building/base_key" type="QString" />
@@ -55884,7 +55884,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">
+   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -56328,19 +56328,19 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3</Layer>
-   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
-   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
-   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
-   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · hazard" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;PGA_Final_g&quot; IS NOT NULL">YUFE___hazard_50b202a2_b1d7_49bf_8ff9_31748339d607</Layer>
-   <Layer provider="ogr" name="Case source - YUFE · hazard unavailable" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;PGA_Final_g&quot; IS NULL">YUFE___hazard_unavailable_164e1c7c_859a_4733_93a8_0a568cc33abd</Layer>
-   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
-   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · campus reference boundaries" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3</Layer>
+   <Layer provider="ogr" name="Case source - 地震震中 · 深度 10 km" source="../../../../../data/validation/cases/event_epicenter.shp">__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee</Layer>
+   <Layer provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e</Layer>
+   <Layer provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed</Layer>
+   <Layer provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" source="../../../../../data/water/dianchi_2016_reference.shp">_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · hazard" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;PGA_Final_g&quot; IS NOT NULL">YUFE___hazard_50b202a2_b1d7_49bf_8ff9_31748339d607</Layer>
+   <Layer provider="ogr" name="Case source - YUFE · hazard unavailable" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;PGA_Final_g&quot; IS NULL">YUFE___hazard_unavailable_164e1c7c_859a_4733_93a8_0a568cc33abd</Layer>
+   <Layer provider="ogr" name="Case source - OSM waterways · 无标注" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553</Layer>
+   <Layer provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Case source - OSM waterways · 无标注" layerid="OSM_waterways_______f3302999_d4a8_4c88_9f5a_22bd54a5c553" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -56647,7 +56647,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · campus reference boundaries" layerid="YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">
+   <LayerStyle provider="ogr" name="Case source - YUFE · campus reference boundaries" layerid="YUFE___campus_reference_boundaries_72d92129_bc8d_4d47_b4df_fc68854f64c3" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_boundaries.fgb|subset=&quot;case_id&quot;='CF'">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -57090,7 +57090,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · hazard" layerid="YUFE___hazard_50b202a2_b1d7_49bf_8ff9_31748339d607" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;PGA_Final_g&quot; IS NOT NULL">
+   <LayerStyle provider="ogr" name="Case source - YUFE · hazard" layerid="YUFE___hazard_50b202a2_b1d7_49bf_8ff9_31748339d607" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;PGA_Final_g&quot; IS NOT NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -57585,7 +57585,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · hazard unavailable" layerid="YUFE___hazard_unavailable_164e1c7c_859a_4733_93a8_0a568cc33abd" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;PGA_Final_g&quot; IS NULL">
+   <LayerStyle provider="ogr" name="Case source - YUFE · hazard unavailable" layerid="YUFE___hazard_unavailable_164e1c7c_859a_4733_93a8_0a568cc33abd" source="../../../../../result/validation/13_event_validation/maps/campus_hver/campus_hver.fgb|subset=&quot;case_id&quot;='CF' AND &quot;PGA_Final_g&quot; IS NULL">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -57951,7 +57951,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" layerid="YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4" source="/Users/bin/Projects/seismic_risk/result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">
+   <LayerStyle provider="ogr" name="Case source - YUFE · photographed damage D1 · indicator emphasis" layerid="YUFE___photographed_damage_D1___indicator_emphasis_45d0ccc7_26e0_4533_87bf_df0f295121d4" source="../../../../../result/validation/13_event_validation/maps/campus_hver/confirmed_damage.fgb|subset=&quot;case_id&quot;='CF' AND &quot;Build_ID&quot;=34360">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -58364,7 +58364,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">
+   <LayerStyle provider="ogr" name="Case source - 滇池边界 · 2016年文献参考岸线" layerid="_______2016________1c659ad3_e5a4_478e_921a_f0d3c08d6519" source="../../../../../data/water/dianchi_2016_reference.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -58655,7 +58655,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Case source - 灰色山体阴影 · Esri World Hillshade（底图缓存）" layerid="_________Esri_World_Hillshade_______48c1d5a3_5589_4a6a_bd28_ddf0e48868a8" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -58823,7 +58823,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">
+   <LayerStyle provider="ogr" name="Case source - 地震震中 · 深度 10 km" layerid="__________10_km_35fc48c8_3742_4858_bac8_6dbb46e6fbee" source="../../../../../data/validation/cases/event_epicenter.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -59259,7 +59259,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
+   <LayerStyle provider="ogr" name="Case source - 断层 · 危险性计算输入（59 条记录）" layerid="_____________59______aa7a7dc9_3342_4e7f_80ce_0c643554f5ed" source="../../../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -59745,7 +59745,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
+       <Option value="../../../../../data/faults/02_Kunming_Fault_Processed.shp" name="fault_literature/original_source" type="QString" />
        <Option value="2026-10-14" name="fault_literature/review_date" type="QString" />
        <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" name="fault_literature/reviewed_input_sha256" type="QString" />
        <Option value="faults" name="seismic_building/base_key" type="QString" />
@@ -60166,7 +60166,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">
+   <LayerStyle provider="ogr" name="Case source - 昆明周边历史地震 · 原项目84点" layerid="______________84__e3e9fc8c_2d47_4ada_9284_05ef4046d67e" source="../../../../../data/earthquakes/kunming_surrounding_earthquakes.shp">
     <qgis simplifyDrawingHints="0" simplifyLocal="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -60610,11 +60610,11 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="D1 - observed PS for building 34360" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg|layername=observed_building_PS|subset=&quot;Build_ID&quot; = 34360">Observed_PS___buildings_34360_and_35945_9aa56534_89f1_4bbd_aa67_5c422a4cc21a</Layer>
-   <Layer provider="gdal" name="D1 - native L19 satellite imagery" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif">D1___native_L19_satellite_imagery_da2a2155_e826_48c8_83ac_902c818d71fd</Layer>
+   <Layer provider="ogr" name="D1 - observed PS for building 34360" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg|layername=observed_building_PS|subset=&quot;Build_ID&quot; = 34360">Observed_PS___buildings_34360_and_35945_9aa56534_89f1_4bbd_aa67_5c422a4cc21a</Layer>
+   <Layer provider="gdal" name="D1 - native L19 satellite imagery" source="../../../../../result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif">D1___native_L19_satellite_imagery_da2a2155_e826_48c8_83ac_902c818d71fd</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="gdal" name="D1 - native L19 satellite imagery" layerid="D1___native_L19_satellite_imagery_da2a2155_e826_48c8_83ac_902c818d71fd" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif">
+   <LayerStyle provider="gdal" name="D1 - native L19 satellite imagery" layerid="D1___native_L19_satellite_imagery_da2a2155_e826_48c8_83ac_902c818d71fd" source="../../../../../result/intermediate/13_event_validation/cartography/satellite/A_building_34360_satellite.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -60770,7 +60770,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="D1 - observed PS for building 34360" layerid="Observed_PS___buildings_34360_and_35945_9aa56534_89f1_4bbd_aa67_5c422a4cc21a" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg|layername=observed_building_PS|subset=&quot;Build_ID&quot; = 34360">
+   <LayerStyle provider="ogr" name="D1 - observed PS for building 34360" layerid="Observed_PS___buildings_34360_and_35945_9aa56534_89f1_4bbd_aa67_5c422a4cc21a" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_validation_composite_PS.gpkg|layername=observed_building_PS|subset=&quot;Build_ID&quot; = 34360">
     <qgis simplifyDrawingHints="1" simplifyLocal="1" version="3.44.15-Solothurn" autoRefreshMode="Disabled" symbologyReferenceScale="-1" autoRefreshTime="0" minScale="100000000" simplifyAlgorithm="0" simplifyMaxScale="1" readOnly="0" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -63696,21 +63696,21 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer provider="ogr" name="Validation sites - YUFE and YNAU" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=validation_locations">Validation_sites___YUFE_and_YNAU_3a9c0162_65d2_4902_8bdf_4b19d776b589</Layer>
-   <Layer provider="ogr" name="2026-09-30 epicenter" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=event_epicenter">2026_09_30_epicenter_319fb489_5ba1_48e5_856b_4c362fdb47b1</Layer>
-   <Layer provider="ogr" name="Validation buildings - 34360 and 35945" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">Validation_buildings___34360_and_35945_b772ab36_7a53_4f6a_819c_137984c87acf</Layer>
-   <Layer provider="ogr" name="Satellite inset extents A and C" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=inset_extents">Satellite_inset_extents_A_and_C_cab7d844_6175_4ee3_b9d8_a9dc433d8645</Layer>
-   <Layer provider="ogr" name="Campus reference boundaries" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_boundaries">Campus_reference_boundaries_3350700e_d5c7_404d_b040_6a32a8426aef</Layer>
-   <Layer provider="ogr" name="Local fault traces" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=local_faults">Local_fault_traces_581fae68_5add_4c88_900e_91a89209c323</Layer>
-   <Layer provider="ogr" name="District boundaries" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')">_________________________5467471f_7da7_43e3_a6b2_da8da1d309d2</Layer>
-   <Layer provider="ogr" name="Subdistrict boundaries" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp">______________134__8f0e2d7f_17b9_4367_97a3_dcefb97f35df</Layer>
-   <Layer provider="ogr" name="Campus building inventory - 188" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_buildings">Campus_building_inventory___188_2f59672b_7423_465a_aaa2_b08f346c9fd0</Layer>
-   <Layer provider="ogr" name="Building footprints - gray model" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=white_model_buildings">Building_footprints___gray_model_e4ee54ae_3c22_45ae_acb6_768b8eb7b27d</Layer>
-   <Layer provider="ogr" name="Waterways" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______2475fd1a_db62_497f_ab45_9b49798f1bce</Layer>
-   <Layer provider="gdal" name="Gray hillshade - local cache" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______8ba5de5b_02d7_432b_afc1_d5aea042a7ba</Layer>
+   <Layer provider="ogr" name="Validation sites - YUFE and YNAU" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=validation_locations">Validation_sites___YUFE_and_YNAU_3a9c0162_65d2_4902_8bdf_4b19d776b589</Layer>
+   <Layer provider="ogr" name="2026-09-30 epicenter" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=event_epicenter">2026_09_30_epicenter_319fb489_5ba1_48e5_856b_4c362fdb47b1</Layer>
+   <Layer provider="ogr" name="Validation buildings - 34360 and 35945" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">Validation_buildings___34360_and_35945_b772ab36_7a53_4f6a_819c_137984c87acf</Layer>
+   <Layer provider="ogr" name="Satellite inset extents A and C" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=inset_extents">Satellite_inset_extents_A_and_C_cab7d844_6175_4ee3_b9d8_a9dc433d8645</Layer>
+   <Layer provider="ogr" name="Campus reference boundaries" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_boundaries">Campus_reference_boundaries_3350700e_d5c7_404d_b040_6a32a8426aef</Layer>
+   <Layer provider="ogr" name="Local fault traces" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=local_faults">Local_fault_traces_581fae68_5add_4c88_900e_91a89209c323</Layer>
+   <Layer provider="ogr" name="District boundaries" source="../../../../../data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')">_________________________5467471f_7da7_43e3_a6b2_da8da1d309d2</Layer>
+   <Layer provider="ogr" name="Subdistrict boundaries" source="../../../../../data/administrative/kunming_streets.shp">______________134__8f0e2d7f_17b9_4367_97a3_dcefb97f35df</Layer>
+   <Layer provider="ogr" name="Campus building inventory - 188" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_buildings">Campus_building_inventory___188_2f59672b_7423_465a_aaa2_b08f346c9fd0</Layer>
+   <Layer provider="ogr" name="Building footprints - gray model" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=white_model_buildings">Building_footprints___gray_model_e4ee54ae_3c22_45ae_acb6_768b8eb7b27d</Layer>
+   <Layer provider="ogr" name="Waterways" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______2475fd1a_db62_497f_ab45_9b49798f1bce</Layer>
+   <Layer provider="gdal" name="Gray hillshade - local cache" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">_________Esri_World_Hillshade_______8ba5de5b_02d7_432b_afc1_d5aea042a7ba</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle provider="ogr" name="2026-09-30 epicenter" layerid="2026_09_30_epicenter_319fb489_5ba1_48e5_856b_4c362fdb47b1" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=event_epicenter">
+   <LayerStyle provider="ogr" name="2026-09-30 epicenter" layerid="2026_09_30_epicenter_319fb489_5ba1_48e5_856b_4c362fdb47b1" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=event_epicenter">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -64040,7 +64040,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Building footprints - gray model" layerid="Building_footprints___gray_model_e4ee54ae_3c22_45ae_acb6_768b8eb7b27d" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=white_model_buildings">
+   <LayerStyle provider="ogr" name="Building footprints - gray model" layerid="Building_footprints___gray_model_e4ee54ae_3c22_45ae_acb6_768b8eb7b27d" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=white_model_buildings">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -64318,7 +64318,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Campus building inventory - 188" layerid="Campus_building_inventory___188_2f59672b_7423_465a_aaa2_b08f346c9fd0" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_buildings">
+   <LayerStyle provider="ogr" name="Campus building inventory - 188" layerid="Campus_building_inventory___188_2f59672b_7423_465a_aaa2_b08f346c9fd0" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_buildings">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -64871,7 +64871,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Campus reference boundaries" layerid="Campus_reference_boundaries_3350700e_d5c7_404d_b040_6a32a8426aef" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_boundaries">
+   <LayerStyle provider="ogr" name="Campus reference boundaries" layerid="Campus_reference_boundaries_3350700e_d5c7_404d_b040_6a32a8426aef" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=campus_boundaries">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -65303,7 +65303,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Local fault traces" layerid="Local_fault_traces_581fae68_5add_4c88_900e_91a89209c323" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=local_faults">
+   <LayerStyle provider="ogr" name="Local fault traces" layerid="Local_fault_traces_581fae68_5add_4c88_900e_91a89209c323" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=local_faults">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -66050,7 +66050,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Waterways" layerid="OSM_waterways_______2475fd1a_db62_497f_ab45_9b49798f1bce" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
+   <LayerStyle provider="ogr" name="Waterways" layerid="OSM_waterways_______2475fd1a_db62_497f_ab45_9b49798f1bce" source="../../../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">
     <qgis simplifyLocal="1" simplifyDrawingHints="0" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -66363,7 +66363,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Satellite inset extents A and C" layerid="Satellite_inset_extents_A_and_C_cab7d844_6175_4ee3_b9d8_a9dc433d8645" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=inset_extents">
+   <LayerStyle provider="ogr" name="Satellite inset extents A and C" layerid="Satellite_inset_extents_A_and_C_cab7d844_6175_4ee3_b9d8_a9dc433d8645" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=inset_extents">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -66641,7 +66641,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Validation buildings - 34360 and 35945" layerid="Validation_buildings___34360_and_35945_b772ab36_7a53_4f6a_819c_137984c87acf" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">
+   <LayerStyle provider="ogr" name="Validation buildings - 34360 and 35945" layerid="Validation_buildings___34360_and_35945_b772ab36_7a53_4f6a_819c_137984c87acf" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=confirmed_damage_buildings">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -67029,7 +67029,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Validation sites - YUFE and YNAU" layerid="Validation_sites___YUFE_and_YNAU_3a9c0162_65d2_4902_8bdf_4b19d776b589" source="/Users/bin/Projects/seismic_risk/result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=validation_locations">
+   <LayerStyle provider="ogr" name="Validation sites - YUFE and YNAU" layerid="Validation_sites___YUFE_and_YNAU_3a9c0162_65d2_4902_8bdf_4b19d776b589" source="../../../../../result/intermediate/13_event_validation/cartography/5_2_event_spatial_distribution.gpkg|layername=validation_locations">
     <qgis simplifyLocal="1" simplifyDrawingHints="1" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -67411,7 +67411,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="gdal" name="Gray hillshade - local cache" layerid="_________Esri_World_Hillshade_______8ba5de5b_02d7_432b_afc1_d5aea042a7ba" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">
+   <LayerStyle provider="gdal" name="Gray hillshade - local cache" layerid="_________Esri_World_Hillshade_______8ba5de5b_02d7_432b_afc1_d5aea042a7ba" source="../../../../../data/cartography/terrain/kunming_esri_hillshade.tif">
     <qgis version="3.44.15-Solothurn" autoRefreshMode="Disabled" autoRefreshTime="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -67577,7 +67577,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="Subdistrict boundaries" layerid="______________134__8f0e2d7f_17b9_4367_97a3_dcefb97f35df" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp">
+   <LayerStyle provider="ogr" name="Subdistrict boundaries" layerid="______________134__8f0e2d7f_17b9_4367_97a3_dcefb97f35df" source="../../../../../data/administrative/kunming_streets.shp">
     <qgis simplifyLocal="1" simplifyDrawingHints="0" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -67959,7 +67959,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle provider="ogr" name="District boundaries" layerid="_________________________5467471f_7da7_43e3_a6b2_da8da1d309d2" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')">
+   <LayerStyle provider="ogr" name="District boundaries" layerid="_________________________5467471f_7da7_43e3_a6b2_da8da1d309d2" source="../../../../../data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')">
     <qgis simplifyLocal="1" simplifyDrawingHints="0" version="3.44.15-Solothurn" symbologyReferenceScale="-1" autoRefreshMode="Disabled" autoRefreshTime="0" simplifyAlgorithm="0" minScale="100000000" readOnly="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
      <flags>
       <Identifiable>1</Identifiable>

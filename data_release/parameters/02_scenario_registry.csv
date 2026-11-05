@@ -1,0 +1,60 @@
+﻿FN_En,FZN_Ch,FZN_En,FN_Ch,FSN_Ch,FSN_En,Fea_Ch,Fea_En,AGE,AGE_Des,RefE,source_trace_id,FaultName,merged_source_id,Length_km,Mw_unbounded,Mw,Mw_cap,scenario_id,matrix_name,duplicate_geometry,is_length_extrapolated,is_mw_out_of_range,is_mechanism_extrapolated,adopted_mechanism
+Baiyi-Hengchong fault,,,白邑—横冲断裂,,,,,Qp1+2,middle–early Pleistocene,UAFS:Kunming,5168,Baiyi-Hengchong fault,49,34.99272879926265,6.871014260655219,6.0,6.0,0,Baiyi-Hengchong fault,False,False,False,False,strike-slip
+Baiyun-Shanhua fault,,,白云—山花断裂,,,左旋正断,left lateral normal fault,Qh,Holocene,"SMCAR; Xu et al., 2016",6931,Baiyun-Shanhua fault,52,68.24976487059092,7.207557345036017,7.207557345036017,,1,Baiyun-Shanhua fault,False,False,False,True,strike-slip
+Chuxiong-Jianshui fault,,,楚雄—建水断裂,,,,,Qp3,late Pleistocene,"SMCAR; Xu et al., 2016",617,Chuxiong-Jianshui fault,130,20.237298459691996,6.595136942580667,6.595136942580667,,2,Chuxiong-Jianshui fault,False,False,False,True,strike-slip
+Dachunhe-Yiduoyun fault,,,大春河—一朵云断裂,,,左旋,left leteral\nleft leteral,Qp3,late Pleistocene,UAFS:Kunming,288,Dachunhe-Yiduoyun fault,141,43.95578810009636,6.98589864246639,6.0,6.0,3,Dachunhe-Yiduoyun fault,False,False,False,False,strike-slip
+Eastern brach of the Xiaojiang fault system (middle segment),小江断裂带,Xiaojiang fault zone,小江断裂带中段东支断裂,,,左旋,left leteral\nleft leteral,Qh,Holocene,UAFS:Kunming,239,Eastern brach of the Xiaojiang fault system (middle segment),218,263.2217768175175,7.88757330702701,7.88757330702701,,4,Eastern brach of the Xiaojiang fault system (middle segment),False,False,False,True,strike-slip
+Gejiu fault,,,个旧断裂,,,左旋,left leteral\nleft leteral,Qp2,middle–early Pleistocene,"SMCAR; Xu et al., 2016",215,Gejiu fault,284,76.8349564005603,7.267248265038634,7.267248265038634,,5,Gejiu fault,False,False,False,True,strike-slip
+Guomahe-Tuanjie fault,,,过马河—团街断裂,,,,,Qp1+2,middle–early Pleistocene,UAFS:Kunming,620,Guomahe-Tuanjie fault,305,29.428025271269373,6.783762899571559,6.783762899571559,,6,Guomahe-Tuanjie fault,False,False,False,True,strike-slip
+Heilongtan-Guandu fault,,,黑龙潭—官渡断裂,,,,,Qp1+2,middle–early Pleistocene,UAFS:Kunming,624,Heilongtan-Guandu fault,336,47.516365281625546,7.02513812627682,6.0,6.0,7,Heilongtan-Guandu fault,False,False,False,False,strike-slip
+Lihuahai fault,,,,,,,,,,,5157,Lihuahai fault,528,49.73635965790556,7.048141834060362,7.048141834060362,,8,Lihuahai fault,False,False,False,True,strike-slip
+Machang-Xianjie fault,,,马场—县街断裂,,,,,Qp3,late Pleistocene,UAFS:Kunming,604,Machang-Xianjie fault,592,17.748070527543895,6.529015329190351,6.0,6.0,9,Machang-Xianjie fault,False,False,False,False,strike-slip
+Mangshehe fault,,,蟒蛇河断裂,,,,,Qp1+2,middle–early Pleistocene,UAFS:Kunming,5156,Mangshehe fault,608,23.758486384280626,6.675949772009331,6.675949772009331,,10,Mangshehe fault,False,False,False,True,strike-slip
+Mouding fault,,,牟定断裂,,,右旋,right leteral,Qp2,middle–early Pleistocene,"SMCAR; Xu et al., 2016",210,Mouding fault,658,89.3987371068755,7.343544405172264,7.343544405172264,,11,Mouding fault,False,False,False,True,strike-slip
+Nanhua-Chuxiong fault,,,南华—楚雄断裂,,,,,Qp3,late Pleistocene,"SMCAR; Xu et al., 2016",686,Nanhua-Chuxiong fault,677,145.12442549693736,7.587618995673296,7.587618995673296,,12,Nanhua-Chuxiong fault,False,False,False,True,strike-slip
+Puduhe fault,,,,,,,,,,,289,Puduhe fault,760,305.74149171174713,7.963011080994505,6.5,6.5,13,Puduhe fault,False,False,False,True,strike-slip
+Qujiang fault,,,曲江断裂,庙北山-五街段,,右旋逆断,right lateral reverse fault,Qh,Holocene,SurveyMapping50000,680,Qujiang fault,800,67.5459289558194,7.202335047512645,7.202335047512645,,14,Qujiang fault,False,False,False,True,strike-slip
+Qujin fault,,,曲靖断裂,,,走滑,strike-slip,Qp1+2,middle–early Pleistocene,"SMCAR; Xu et al., 2016",690,Qujin fault,802,131.97686744618431,7.539777466439617,7.539777466439617,,15,Qujin fault,False,False,False,True,strike-slip
+Quxi-jianshui fault,,,曲溪—建水断裂,,,左旋,left leteral\nleft leteral,Qh,Holocene,"SMCAR; Xu et al., 2016",6591,Quxi-jianshui fault,805,31.036130393296357,6.810566378669,6.810566378669,,16,Quxi-jianshui fault,False,False,False,True,strike-slip
+Sandouwu-Damao fault,,,,,,,,,,,623,Sandouwu-Damao fault,815,4.597446399456718,5.848519342539124,5.848519342539124,,17,Sandouwu-Damao fault,False,False,False,False,strike-slip
+Shiping-Jianshui fault,,,石屏—建水断裂,,,右旋正断,right lateral normal fault\nright lateral normal fault,Qh,Holocene,SurveyMapping50000,681,Shiping-Jianshui fault,856,183.10842745492073,7.7047416661677595,7.7047416661677595,,18,Shiping-Jianshui fault,False,False,False,True,strike-slip
+Shizong fault,,,师宗断裂,,,左旋,left leteral\nleft leteral,Qp2,middle–early Pleistocene,"SMCAR; Xu et al., 2016",200,Shizong fault,861,223.92175033615504,7.806111685072188,7.806111685072188,,19,Shizong fault,False,False,False,True,strike-slip
+Tanglang (Luozi)-Yimen fault,,,汤郎（罗茨）—易门断裂,,,左旋,left leteral\nleft leteral,Qp3,late Pleistocene,UAFS:Kunming,281,Tanglang (Luozi)-Yimen fault,933,71.0596526675745,7.227882773230139,7.227882773230139,,20,Tanglang (Luozi)-Yimen fault,False,False,False,True,strike-slip
+Wanshoushan fault,,,万寿山断裂,,,,,Qp3,late Pleistocene,UAFS:Kunming,613,Wanshoushan fault,997,11.392257595139677,6.305667363846553,6.305667363846553,,21,Wanshoushan fault,False,False,False,True,strike-slip
+Westen brach of the Xiaojiang fault system (middle segment),,,,,,,,,,,242,Westen brach of the Xiaojiang fault system (middle segment),1029,282.3153844191242,7.922852072338307,7.922852072338307,,22,Westen brach of the Xiaojiang fault system (middle segment),False,False,True,True,strike-slip
+Xiaocang-Yinchangqing fault,,,小仓—银场箐断裂,,,,,Qp1+2,middle–early Pleistocene,UAFS:Kunming,630,Xiaocang-Yinchangqing fault,1087,64.8595365175285,7.181889655449755,7.181889655449755,,23,Xiaocang-Yinchangqing fault,False,False,False,True,strike-slip
+Xiaojiang fault system (Northern segment),,,,,,,,,,,646,Xiaojiang fault system (Northern segment),1091,130.52450607701508,7.534202787807576,7.534202787807576,,24,Xiaojiang fault system (Northern segment),False,False,False,True,strike-slip
+Xiaojiang fault system (Southern segment),,,,,,,,,,,243,Xiaojiang fault system (Southern segment),1092,309.88835090589646,7.969798091007568,7.969798091007568,,25,Xiaojiang fault system (Southern segment),False,False,True,True,strike-slip
+Xundian-Laibin fault,,,寻甸—来宾断裂,,,逆断,reverse,Qp1+2,middle–early Pleistocene,"SMCAR; Xu et al., 2016",689,Xundian-Laibin fault,1145,173.79979642163974,7.678457145552329,7.678457145552329,,26,Xundian-Laibin fault,False,False,False,True,strike-slip
+Yuanmou fault,,,元谋断裂,,,左旋,left leteral\nleft leteral,Qh,Holocene,SurveyMapping50000,688,Yuanmou fault,1219,161.40834322762075,7.641194136486472,7.641194136486472,,27,Yuanmou fault,False,False,False,True,strike-slip
+Yuchuan fault,,,玉川断裂,,,,,Qp3,late Pleistocene,UAFS:Kunming,563,Yuchuan fault,1221,13.200529632615078,6.379885973366435,6.379885973366435,,28,Yuchuan fault,False,False,False,True,strike-slip
+Zeyi fault,,,则邑断裂,,,右旋,right leteral,Qp3,late Pleistocene,UAFS:Kunming,283,Zeyi fault,1248,35.234618887917556,6.8744847108877805,6.8744847108877805,,29,Zeyi fault,False,False,False,True,strike-slip
+Zhongpubei-Xiyang fault,,,中普贝—夕阳断裂,,,右旋,right leteral,Qp3,late Pleistocene,UAFS:Kunming,312,Zhongpubei-Xiyang fault,1272,33.384031299528836,6.84730498350188,6.84730498350188,,30,Zhongpubei-Xiyang fault,False,False,False,True,strike-slip
+,,,,,,,,,,,282,,1426,1.5822281940818106,5.311152178083572,5.311152178083572,,31,Fault_31,True,False,False,False,strike-slip
+,,,,,,,,,,,302,,1427,14.323492368444528,6.421016748365043,6.421016748365043,,32,Fault_32,True,False,False,True,strike-slip
+,,,,,,,,,,,303,,1428,11.125346433240665,6.2937237103457235,6.2937237103457235,,33,Fault_33,True,False,False,True,strike-slip
+,,,,,,,,,,,304,,1429,4.38468683092434,5.824648752843681,5.824648752843681,,34,Fault_34,True,False,False,False,strike-slip
+,,,,,,,,,,,521,,1490,1.5822281940818106,5.311152178083572,5.311152178083572,,35,Fault_35,True,False,False,False,strike-slip
+,,,,,,,,,,,541,,1491,14.323492368444528,6.421016748365043,6.421016748365043,,36,Fault_36,True,False,False,True,strike-slip
+,,,,,,,,,,,542,,1492,11.125346433240665,6.2937237103457235,6.2937237103457235,,37,Fault_37,True,False,False,True,strike-slip
+,,,,,,,,,,,543,,1493,4.38468683092434,5.824648752843681,5.824648752843681,,38,Fault_38,True,False,False,False,strike-slip
+,,,,,,,,,,,562,,1494,1.5822281940818106,5.311152178083572,5.311152178083572,,39,Fault_39,True,False,False,False,strike-slip
+,,,,,,,,,,,584,,1495,14.323492368444528,6.421016748365043,6.421016748365043,,40,Fault_40,True,False,False,True,strike-slip
+,,,,,,,,,,,585,,1496,11.125346433240665,6.2937237103457235,6.2937237103457235,,41,Fault_41,True,False,False,True,strike-slip
+,,,,,,,,,,,586,,1497,4.38468683092434,5.824648752843681,5.824648752843681,,42,Fault_42,True,False,False,False,strike-slip
+,,,,,,,,,,,606,,1498,6.876852943340855,6.05137209533708,6.05137209533708,,43,Fault_43,False,False,False,False,strike-slip
+,,,,,,,,,,,607,,1499,0.9679838911741767,5.063607030802574,5.063607030802574,,44,Fault_44,False,True,False,False,strike-slip
+,,,,,,,,,,,608,,1500,1.4602145860952231,5.270723351465103,5.270723351465103,,45,Fault_45,False,False,False,False,strike-slip
+,,,,,,,,,,,609,,1501,4.268208052823475,5.811084873789949,5.811084873789949,,46,Fault_46,False,False,False,False,strike-slip
+,,,,,,,,,,,610,,1502,2.6245144807811336,5.566096809067782,5.566096809067782,,47,Fault_47,False,False,False,False,strike-slip
+,,,,,,,,,,,611,,1503,6.25112806101525,6.003311739335507,6.003311739335507,,48,Fault_48,False,False,False,False,strike-slip
+,,,,,,,,,,,612,,1504,0.5523928244597498,4.781007713049977,4.781007713049977,,49,Fault_49,False,True,False,False,strike-slip
+,,,,,,,,Q,middle–early Pleistocene,UAFS:Kunming,619,,1505,2.1603825137356836,5.468055557964954,5.468055557964954,,50,Fault_50,False,False,False,False,strike-slip
+,,,,,,,,,,,636,,1506,9.667461367083153,6.222962436466336,6.222962436466336,,51,Fault_51,False,False,False,True,strike-slip
+,,,,,,,,,,,5170,,2810,6.570521015858581,6.028415778125471,6.028415778125471,,52,Fault_52,False,False,False,False,strike-slip
+,,,,,,,,,,,5171,,2811,1.6692761484720153,5.338132698067978,5.338132698067978,,53,Fault_53,False,False,False,False,strike-slip
+,,,,,,,,,,,6947,,3186,7.295891875436022,6.08117093142187,6.08117093142187,,54,Fault_54,False,False,False,False,strike-slip
+,,,,,,,,,,,6948,,3187,0.08002099738742406,3.8077165937788022,3.8077165937788022,,55,Fault_55,False,True,True,True,strike-slip
+,,,,,,,,,,,6949,,3188,7.502546251687444,6.095242070474117,6.095242070474117,,56,Fault_56,False,False,False,False,strike-slip
+,,,,,,,,,,,6950,,3189,5.582332100418523,5.946306176831094,5.946306176831094,,57,Fault_57,False,False,False,False,strike-slip
+,,,,,,,,,,,6951,,3190,20.48751085653409,6.601327468190034,6.601327468190034,,58,Fault_58,False,False,False,True,strike-slip

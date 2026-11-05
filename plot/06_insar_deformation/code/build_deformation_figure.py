@@ -7,6 +7,7 @@ import hashlib
 import importlib.util
 import json
 import os
+import shutil
 from pathlib import Path
 import subprocess
 import sys
@@ -39,7 +40,6 @@ WORK = ROOT/"plot/06_insar_deformation/output"
 FINAL = ROOT/"plot/06_insar_deformation/output"
 PAPER = ROOT/"plot/06_insar_deformation/output/final/figure06.png"
 SLUG = "InSAR_Deformation_GNSS_Combined_abcd"
-BUNDLED = Path("/Users/bin/.cache/codex-runtimes/codex-primary-runtime/dependencies")
 WIDTH, HEIGHT = 180., 163.
 MAP_LEFT, MAP_TOP, MAP_WIDTH = .3, -.5, 112.
 MAP_ENLARGEMENT = MAP_WIDTH/100.5
@@ -110,7 +110,7 @@ def prepare_map():
             or not map_pdf.exists() or record.get("output_sha256") != fingerprint(map_pdf)["sha256"]):
         subprocess.run([str(ROOT/"plot/shared/qgis/scripts/run_pyqgis.sh"), str(script)], check=True)
         record = json.loads(record_file.read_text())
-    probe = subprocess.run([str(BUNDLED/"python/bin/python3"), "-c",
+    probe = subprocess.run([sys.executable, "-c",
                             "import json,sys; from pypdf import PdfReader; "
                             "p=PdfReader(sys.argv[1]).pages[0]; "
                             "print(json.dumps([float(p.mediabox.width)*25.4/72,float(p.mediabox.height)*25.4/72]))",
@@ -294,13 +294,13 @@ def main():
     fig.savefig(overlay, transparent=True)
     plt.close(fig)
     destination = FINAL/f"{SLUG}.pdf"
-    merge = subprocess.run([str(BUNDLED/"python/bin/python3"), str(Path(__file__).with_name("merge_deformation_pdf.py")),
+    merge = subprocess.run([sys.executable, str(Path(__file__).with_name("merge_deformation_pdf.py")),
                             "--map", str(map_pdf), "--overlay", str(overlay), "--output", str(destination),
                             "--width-mm", str(WIDTH), "--height-mm", str(HEIGHT),
                             "--map-width-mm", str(MAP_WIDTH), "--map-left-mm", str(MAP_LEFT),
                             "--map-top-mm", str(MAP_TOP)], check=True, capture_output=True, text=True)
     map_placement = json.loads(merge.stdout)
-    renderer = str(BUNDLED/"bin/override/pdftoppm")
+    renderer = (shutil.which("pdftoppm") or "pdftoppm")
     subprocess.run([renderer, "-png", "-singlefile", "-r", "230", str(destination), str(WORK/"preview")], check=True)
     if not args.preview_only:
         subprocess.run([renderer, "-png", "-singlefile", "-r", "1200", str(destination), str(FINAL/f"{SLUG}_1200dpi")], check=True)

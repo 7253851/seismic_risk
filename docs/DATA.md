@@ -1,22 +1,27 @@
-# 输入数据需求
+# Input data requirements
 
-数据不随仓库发布。运行前在仓库根目录建立 `data/`，按下表放置。代码中的路径以仓库根目录为基准，具体文件名见 `project/code/paths.py` 和各模块的 `config.json`。
+Input data are not distributed with this repository (see the data-availability section of the main README).
+Before running the model, create a `data/` folder in the repository root and place the inputs as listed below.
+Paths in the code are relative to the repository root; exact file names are given in `project/code/paths.py`
+and in each module's `config.json`. A Chinese version is in [DATA_zh.md](DATA_zh.md).
 
-| 目录 | 内容 | 用途 |
-| --- | --- | --- |
-| `data/buildings/` | 研究区建筑轮廓矢量，含唯一建筑编号；建筑高度底图 | 危险性、脆弱性、暴露度、风险的计算单元 |
-| `data/TSX_PS/` | TerraSAR-X 升/降轨 PS 点（含年均速率和时序字段）及垂直形变速率栅格 | 建筑形变指标、IBSI、InSAR 讨论实验 |
-| `data/GNSS/` | 研究区内 GNSS 连续站日解（N/E/U）及站点位置 | InSAR 形变验证 |
-| `data/faults/` | 区域活动断层矢量及文献属性 | 地震危险性情景、制图 |
-| `data/earthquakes/` | 历史地震目录 | 危险性与研究区制图 |
-| `data/vs30/` | VS30 场地条件栅格 | 场地放大 |
-| `data/dem/` | 数字高程模型 | 地形、山体阴影 |
-| `data/population/` | 人口格网栅格 | 暴露度 |
-| `data/administrative/` | 市、区县、街道行政边界 | 统计单元与制图 |
-| `data/china_administrative_boundaries_gs_2024_0650/` | 带审图号的国家标准行政边界 | 研究区制图 |
-| `data/cartography/` | 道路、水系等底图要素 | 制图 |
-| `data/study_area/` | 研究区及 InSAR 覆盖范围、建成区 | 范围裁剪 |
-| `data/water/` | 湖泊岸线参考 | 制图 |
-| `data/validation/` | 地震受损案例点、校园边界、候选建筑 | 地震案例验证 |
+| Folder | Contents | Used for | Availability |
+| --- | --- | --- | --- |
+| `data/buildings/` | Building footprint polygons with unique building IDs; building-height grid (CNBH-10m) | Spatial unit for hazard, vulnerability, exposure and risk | Footprints: restricted (vectorised from Tianditu imagery); CNBH-10m: public |
+| `data/TSX_PS/` | TerraSAR-X ascending/descending PS points (annual rate and time series) and vertical displacement-rate raster | Building deformation indicators, IBSI, InSAR discussion experiment | Restricted (DLR licence) |
+| `data/GNSS/` | Daily N/E/U solutions and position of the continuous GNSS station in the study area | InSAR validation | On request |
+| `data/faults/` | Regional active-fault traces and literature attributes | Hazard scenarios, maps | Public (CAFD and cited literature) |
+| `data/earthquakes/` | Historical earthquake catalogue | Hazard and study-area maps | Public (China Earthquake Networks Center) |
+| `data/vs30/` | Vs30 site-condition raster | Site amplification | Public (Mainland China Vs30 dataset) |
+| `data/dem/` | Digital elevation model | Terrain, hillshade | Public (AW3D30) |
+| `data/population/` | Population grid | Exposure | Public (WorldPop 2025) |
+| `data/administrative/` | City, district and subdistrict boundaries | Statistical units, maps | Public |
+| `data/china_administrative_boundaries_gs_2024_0650/` | Standard national administrative boundaries with map approval number | Study-area map | Public |
+| `data/cartography/` | Roads, waterways and other basemap features | Maps | Public (OpenStreetMap and others) |
+| `data/study_area/` | Study area, InSAR coverage and built-up area | Clipping | Public (ESA WorldCover) |
+| `data/water/` | Lake shoreline reference | Maps | Public |
+| `data/validation/` | Earthquake damage case points, campus boundaries and candidate buildings | Event-based evaluation | Derived from public reports |
 
-模型中间数据和结果写入本地 `result/`，同样不纳入版本控制。
+Housing-price data (community or neighbourhood level) were collected from online housing-market listings and are
+not redistributed. Intermediate data and model results are written to a local `result/` folder, which is not under
+version control; the public subset is in `data_release/`.

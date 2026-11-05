@@ -27,13 +27,13 @@ import shapely
 from shapely.geometry import LineString
 from shapely.ops import substring
 
-ROOT = Path('/Users/bin/Projects/seismic_risk')
+ROOT = Path(__file__).resolve().parents[3]
 CONFIG_PATH = Path(__file__).with_name("transect_config.json")
 SOURCE = ROOT / "result/risk/scs_paper_method/building_risk.gpkg"
 SUMMARY = SOURCE.with_name("calculation_summary.json")
 DATA_OUT = ROOT / "result/statistics/Risk/transect"
 PLOT_OUT = ROOT / "plot/10_risk_transects/output"
-FINAL_OUT = Path('/Users/bin/Projects/seismic_risk/plot/10_risk_transects/layout/work/not_published')
+FINAL_OUT = (Path(__file__).resolve().parents[3] / 'plot/10_risk_transects/layout/work/not_published')
 STEM = "Kunming_Risk_Transect_AB"
 CLASSES = ["Very Low", "Low", "Moderate", "High", "Very High"]
 COLORS = ["#fff1a8", "#ffc247", "#f58a24", "#db3b29", "#7a1018"]

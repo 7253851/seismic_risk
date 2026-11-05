@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Review figure from saved results only. Never imports or runs the model.
 
-Run with /Users/bin/miniforge3/envs/seismic/bin/python <this file>.
+Run with python <this file>.
 All GeoPackage connections use SQLite mode=ro. All outputs stay beside this file.
 """
 from __future__ import annotations
@@ -39,7 +39,7 @@ RESULT = ROOT / "result/vulnerability/scs_paper_method"
 SOURCE = RESULT / "01_building_vulnerability_metrics.gpkg"
 FINAL = RESULT / "02_building_comprehensive_vulnerability.gpkg"
 LAYER = "building_vulnerability_metrics"
-VAULT_RESULTS = Path("/Users/bin/Library/Mobile Documents/com~apple~CloudDocs/Obsidian/Workbench/projects/seismic_risk/manuscript/04_results.md")
+VAULT_RESULTS = Path(os.environ.get("RESULTS_NOTE", ROOT / "docs/04_results.md"))
 STEM = "IBSI_components_and_spatial_distribution"
 FIELDS = ["V_RMS", "Tilt_Angle", "DGI_Str", "IBSI"]
 WIDTH_MM, HEIGHT_MM = 180, 106.5
@@ -582,7 +582,7 @@ def main():
              "仍待核定：原始入射角元数据；本次未改变已归档垂向速率或反算输入。\n"
              "滇池为已有2016数字化参考岸线；沿用既有QGIS地形缓存、行政区/街道界、断层、地震与GNSS标注。\n"
              "IBSI只描述观测形变与建筑状态，不能据此直接判定结构损伤或高地震风险。\n"
-             "复现：/Users/bin/miniforge3/envs/seismic/bin/python -B plot/07_ibsi/code/plot_IBSI_components_and_spatial_distribution.py；地图复用同目录既有IBSI_native_QGIS_map.png，不需重新导出。\n")
+             "复现：python -B plot/07_ibsi/code/plot_IBSI_components_and_spatial_distribution.py；地图复用同目录既有IBSI_native_QGIS_map.png，不需重新导出。\n")
     (OUT / "review_notes.txt").write_text(notes, encoding="utf-8")
     after = {str(p): digest(p) for p in paths}
     unchanged = before == after

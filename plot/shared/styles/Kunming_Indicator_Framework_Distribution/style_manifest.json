@@ -1,6 +1,6 @@
 {
   "saved_at": "2026-10-17T19:16:35.275942+08:00",
-  "source_project": "/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/qgis/projects/04_seismic_hazard.qgz",
+  "source_project": "plot/04_seismic_hazard/qgis/projects/04_seismic_hazard.qgz",
   "name": "Kunming Indicator Framework Distribution",
   "layout": "Kunming_Indicator_Framework_Distribution",
   "layers": [
@@ -137,9 +137,9 @@
   "svg_markers_embedded": true,
   "working_project_and_exports_unchanged": true,
   "working_files_sha256": {
-    "/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/qgis/projects/04_seismic_hazard.qgz": "24c527545ebd5a4b4798439ecaaa28d538c3d6dcf83837e3c89af8b596b38024",
-    "/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/qgis/layouts/hazard/Kunming_Hazard_PGA.qpt": "8f3738252fa892a379da5b50fb28fff2df77d5eed5bfbd8d894d1cf298ea6c00",
-    "/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/output/qgis/Kunming_Building_Hazard_1200dpi.png": "6342c25657c8d48ba0a94052181a666bfd865c2d13771e5b72fbbe5b0bd57983"
+    "plot/04_seismic_hazard/qgis/projects/04_seismic_hazard.qgz": "24c527545ebd5a4b4798439ecaaa28d538c3d6dcf83837e3c89af8b596b38024",
+    "plot/04_seismic_hazard/qgis/layouts/hazard/Kunming_Hazard_PGA.qpt": "8f3738252fa892a379da5b50fb28fff2df77d5eed5bfbd8d894d1cf298ea6c00",
+    "plot/04_seismic_hazard/output/qgis/Kunming_Building_Hazard_1200dpi.png": "6342c25657c8d48ba0a94052181a666bfd865c2d13771e5b72fbbe5b0bd57983"
   },
   "layout_settings": {
     "page_mm": [

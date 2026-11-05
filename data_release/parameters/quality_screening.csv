@@ -1,0 +1,9 @@
+﻿screen,count,share_of_inventory
+Initial building inventory,57228,1.0
+PS count >= threshold,47518,0.8303278115607744
+PS density >= threshold,52359,0.9149192702872719
+Mean coherence >= threshold,49740,0.8691549591109248
+Coverage >= threshold,44439,0.7765254770392116
+Joint PS-quality pass,42833,0.7484622911861326
+Final vulnerability sample,41939,0.732840567554344
+Quality-pass but DGI_Str = 0,894,0.015621723631788634

@@ -484,7 +484,7 @@
   </labeling>
   <customproperties>
     <Option type="Map">
-      <Option value="/Users/bin/Projects/seismic_risk/QGIS/data/basic/faults/02_Kunming_Fault_Processed.shp" type="QString" name="fault_literature/original_source" />
+      <Option value="../../../../../../QGIS/data/basic/faults/02_Kunming_Fault_Processed.shp" type="QString" name="fault_literature/original_source" />
       <Option value="2026-10-14" type="QString" name="fault_literature/review_date" />
       <Option value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" type="QString" name="fault_literature/reviewed_input_sha256" />
       <Option value="faults" type="QString" name="seismic_building/base_key" />

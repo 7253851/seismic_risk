@@ -20,10 +20,10 @@ import numpy as np
 import pandas as pd
 
 
-WORKSPACE = Path('/Users/bin/Projects/seismic_risk')
-OUTPUT_DIR = Path('/Users/bin/Projects/seismic_risk/plot/09_class_composition/layout/work/native_outputs')
+WORKSPACE = Path(__file__).resolve().parents[3]
+OUTPUT_DIR = (Path(__file__).resolve().parents[3] / 'plot/09_class_composition/layout/work/native_outputs')
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-TABLE_DIR = Path('/Users/bin/Projects/seismic_risk/plot/09_class_composition/layout/work/data_exports')
+TABLE_DIR = (Path(__file__).resolve().parents[3] / 'plot/09_class_composition/layout/work/data_exports')
 TABLE_DIR.mkdir(parents=True, exist_ok=True)
 STATISTICS = WORKSPACE / "result/statistics"
 NAMES_5 = ["Very Low", "Low", "Moderate", "High", "Very High"]

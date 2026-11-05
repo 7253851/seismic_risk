@@ -6,8 +6,8 @@ case_panel_static_baseline.py; this renderer deliberately never calls diagnostic
 import os
 from pathlib import Path
 FONT_PT = 9.540511276312778
-BASE = Path('/Users/bin/Projects/seismic_risk')
-OUT = Path('/Users/bin/Projects/seismic_risk/plot/12_insar_contribution/layout/work')
+BASE = Path(__file__).resolve().parents[3]
+OUT = (Path(__file__).resolve().parents[3] / 'plot/12_insar_contribution/layout/work')
 OUT.mkdir(parents=True, exist_ok=True)
 os.environ.setdefault('MPLCONFIGDIR', str(OUT / 'matplotlib_cache'))
 os.environ.setdefault('QT_QPA_PLATFORM', 'offscreen')
@@ -27,7 +27,7 @@ from matplotlib.colors import Normalize
 from matplotlib.collections import LineCollection
 from matplotlib.patches import Polygon as MplPolygon
 
-SOURCE = Path('/Users/bin/Projects/seismic_risk/result/discussion/12_insar_contribution/static_baseline')
+SOURCE = (Path(__file__).resolve().parents[3] / 'result/discussion/12_insar_contribution/static_baseline')
 FILES = [SOURCE / 'data/case_panel_PS_nodes.csv',
          SOURCE / 'data/case_panel_PS_edges.csv',
          SOURCE / 'data/case_panel_diagnostics.json',

@@ -7,7 +7,7 @@ import os
 import subprocess
 import sys
 
-ROOT = Path('/Users/bin/Projects/seismic_risk')
+ROOT = Path(__file__).resolve().parents[3]
 OUTPUT = Path(__file__).resolve().parents[1]
 os.environ.setdefault('MPLCONFIGDIR', '/private/tmp/seismic_risk_mpl')
 sys.path.insert(0, str(ROOT/'project/code'))
@@ -158,7 +158,7 @@ def main():
     print(json.dumps({'plan':str(OUTPUT/'a4_plan.json'),'chart_text_count':len(texts)},indent=2),flush=True)
     subprocess.run([str(ROOT/'plot/shared/qgis/scripts/run_pyqgis.sh'),
                     str(Path(__file__).with_name('build_map_a4.py'))],check=True)
-    subprocess.run(['/Users/bin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',
+    subprocess.run([sys.executable,
                     '-B',str(Path(__file__).with_name('merge_and_verify.py'))],check=True)
 
 

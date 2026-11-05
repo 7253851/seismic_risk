@@ -146,7 +146,7 @@ def main():
 - `source_screenshot_georeferenced.tif`为带配准坐标的原截图，仅供核查。
 - `digitization_audit.json`保存仿射参数及核验。
 
-复现：`/Users/bin/miniforge3/envs/seismic/bin/python /Users/bin/Projects/seismic_risk/plot/shared/qgis/scripts/digitize_yufe_north_boundary.py`。
+复现：`python plot/shared/qgis/scripts/digitize_yufe_north_boundary.py`。
 QGIS中执行`shared/qgis/scripts/inspect_yufe_north_reference.py`导出参考影像，执行`shared/qgis/scripts/open_project.py`加载SHP并保存工程。
 
 影像©Esri及其提供者，原截图由用户提供。没有调用API或保存密钥。

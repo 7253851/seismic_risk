@@ -23,7 +23,7 @@ import pandas as pd
 from PIL import Image
 from shapely.geometry import LineString
 
-PLOT_OUT = Path('/Users/bin/Projects/seismic_risk/plot/10_risk_transects/layout/work')
+PLOT_OUT = (Path(__file__).resolve().parents[3] / 'plot/10_risk_transects/layout/work')
 STEM = "Kunming_Risk_Transects_AB_CD"
 ANALYSIS_COLORS = COLORS
 CURVE_COLOR = COLORS[-1]

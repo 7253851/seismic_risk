@@ -151,7 +151,7 @@ def main():
 - `source_screenshot_georeferenced.tif`：按拟合变换赋坐标的截图，仅供核对。
 - `digitization_audit.json`：复算参数和校验。
 
-复现代码：`/Users/bin/Projects/seismic_risk/plot/shared/qgis/scripts/digitize_yufe_campus_boundary.py`；QGIS加载代码：`/Users/bin/Projects/seismic_risk/plot/shared/qgis/scripts/open_project.py`。
+复现代码：`plot/shared/qgis/scripts/digitize_yufe_campus_boundary.py`；QGIS加载代码：`plot/shared/qgis/scripts/open_project.py`。
 
 参考影像©Esri及其影像提供者；原图由用户提供，来源界面标注按原样保留。本次没有调用AOI权限接口或写入API密钥。
 

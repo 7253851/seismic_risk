@@ -1,0 +1,671 @@
+﻿Admin_Unit_ID,Admin_Name,Admin_Name_EN,PGA_Class,PGA_Range,Building_Count,Percentage,Unit_Building_Count
+S001,西翥街道,Wuhua: Xi Zhu Subdistrict,Very Low,≤ 0.2316 g,0,0.0,6
+S001,西翥街道,Wuhua: Xi Zhu Subdistrict,Low,0.2316–0.2567 g,0,0.0,6
+S001,西翥街道,Wuhua: Xi Zhu Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,6
+S001,西翥街道,Wuhua: Xi Zhu Subdistrict,High,0.2844–0.3272 g,6,100.0,6
+S001,西翥街道,Wuhua: Xi Zhu Subdistrict,Very High,> 0.3272 g,0,0.0,6
+S002,龙翔街道,Wuhua: Long Xiang Subdistrict,Very Low,≤ 0.2316 g,0,0.0,794
+S002,龙翔街道,Wuhua: Long Xiang Subdistrict,Low,0.2316–0.2567 g,0,0.0,794
+S002,龙翔街道,Wuhua: Long Xiang Subdistrict,Moderate,0.2567–0.2844 g,794,100.0,794
+S002,龙翔街道,Wuhua: Long Xiang Subdistrict,High,0.2844–0.3272 g,0,0.0,794
+S002,龙翔街道,Wuhua: Long Xiang Subdistrict,Very High,> 0.3272 g,0,0.0,794
+S003,草铺街道,Anning: Cao Pu Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S003,草铺街道,Anning: Cao Pu Subdistrict,Low,0.2316–0.2567 g,0,,0
+S003,草铺街道,Anning: Cao Pu Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S003,草铺街道,Anning: Cao Pu Subdistrict,High,0.2844–0.3272 g,0,,0
+S003,草铺街道,Anning: Cao Pu Subdistrict,Very High,> 0.3272 g,0,,0
+S004,西苑街道,Xishan: Xi Yuan Subdistrict,Very Low,≤ 0.2316 g,0,0.0,473
+S004,西苑街道,Xishan: Xi Yuan Subdistrict,Low,0.2316–0.2567 g,0,0.0,473
+S004,西苑街道,Xishan: Xi Yuan Subdistrict,Moderate,0.2567–0.2844 g,473,100.0,473
+S004,西苑街道,Xishan: Xi Yuan Subdistrict,High,0.2844–0.3272 g,0,0.0,473
+S004,西苑街道,Xishan: Xi Yuan Subdistrict,Very High,> 0.3272 g,0,0.0,473
+S005,棕树营街道,Xishan: Zong Shu Ying Subdistrict,Very Low,≤ 0.2316 g,0,0.0,967
+S005,棕树营街道,Xishan: Zong Shu Ying Subdistrict,Low,0.2316–0.2567 g,0,0.0,967
+S005,棕树营街道,Xishan: Zong Shu Ying Subdistrict,Moderate,0.2567–0.2844 g,967,100.0,967
+S005,棕树营街道,Xishan: Zong Shu Ying Subdistrict,High,0.2844–0.3272 g,0,0.0,967
+S005,棕树营街道,Xishan: Zong Shu Ying Subdistrict,Very High,> 0.3272 g,0,0.0,967
+S006,金碧街道,Xishan: Jin Bi Subdistrict,Very Low,≤ 0.2316 g,0,0.0,2030
+S006,金碧街道,Xishan: Jin Bi Subdistrict,Low,0.2316–0.2567 g,966,47.58620689655172,2030
+S006,金碧街道,Xishan: Jin Bi Subdistrict,Moderate,0.2567–0.2844 g,1064,52.41379310344828,2030
+S006,金碧街道,Xishan: Jin Bi Subdistrict,High,0.2844–0.3272 g,0,0.0,2030
+S006,金碧街道,Xishan: Jin Bi Subdistrict,Very High,> 0.3272 g,0,0.0,2030
+S007,昆明滇池国家旅游度假区,Xishan: Kun Ming Dian Chi Guo Jia Lv You Du Jia Qu,Very Low,≤ 0.2316 g,0,0.0,4177
+S007,昆明滇池国家旅游度假区,Xishan: Kun Ming Dian Chi Guo Jia Lv You Du Jia Qu,Low,0.2316–0.2567 g,341,8.163753890351927,4177
+S007,昆明滇池国家旅游度假区,Xishan: Kun Ming Dian Chi Guo Jia Lv You Du Jia Qu,Moderate,0.2567–0.2844 g,3724,89.15489585827149,4177
+S007,昆明滇池国家旅游度假区,Xishan: Kun Ming Dian Chi Guo Jia Lv You Du Jia Qu,High,0.2844–0.3272 g,112,2.681350251376586,4177
+S007,昆明滇池国家旅游度假区,Xishan: Kun Ming Dian Chi Guo Jia Lv You Du Jia Qu,Very High,> 0.3272 g,0,0.0,4177
+S008,先锋镇,Xundian Hui and Yi: Xian Feng Town,Very Low,≤ 0.2316 g,0,,0
+S008,先锋镇,Xundian Hui and Yi: Xian Feng Town,Low,0.2316–0.2567 g,0,,0
+S008,先锋镇,Xundian Hui and Yi: Xian Feng Town,Moderate,0.2567–0.2844 g,0,,0
+S008,先锋镇,Xundian Hui and Yi: Xian Feng Town,High,0.2844–0.3272 g,0,,0
+S008,先锋镇,Xundian Hui and Yi: Xian Feng Town,Very High,> 0.3272 g,0,,0
+S009,前卫街道,Xishan: Qian Wei Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1183
+S009,前卫街道,Xishan: Qian Wei Subdistrict,Low,0.2316–0.2567 g,748,63.229078613694,1183
+S009,前卫街道,Xishan: Qian Wei Subdistrict,Moderate,0.2567–0.2844 g,435,36.770921386306,1183
+S009,前卫街道,Xishan: Qian Wei Subdistrict,High,0.2844–0.3272 g,0,0.0,1183
+S009,前卫街道,Xishan: Qian Wei Subdistrict,Very High,> 0.3272 g,0,0.0,1183
+S010,丰宁街道,Wuhua: Feng Ning Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1538
+S010,丰宁街道,Wuhua: Feng Ning Subdistrict,Low,0.2316–0.2567 g,0,0.0,1538
+S010,丰宁街道,Wuhua: Feng Ning Subdistrict,Moderate,0.2567–0.2844 g,1527,99.28478543563068,1538
+S010,丰宁街道,Wuhua: Feng Ning Subdistrict,High,0.2844–0.3272 g,11,0.7152145643693107,1538
+S010,丰宁街道,Wuhua: Feng Ning Subdistrict,Very High,> 0.3272 g,0,0.0,1538
+S011,红云街道,Wuhua: Hong Yun Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1289
+S011,红云街道,Wuhua: Hong Yun Subdistrict,Low,0.2316–0.2567 g,831,64.46858029480217,1289
+S011,红云街道,Wuhua: Hong Yun Subdistrict,Moderate,0.2567–0.2844 g,458,35.53141970519783,1289
+S011,红云街道,Wuhua: Hong Yun Subdistrict,High,0.2844–0.3272 g,0,0.0,1289
+S011,红云街道,Wuhua: Hong Yun Subdistrict,Very High,> 0.3272 g,0,0.0,1289
+S012,华山街道,Wuhua: Hua Shan Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1315
+S012,华山街道,Wuhua: Hua Shan Subdistrict,Low,0.2316–0.2567 g,350,26.61596958174905,1315
+S012,华山街道,Wuhua: Hua Shan Subdistrict,Moderate,0.2567–0.2844 g,965,73.38403041825094,1315
+S012,华山街道,Wuhua: Hua Shan Subdistrict,High,0.2844–0.3272 g,0,0.0,1315
+S012,华山街道,Wuhua: Hua Shan Subdistrict,Very High,> 0.3272 g,0,0.0,1315
+S013,大观街道,Wuhua: Da Guan Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1135
+S013,大观街道,Wuhua: Da Guan Subdistrict,Low,0.2316–0.2567 g,230,20.26431718061674,1135
+S013,大观街道,Wuhua: Da Guan Subdistrict,Moderate,0.2567–0.2844 g,905,79.73568281938326,1135
+S013,大观街道,Wuhua: Da Guan Subdistrict,High,0.2844–0.3272 g,0,0.0,1135
+S013,大观街道,Wuhua: Da Guan Subdistrict,Very High,> 0.3272 g,0,0.0,1135
+S014,拖布卡镇,Dongchuan: Tuo Bu Ka Town,Very Low,≤ 0.2316 g,0,,0
+S014,拖布卡镇,Dongchuan: Tuo Bu Ka Town,Low,0.2316–0.2567 g,0,,0
+S014,拖布卡镇,Dongchuan: Tuo Bu Ka Town,Moderate,0.2567–0.2844 g,0,,0
+S014,拖布卡镇,Dongchuan: Tuo Bu Ka Town,High,0.2844–0.3272 g,0,,0
+S014,拖布卡镇,Dongchuan: Tuo Bu Ka Town,Very High,> 0.3272 g,0,,0
+S015,红土地镇,Dongchuan: Hong Tu Di Town,Very Low,≤ 0.2316 g,0,,0
+S015,红土地镇,Dongchuan: Hong Tu Di Town,Low,0.2316–0.2567 g,0,,0
+S015,红土地镇,Dongchuan: Hong Tu Di Town,Moderate,0.2567–0.2844 g,0,,0
+S015,红土地镇,Dongchuan: Hong Tu Di Town,High,0.2844–0.3272 g,0,,0
+S015,红土地镇,Dongchuan: Hong Tu Di Town,Very High,> 0.3272 g,0,,0
+S016,铜都街道,Dongchuan: Tong Dou Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S016,铜都街道,Dongchuan: Tong Dou Subdistrict,Low,0.2316–0.2567 g,0,,0
+S016,铜都街道,Dongchuan: Tong Dou Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S016,铜都街道,Dongchuan: Tong Dou Subdistrict,High,0.2844–0.3272 g,0,,0
+S016,铜都街道,Dongchuan: Tong Dou Subdistrict,Very High,> 0.3272 g,0,,0
+S017,马金铺街道,Chenggong: Ma Jin Pu Subdistrict,Very Low,≤ 0.2316 g,0,0.0,210
+S017,马金铺街道,Chenggong: Ma Jin Pu Subdistrict,Low,0.2316–0.2567 g,0,0.0,210
+S017,马金铺街道,Chenggong: Ma Jin Pu Subdistrict,Moderate,0.2567–0.2844 g,33,15.714285714285714,210
+S017,马金铺街道,Chenggong: Ma Jin Pu Subdistrict,High,0.2844–0.3272 g,62,29.523809523809526,210
+S017,马金铺街道,Chenggong: Ma Jin Pu Subdistrict,Very High,> 0.3272 g,115,54.761904761904766,210
+S018,官渡街道,Guandu: Guan Du Subdistrict,Very Low,≤ 0.2316 g,1576,82.04060385216033,1921
+S018,官渡街道,Guandu: Guan Du Subdistrict,Low,0.2316–0.2567 g,345,17.95939614783967,1921
+S018,官渡街道,Guandu: Guan Du Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,1921
+S018,官渡街道,Guandu: Guan Du Subdistrict,High,0.2844–0.3272 g,0,0.0,1921
+S018,官渡街道,Guandu: Guan Du Subdistrict,Very High,> 0.3272 g,0,0.0,1921
+S019,八街街道,Anning: Ba Jie Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S019,八街街道,Anning: Ba Jie Subdistrict,Low,0.2316–0.2567 g,0,,0
+S019,八街街道,Anning: Ba Jie Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S019,八街街道,Anning: Ba Jie Subdistrict,High,0.2844–0.3272 g,0,,0
+S019,八街街道,Anning: Ba Jie Subdistrict,Very High,> 0.3272 g,0,,0
+S020,温泉街道,Anning: Wen Quan Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S020,温泉街道,Anning: Wen Quan Subdistrict,Low,0.2316–0.2567 g,0,,0
+S020,温泉街道,Anning: Wen Quan Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S020,温泉街道,Anning: Wen Quan Subdistrict,High,0.2844–0.3272 g,0,,0
+S020,温泉街道,Anning: Wen Quan Subdistrict,Very High,> 0.3272 g,0,,0
+S021,禄脿街道,Anning: Lu Biao Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S021,禄脿街道,Anning: Lu Biao Subdistrict,Low,0.2316–0.2567 g,0,,0
+S021,禄脿街道,Anning: Lu Biao Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S021,禄脿街道,Anning: Lu Biao Subdistrict,High,0.2844–0.3272 g,0,,0
+S021,禄脿街道,Anning: Lu Biao Subdistrict,Very High,> 0.3272 g,0,,0
+S022,护国街道,Wuhua: Hu Guo Subdistrict,Very Low,≤ 0.2316 g,0,0.0,601
+S022,护国街道,Wuhua: Hu Guo Subdistrict,Low,0.2316–0.2567 g,601,100.0,601
+S022,护国街道,Wuhua: Hu Guo Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,601
+S022,护国街道,Wuhua: Hu Guo Subdistrict,High,0.2844–0.3272 g,0,0.0,601
+S022,护国街道,Wuhua: Hu Guo Subdistrict,Very High,> 0.3272 g,0,0.0,601
+S023,乌龙镇,Dongchuan: Wu Long Town,Very Low,≤ 0.2316 g,0,,0
+S023,乌龙镇,Dongchuan: Wu Long Town,Low,0.2316–0.2567 g,0,,0
+S023,乌龙镇,Dongchuan: Wu Long Town,Moderate,0.2567–0.2844 g,0,,0
+S023,乌龙镇,Dongchuan: Wu Long Town,High,0.2844–0.3272 g,0,,0
+S023,乌龙镇,Dongchuan: Wu Long Town,Very High,> 0.3272 g,0,,0
+S024,阿旺镇,Dongchuan: A Wang Town,Very Low,≤ 0.2316 g,0,,0
+S024,阿旺镇,Dongchuan: A Wang Town,Low,0.2316–0.2567 g,0,,0
+S024,阿旺镇,Dongchuan: A Wang Town,Moderate,0.2567–0.2844 g,0,,0
+S024,阿旺镇,Dongchuan: A Wang Town,High,0.2844–0.3272 g,0,,0
+S024,阿旺镇,Dongchuan: A Wang Town,Very High,> 0.3272 g,0,,0
+S025,因民镇,Dongchuan: Yin Min Town,Very Low,≤ 0.2316 g,0,,0
+S025,因民镇,Dongchuan: Yin Min Town,Low,0.2316–0.2567 g,0,,0
+S025,因民镇,Dongchuan: Yin Min Town,Moderate,0.2567–0.2844 g,0,,0
+S025,因民镇,Dongchuan: Yin Min Town,High,0.2844–0.3272 g,0,,0
+S025,因民镇,Dongchuan: Yin Min Town,Very High,> 0.3272 g,0,,0
+S026,汤丹镇,Dongchuan: Tang Dan Town,Very Low,≤ 0.2316 g,0,,0
+S026,汤丹镇,Dongchuan: Tang Dan Town,Low,0.2316–0.2567 g,0,,0
+S026,汤丹镇,Dongchuan: Tang Dan Town,Moderate,0.2567–0.2844 g,0,,0
+S026,汤丹镇,Dongchuan: Tang Dan Town,High,0.2844–0.3272 g,0,,0
+S026,汤丹镇,Dongchuan: Tang Dan Town,Very High,> 0.3272 g,0,,0
+S027,舍块乡,Dongchuan: She Kuai Township,Very Low,≤ 0.2316 g,0,,0
+S027,舍块乡,Dongchuan: She Kuai Township,Low,0.2316–0.2567 g,0,,0
+S027,舍块乡,Dongchuan: She Kuai Township,Moderate,0.2567–0.2844 g,0,,0
+S027,舍块乡,Dongchuan: She Kuai Township,High,0.2844–0.3272 g,0,,0
+S027,舍块乡,Dongchuan: She Kuai Township,Very High,> 0.3272 g,0,,0
+S028,普吉街道,Wuhua: Pu Ji Subdistrict,Very Low,≤ 0.2316 g,0,0.0,779
+S028,普吉街道,Wuhua: Pu Ji Subdistrict,Low,0.2316–0.2567 g,0,0.0,779
+S028,普吉街道,Wuhua: Pu Ji Subdistrict,Moderate,0.2567–0.2844 g,147,18.870346598202826,779
+S028,普吉街道,Wuhua: Pu Ji Subdistrict,High,0.2844–0.3272 g,632,81.12965340179717,779
+S028,普吉街道,Wuhua: Pu Ji Subdistrict,Very High,> 0.3272 g,0,0.0,779
+S029,莲华街道,Wuhua: Lian Hua Subdistrict,Very Low,≤ 0.2316 g,0,0.0,2386
+S029,莲华街道,Wuhua: Lian Hua Subdistrict,Low,0.2316–0.2567 g,63,2.6404023470243088,2386
+S029,莲华街道,Wuhua: Lian Hua Subdistrict,Moderate,0.2567–0.2844 g,2323,97.3595976529757,2386
+S029,莲华街道,Wuhua: Lian Hua Subdistrict,High,0.2844–0.3272 g,0,0.0,2386
+S029,莲华街道,Wuhua: Lian Hua Subdistrict,Very High,> 0.3272 g,0,0.0,2386
+S030,团结街道,Xishan: Tuan Jie Subdistrict,Very Low,≤ 0.2316 g,0,0.0,10
+S030,团结街道,Xishan: Tuan Jie Subdistrict,Low,0.2316–0.2567 g,7,70.0,10
+S030,团结街道,Xishan: Tuan Jie Subdistrict,Moderate,0.2567–0.2844 g,3,30.0,10
+S030,团结街道,Xishan: Tuan Jie Subdistrict,High,0.2844–0.3272 g,0,0.0,10
+S030,团结街道,Xishan: Tuan Jie Subdistrict,Very High,> 0.3272 g,0,0.0,10
+S031,永昌街道,Xishan: Yong Chang Subdistrict,Very Low,≤ 0.2316 g,0,0.0,837
+S031,永昌街道,Xishan: Yong Chang Subdistrict,Low,0.2316–0.2567 g,639,76.34408602150538,837
+S031,永昌街道,Xishan: Yong Chang Subdistrict,Moderate,0.2567–0.2844 g,198,23.655913978494624,837
+S031,永昌街道,Xishan: Yong Chang Subdistrict,High,0.2844–0.3272 g,0,0.0,837
+S031,永昌街道,Xishan: Yong Chang Subdistrict,Very High,> 0.3272 g,0,0.0,837
+S032,福海街道,Xishan: Fu Hai Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1539
+S032,福海街道,Xishan: Fu Hai Subdistrict,Low,0.2316–0.2567 g,0,0.0,1539
+S032,福海街道,Xishan: Fu Hai Subdistrict,Moderate,0.2567–0.2844 g,1539,100.0,1539
+S032,福海街道,Xishan: Fu Hai Subdistrict,High,0.2844–0.3272 g,0,0.0,1539
+S032,福海街道,Xishan: Fu Hai Subdistrict,Very High,> 0.3272 g,0,0.0,1539
+S033,海口街道,Xishan: Hai Kou Subdistrict,Very Low,≤ 0.2316 g,22,45.83333333333333,48
+S033,海口街道,Xishan: Hai Kou Subdistrict,Low,0.2316–0.2567 g,26,54.166666666666664,48
+S033,海口街道,Xishan: Hai Kou Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,48
+S033,海口街道,Xishan: Hai Kou Subdistrict,High,0.2844–0.3272 g,0,0.0,48
+S033,海口街道,Xishan: Hai Kou Subdistrict,Very High,> 0.3272 g,0,0.0,48
+S034,马街街道,Xishan: Ma Jie Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1096
+S034,马街街道,Xishan: Ma Jie Subdistrict,Low,0.2316–0.2567 g,0,0.0,1096
+S034,马街街道,Xishan: Ma Jie Subdistrict,Moderate,0.2567–0.2844 g,294,26.824817518248175,1096
+S034,马街街道,Xishan: Ma Jie Subdistrict,High,0.2844–0.3272 g,802,73.17518248175182,1096
+S034,马街街道,Xishan: Ma Jie Subdistrict,Very High,> 0.3272 g,0,0.0,1096
+S035,六甲街道,Guandu: Liu Jia Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1225
+S035,六甲街道,Guandu: Liu Jia Subdistrict,Low,0.2316–0.2567 g,849,69.3061224489796,1225
+S035,六甲街道,Guandu: Liu Jia Subdistrict,Moderate,0.2567–0.2844 g,376,30.69387755102041,1225
+S035,六甲街道,Guandu: Liu Jia Subdistrict,High,0.2844–0.3272 g,0,0.0,1225
+S035,六甲街道,Guandu: Liu Jia Subdistrict,Very High,> 0.3272 g,0,0.0,1225
+S036,黑林铺街道,Wuhua: Hei Lin Pu Subdistrict,Very Low,≤ 0.2316 g,0,0.0,906
+S036,黑林铺街道,Wuhua: Hei Lin Pu Subdistrict,Low,0.2316–0.2567 g,0,0.0,906
+S036,黑林铺街道,Wuhua: Hei Lin Pu Subdistrict,Moderate,0.2567–0.2844 g,64,7.06401766004415,906
+S036,黑林铺街道,Wuhua: Hei Lin Pu Subdistrict,High,0.2844–0.3272 g,842,92.93598233995584,906
+S036,黑林铺街道,Wuhua: Hei Lin Pu Subdistrict,Very High,> 0.3272 g,0,0.0,906
+S037,昆明国家高新技术产业开发区,Wuhua: Kun Ming Guo Jia Gao Xin Ji Shu Chan Ye Kai Fa Qu,Very Low,≤ 0.2316 g,0,0.0,837
+S037,昆明国家高新技术产业开发区,Wuhua: Kun Ming Guo Jia Gao Xin Ji Shu Chan Ye Kai Fa Qu,Low,0.2316–0.2567 g,0,0.0,837
+S037,昆明国家高新技术产业开发区,Wuhua: Kun Ming Guo Jia Gao Xin Ji Shu Chan Ye Kai Fa Qu,Moderate,0.2567–0.2844 g,662,79.09199522102747,837
+S037,昆明国家高新技术产业开发区,Wuhua: Kun Ming Guo Jia Gao Xin Ji Shu Chan Ye Kai Fa Qu,High,0.2844–0.3272 g,175,20.908004778972522,837
+S037,昆明国家高新技术产业开发区,Wuhua: Kun Ming Guo Jia Gao Xin Ji Shu Chan Ye Kai Fa Qu,Very High,> 0.3272 g,0,0.0,837
+S038,昆明倘甸产业园区轿子山旅游开发区,Xundian Hui and Yi: Kun Ming Tang Dian Chan Ye Yuan Qu Jiao Zi Shan Lv You Kai Fa Qu,Very Low,≤ 0.2316 g,0,,0
+S038,昆明倘甸产业园区轿子山旅游开发区,Xundian Hui and Yi: Kun Ming Tang Dian Chan Ye Yuan Qu Jiao Zi Shan Lv You Kai Fa Qu,Low,0.2316–0.2567 g,0,,0
+S038,昆明倘甸产业园区轿子山旅游开发区,Xundian Hui and Yi: Kun Ming Tang Dian Chan Ye Yuan Qu Jiao Zi Shan Lv You Kai Fa Qu,Moderate,0.2567–0.2844 g,0,,0
+S038,昆明倘甸产业园区轿子山旅游开发区,Xundian Hui and Yi: Kun Ming Tang Dian Chan Ye Yuan Qu Jiao Zi Shan Lv You Kai Fa Qu,High,0.2844–0.3272 g,0,,0
+S038,昆明倘甸产业园区轿子山旅游开发区,Xundian Hui and Yi: Kun Ming Tang Dian Chan Ye Yuan Qu Jiao Zi Shan Lv You Kai Fa Qu,Very High,> 0.3272 g,0,,0
+S039,七甸街道,Chenggong: Qi Dian Subdistrict,Very Low,≤ 0.2316 g,0,0.0,15
+S039,七甸街道,Chenggong: Qi Dian Subdistrict,Low,0.2316–0.2567 g,0,0.0,15
+S039,七甸街道,Chenggong: Qi Dian Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,15
+S039,七甸街道,Chenggong: Qi Dian Subdistrict,High,0.2844–0.3272 g,0,0.0,15
+S039,七甸街道,Chenggong: Qi Dian Subdistrict,Very High,> 0.3272 g,15,100.0,15
+S040,乌龙街道,Chenggong: Wu Long Subdistrict,Very Low,≤ 0.2316 g,0,0.0,686
+S040,乌龙街道,Chenggong: Wu Long Subdistrict,Low,0.2316–0.2567 g,76,11.078717201166182,686
+S040,乌龙街道,Chenggong: Wu Long Subdistrict,Moderate,0.2567–0.2844 g,540,78.71720116618076,686
+S040,乌龙街道,Chenggong: Wu Long Subdistrict,High,0.2844–0.3272 g,70,10.204081632653061,686
+S040,乌龙街道,Chenggong: Wu Long Subdistrict,Very High,> 0.3272 g,0,0.0,686
+S041,大渔街道,Chenggong: Da Yu Subdistrict,Very Low,≤ 0.2316 g,0,0.0,221
+S041,大渔街道,Chenggong: Da Yu Subdistrict,Low,0.2316–0.2567 g,0,0.0,221
+S041,大渔街道,Chenggong: Da Yu Subdistrict,Moderate,0.2567–0.2844 g,60,27.149321266968325,221
+S041,大渔街道,Chenggong: Da Yu Subdistrict,High,0.2844–0.3272 g,161,72.85067873303167,221
+S041,大渔街道,Chenggong: Da Yu Subdistrict,Very High,> 0.3272 g,0,0.0,221
+S042,斗南街道,Chenggong: Dou Nan Subdistrict,Very Low,≤ 0.2316 g,3,2.2058823529411766,136
+S042,斗南街道,Chenggong: Dou Nan Subdistrict,Low,0.2316–0.2567 g,114,83.82352941176471,136
+S042,斗南街道,Chenggong: Dou Nan Subdistrict,Moderate,0.2567–0.2844 g,19,13.970588235294118,136
+S042,斗南街道,Chenggong: Dou Nan Subdistrict,High,0.2844–0.3272 g,0,0.0,136
+S042,斗南街道,Chenggong: Dou Nan Subdistrict,Very High,> 0.3272 g,0,0.0,136
+S043,洛羊街道,Chenggong: Luo Yang Subdistrict,Very Low,≤ 0.2316 g,0,0.0,2062
+S043,洛羊街道,Chenggong: Luo Yang Subdistrict,Low,0.2316–0.2567 g,20,0.9699321047526674,2062
+S043,洛羊街道,Chenggong: Luo Yang Subdistrict,Moderate,0.2567–0.2844 g,636,30.84384093113482,2062
+S043,洛羊街道,Chenggong: Luo Yang Subdistrict,High,0.2844–0.3272 g,1372,66.53734238603299,2062
+S043,洛羊街道,Chenggong: Luo Yang Subdistrict,Very High,> 0.3272 g,34,1.6488845780795343,2062
+S044,洛龙街道,Chenggong: Luo Long Subdistrict,Very Low,≤ 0.2316 g,0,0.0,517
+S044,洛龙街道,Chenggong: Luo Long Subdistrict,Low,0.2316–0.2567 g,0,0.0,517
+S044,洛龙街道,Chenggong: Luo Long Subdistrict,Moderate,0.2567–0.2844 g,9,1.7408123791102514,517
+S044,洛龙街道,Chenggong: Luo Long Subdistrict,High,0.2844–0.3272 g,507,98.06576402321083,517
+S044,洛龙街道,Chenggong: Luo Long Subdistrict,Very High,> 0.3272 g,1,0.19342359767891684,517
+S045,雨花街道,Chenggong: Yu Hua Subdistrict,Very Low,≤ 0.2316 g,0,0.0,489
+S045,雨花街道,Chenggong: Yu Hua Subdistrict,Low,0.2316–0.2567 g,0,0.0,489
+S045,雨花街道,Chenggong: Yu Hua Subdistrict,Moderate,0.2567–0.2844 g,2,0.408997955010225,489
+S045,雨花街道,Chenggong: Yu Hua Subdistrict,High,0.2844–0.3272 g,484,98.97750511247445,489
+S045,雨花街道,Chenggong: Yu Hua Subdistrict,Very High,> 0.3272 g,3,0.6134969325153374,489
+S046,龙城街道,Chenggong: Long Cheng Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1045
+S046,龙城街道,Chenggong: Long Cheng Subdistrict,Low,0.2316–0.2567 g,340,32.535885167464116,1045
+S046,龙城街道,Chenggong: Long Cheng Subdistrict,Moderate,0.2567–0.2844 g,705,67.46411483253588,1045
+S046,龙城街道,Chenggong: Long Cheng Subdistrict,High,0.2844–0.3272 g,0,0.0,1045
+S046,龙城街道,Chenggong: Long Cheng Subdistrict,Very High,> 0.3272 g,0,0.0,1045
+S047,吴家营街道,Chenggong: Wu Jia Ying Subdistrict,Very Low,≤ 0.2316 g,0,0.0,845
+S047,吴家营街道,Chenggong: Wu Jia Ying Subdistrict,Low,0.2316–0.2567 g,0,0.0,845
+S047,吴家营街道,Chenggong: Wu Jia Ying Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,845
+S047,吴家营街道,Chenggong: Wu Jia Ying Subdistrict,High,0.2844–0.3272 g,343,40.59171597633136,845
+S047,吴家营街道,Chenggong: Wu Jia Ying Subdistrict,Very High,> 0.3272 g,502,59.408284023668635,845
+S048,太和街道,Guandu: Tai He Subdistrict,Very Low,≤ 0.2316 g,25,1.8115942028985508,1380
+S048,太和街道,Guandu: Tai He Subdistrict,Low,0.2316–0.2567 g,1355,98.18840579710145,1380
+S048,太和街道,Guandu: Tai He Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,1380
+S048,太和街道,Guandu: Tai He Subdistrict,High,0.2844–0.3272 g,0,0.0,1380
+S048,太和街道,Guandu: Tai He Subdistrict,Very High,> 0.3272 g,0,0.0,1380
+S049,连然街道,Anning: Lian Ran Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S049,连然街道,Anning: Lian Ran Subdistrict,Low,0.2316–0.2567 g,0,,0
+S049,连然街道,Anning: Lian Ran Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S049,连然街道,Anning: Lian Ran Subdistrict,High,0.2844–0.3272 g,0,,0
+S049,连然街道,Anning: Lian Ran Subdistrict,Very High,> 0.3272 g,0,,0
+S050,金方街道,Anning: Jin Fang Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S050,金方街道,Anning: Jin Fang Subdistrict,Low,0.2316–0.2567 g,0,,0
+S050,金方街道,Anning: Jin Fang Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S050,金方街道,Anning: Jin Fang Subdistrict,High,0.2844–0.3272 g,0,,0
+S050,金方街道,Anning: Jin Fang Subdistrict,Very High,> 0.3272 g,0,,0
+S051,青龙街道,Anning: Qing Long Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S051,青龙街道,Anning: Qing Long Subdistrict,Low,0.2316–0.2567 g,0,,0
+S051,青龙街道,Anning: Qing Long Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S051,青龙街道,Anning: Qing Long Subdistrict,High,0.2844–0.3272 g,0,,0
+S051,青龙街道,Anning: Qing Long Subdistrict,Very High,> 0.3272 g,0,,0
+S052,太平新城街道,Anning: Tai Ping Xin Cheng Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S052,太平新城街道,Anning: Tai Ping Xin Cheng Subdistrict,Low,0.2316–0.2567 g,0,,0
+S052,太平新城街道,Anning: Tai Ping Xin Cheng Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S052,太平新城街道,Anning: Tai Ping Xin Cheng Subdistrict,High,0.2844–0.3272 g,0,,0
+S052,太平新城街道,Anning: Tai Ping Xin Cheng Subdistrict,Very High,> 0.3272 g,0,,0
+S053,矣六街道,Guandu: Yi Liu Subdistrict,Very Low,≤ 0.2316 g,1858,90.5458089668616,2052
+S053,矣六街道,Guandu: Yi Liu Subdistrict,Low,0.2316–0.2567 g,194,9.4541910331384,2052
+S053,矣六街道,Guandu: Yi Liu Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,2052
+S053,矣六街道,Guandu: Yi Liu Subdistrict,High,0.2844–0.3272 g,0,0.0,2052
+S053,矣六街道,Guandu: Yi Liu Subdistrict,Very High,> 0.3272 g,0,0.0,2052
+S054,关上街道,Guandu: Guan Shang Subdistrict,Very Low,≤ 0.2316 g,1193,52.53192426243945,2271
+S054,关上街道,Guandu: Guan Shang Subdistrict,Low,0.2316–0.2567 g,1078,47.46807573756055,2271
+S054,关上街道,Guandu: Guan Shang Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,2271
+S054,关上街道,Guandu: Guan Shang Subdistrict,High,0.2844–0.3272 g,0,0.0,2271
+S054,关上街道,Guandu: Guan Shang Subdistrict,Very High,> 0.3272 g,0,0.0,2271
+S055,吴井街道,Guandu: Wu Jing Subdistrict,Very Low,≤ 0.2316 g,606,76.32241813602015,794
+S055,吴井街道,Guandu: Wu Jing Subdistrict,Low,0.2316–0.2567 g,188,23.67758186397985,794
+S055,吴井街道,Guandu: Wu Jing Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,794
+S055,吴井街道,Guandu: Wu Jing Subdistrict,High,0.2844–0.3272 g,0,0.0,794
+S055,吴井街道,Guandu: Wu Jing Subdistrict,Very High,> 0.3272 g,0,0.0,794
+S056,马街镇,Yiliang: Ma Jie Town,Very Low,≤ 0.2316 g,0,,0
+S056,马街镇,Yiliang: Ma Jie Town,Low,0.2316–0.2567 g,0,,0
+S056,马街镇,Yiliang: Ma Jie Town,Moderate,0.2567–0.2844 g,0,,0
+S056,马街镇,Yiliang: Ma Jie Town,High,0.2844–0.3272 g,0,,0
+S056,马街镇,Yiliang: Ma Jie Town,Very High,> 0.3272 g,0,,0
+S057,北古城镇,Yiliang: Bei Gu Cheng Town,Very Low,≤ 0.2316 g,0,,0
+S057,北古城镇,Yiliang: Bei Gu Cheng Town,Low,0.2316–0.2567 g,0,,0
+S057,北古城镇,Yiliang: Bei Gu Cheng Town,Moderate,0.2567–0.2844 g,0,,0
+S057,北古城镇,Yiliang: Bei Gu Cheng Town,High,0.2844–0.3272 g,0,,0
+S057,北古城镇,Yiliang: Bei Gu Cheng Town,Very High,> 0.3272 g,0,,0
+S058,匡远街道,Yiliang: Kuang Yuan Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S058,匡远街道,Yiliang: Kuang Yuan Subdistrict,Low,0.2316–0.2567 g,0,,0
+S058,匡远街道,Yiliang: Kuang Yuan Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S058,匡远街道,Yiliang: Kuang Yuan Subdistrict,High,0.2844–0.3272 g,0,,0
+S058,匡远街道,Yiliang: Kuang Yuan Subdistrict,Very High,> 0.3272 g,0,,0
+S059,阿拉街道,Guandu: A La Subdistrict,Very Low,≤ 0.2316 g,95,17.0556552962298,557
+S059,阿拉街道,Guandu: A La Subdistrict,Low,0.2316–0.2567 g,186,33.39317773788151,557
+S059,阿拉街道,Guandu: A La Subdistrict,Moderate,0.2567–0.2844 g,260,46.678635547576306,557
+S059,阿拉街道,Guandu: A La Subdistrict,High,0.2844–0.3272 g,16,2.872531418312388,557
+S059,阿拉街道,Guandu: A La Subdistrict,Very High,> 0.3272 g,0,0.0,557
+S060,大板桥街道,Guandu: Da Ban Qiao Subdistrict,Very Low,≤ 0.2316 g,0,0.0,708
+S060,大板桥街道,Guandu: Da Ban Qiao Subdistrict,Low,0.2316–0.2567 g,0,0.0,708
+S060,大板桥街道,Guandu: Da Ban Qiao Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,708
+S060,大板桥街道,Guandu: Da Ban Qiao Subdistrict,High,0.2844–0.3272 g,381,53.813559322033896,708
+S060,大板桥街道,Guandu: Da Ban Qiao Subdistrict,Very High,> 0.3272 g,327,46.186440677966104,708
+S061,茨坝街道,Panlong: Ci Ba Subdistrict,Very Low,≤ 0.2316 g,0,0.0,925
+S061,茨坝街道,Panlong: Ci Ba Subdistrict,Low,0.2316–0.2567 g,470,50.810810810810814,925
+S061,茨坝街道,Panlong: Ci Ba Subdistrict,Moderate,0.2567–0.2844 g,455,49.18918918918919,925
+S061,茨坝街道,Panlong: Ci Ba Subdistrict,High,0.2844–0.3272 g,0,0.0,925
+S061,茨坝街道,Panlong: Ci Ba Subdistrict,Very High,> 0.3272 g,0,0.0,925
+S062,小板桥街道,Guandu: Xiao Ban Qiao Subdistrict,Very Low,≤ 0.2316 g,1891,96.23409669211196,1965
+S062,小板桥街道,Guandu: Xiao Ban Qiao Subdistrict,Low,0.2316–0.2567 g,74,3.76590330788804,1965
+S062,小板桥街道,Guandu: Xiao Ban Qiao Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,1965
+S062,小板桥街道,Guandu: Xiao Ban Qiao Subdistrict,High,0.2844–0.3272 g,0,0.0,1965
+S062,小板桥街道,Guandu: Xiao Ban Qiao Subdistrict,Very High,> 0.3272 g,0,0.0,1965
+S063,昆明经济技术开发区,Guandu: Kun Ming Jing Ji Ji Shu Kai Fa Qu,Very Low,≤ 0.2316 g,417,41.16485686080948,1013
+S063,昆明经济技术开发区,Guandu: Kun Ming Jing Ji Ji Shu Kai Fa Qu,Low,0.2316–0.2567 g,534,52.7147087857848,1013
+S063,昆明经济技术开发区,Guandu: Kun Ming Jing Ji Ji Shu Kai Fa Qu,Moderate,0.2567–0.2844 g,62,6.1204343534057255,1013
+S063,昆明经济技术开发区,Guandu: Kun Ming Jing Ji Ji Shu Kai Fa Qu,High,0.2844–0.3272 g,0,0.0,1013
+S063,昆明经济技术开发区,Guandu: Kun Ming Jing Ji Ji Shu Kai Fa Qu,Very High,> 0.3272 g,0,0.0,1013
+S064,狗街镇,Yiliang: Gou Jie Town,Very Low,≤ 0.2316 g,0,,0
+S064,狗街镇,Yiliang: Gou Jie Town,Low,0.2316–0.2567 g,0,,0
+S064,狗街镇,Yiliang: Gou Jie Town,Moderate,0.2567–0.2844 g,0,,0
+S064,狗街镇,Yiliang: Gou Jie Town,High,0.2844–0.3272 g,0,,0
+S064,狗街镇,Yiliang: Gou Jie Town,Very High,> 0.3272 g,0,,0
+S065,云龙乡,Luquan Yi and Miao: Yun Long Township,Very Low,≤ 0.2316 g,0,,0
+S065,云龙乡,Luquan Yi and Miao: Yun Long Township,Low,0.2316–0.2567 g,0,,0
+S065,云龙乡,Luquan Yi and Miao: Yun Long Township,Moderate,0.2567–0.2844 g,0,,0
+S065,云龙乡,Luquan Yi and Miao: Yun Long Township,High,0.2844–0.3272 g,0,,0
+S065,云龙乡,Luquan Yi and Miao: Yun Long Township,Very High,> 0.3272 g,0,,0
+S066,则黑乡,Luquan Yi and Miao: Ze Hei Township,Very Low,≤ 0.2316 g,0,,0
+S066,则黑乡,Luquan Yi and Miao: Ze Hei Township,Low,0.2316–0.2567 g,0,,0
+S066,则黑乡,Luquan Yi and Miao: Ze Hei Township,Moderate,0.2567–0.2844 g,0,,0
+S066,则黑乡,Luquan Yi and Miao: Ze Hei Township,High,0.2844–0.3272 g,0,,0
+S066,则黑乡,Luquan Yi and Miao: Ze Hei Township,Very High,> 0.3272 g,0,,0
+S067,团街镇,Luquan Yi and Miao: Tuan Jie Town,Very Low,≤ 0.2316 g,0,,0
+S067,团街镇,Luquan Yi and Miao: Tuan Jie Town,Low,0.2316–0.2567 g,0,,0
+S067,团街镇,Luquan Yi and Miao: Tuan Jie Town,Moderate,0.2567–0.2844 g,0,,0
+S067,团街镇,Luquan Yi and Miao: Tuan Jie Town,High,0.2844–0.3272 g,0,,0
+S067,团街镇,Luquan Yi and Miao: Tuan Jie Town,Very High,> 0.3272 g,0,,0
+S068,茂山镇,Luquan Yi and Miao: Mao Shan Town,Very Low,≤ 0.2316 g,0,,0
+S068,茂山镇,Luquan Yi and Miao: Mao Shan Town,Low,0.2316–0.2567 g,0,,0
+S068,茂山镇,Luquan Yi and Miao: Mao Shan Town,Moderate,0.2567–0.2844 g,0,,0
+S068,茂山镇,Luquan Yi and Miao: Mao Shan Town,High,0.2844–0.3272 g,0,,0
+S068,茂山镇,Luquan Yi and Miao: Mao Shan Town,Very High,> 0.3272 g,0,,0
+S069,转龙镇,Luquan Yi and Miao: Zhuan Long Town,Very Low,≤ 0.2316 g,0,,0
+S069,转龙镇,Luquan Yi and Miao: Zhuan Long Town,Low,0.2316–0.2567 g,0,,0
+S069,转龙镇,Luquan Yi and Miao: Zhuan Long Town,Moderate,0.2567–0.2844 g,0,,0
+S069,转龙镇,Luquan Yi and Miao: Zhuan Long Town,High,0.2844–0.3272 g,0,,0
+S069,转龙镇,Luquan Yi and Miao: Zhuan Long Town,Very High,> 0.3272 g,0,,0
+S070,雪山乡,Luquan Yi and Miao: Xue Shan Township,Very Low,≤ 0.2316 g,0,,0
+S070,雪山乡,Luquan Yi and Miao: Xue Shan Township,Low,0.2316–0.2567 g,0,,0
+S070,雪山乡,Luquan Yi and Miao: Xue Shan Township,Moderate,0.2567–0.2844 g,0,,0
+S070,雪山乡,Luquan Yi and Miao: Xue Shan Township,High,0.2844–0.3272 g,0,,0
+S070,雪山乡,Luquan Yi and Miao: Xue Shan Township,Very High,> 0.3272 g,0,,0
+S071,乌东德镇,Luquan Yi and Miao: Wu Dong De Town,Very Low,≤ 0.2316 g,0,,0
+S071,乌东德镇,Luquan Yi and Miao: Wu Dong De Town,Low,0.2316–0.2567 g,0,,0
+S071,乌东德镇,Luquan Yi and Miao: Wu Dong De Town,Moderate,0.2567–0.2844 g,0,,0
+S071,乌东德镇,Luquan Yi and Miao: Wu Dong De Town,High,0.2844–0.3272 g,0,,0
+S071,乌东德镇,Luquan Yi and Miao: Wu Dong De Town,Very High,> 0.3272 g,0,,0
+S072,马鹿塘乡,Luquan Yi and Miao: Ma Lu Tang Township,Very Low,≤ 0.2316 g,0,,0
+S072,马鹿塘乡,Luquan Yi and Miao: Ma Lu Tang Township,Low,0.2316–0.2567 g,0,,0
+S072,马鹿塘乡,Luquan Yi and Miao: Ma Lu Tang Township,Moderate,0.2567–0.2844 g,0,,0
+S072,马鹿塘乡,Luquan Yi and Miao: Ma Lu Tang Township,High,0.2844–0.3272 g,0,,0
+S072,马鹿塘乡,Luquan Yi and Miao: Ma Lu Tang Township,Very High,> 0.3272 g,0,,0
+S073,竹山镇,Yiliang: Zhu Shan Town,Very Low,≤ 0.2316 g,0,,0
+S073,竹山镇,Yiliang: Zhu Shan Town,Low,0.2316–0.2567 g,0,,0
+S073,竹山镇,Yiliang: Zhu Shan Town,Moderate,0.2567–0.2844 g,0,,0
+S073,竹山镇,Yiliang: Zhu Shan Town,High,0.2844–0.3272 g,0,,0
+S073,竹山镇,Yiliang: Zhu Shan Town,Very High,> 0.3272 g,0,,0
+S074,东村镇,Fumin: Dong Cun Town,Very Low,≤ 0.2316 g,0,,0
+S074,东村镇,Fumin: Dong Cun Town,Low,0.2316–0.2567 g,0,,0
+S074,东村镇,Fumin: Dong Cun Town,Moderate,0.2567–0.2844 g,0,,0
+S074,东村镇,Fumin: Dong Cun Town,High,0.2844–0.3272 g,0,,0
+S074,东村镇,Fumin: Dong Cun Town,Very High,> 0.3272 g,0,,0
+S075,双龙街道,Panlong: Shuang Long Subdistrict,Very Low,≤ 0.2316 g,60,100.0,60
+S075,双龙街道,Panlong: Shuang Long Subdistrict,Low,0.2316–0.2567 g,0,0.0,60
+S075,双龙街道,Panlong: Shuang Long Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,60
+S075,双龙街道,Panlong: Shuang Long Subdistrict,High,0.2844–0.3272 g,0,0.0,60
+S075,双龙街道,Panlong: Shuang Long Subdistrict,Very High,> 0.3272 g,0,0.0,60
+S076,散旦镇,Fumin: San Dan Town,Very Low,≤ 0.2316 g,0,,0
+S076,散旦镇,Fumin: San Dan Town,Low,0.2316–0.2567 g,0,,0
+S076,散旦镇,Fumin: San Dan Town,Moderate,0.2567–0.2844 g,0,,0
+S076,散旦镇,Fumin: San Dan Town,High,0.2844–0.3272 g,0,,0
+S076,散旦镇,Fumin: San Dan Town,Very High,> 0.3272 g,0,,0
+S077,小街镇,Songming: Xiao Jie Town,Very Low,≤ 0.2316 g,0,,0
+S077,小街镇,Songming: Xiao Jie Town,Low,0.2316–0.2567 g,0,,0
+S077,小街镇,Songming: Xiao Jie Town,Moderate,0.2567–0.2844 g,0,,0
+S077,小街镇,Songming: Xiao Jie Town,High,0.2844–0.3272 g,0,,0
+S077,小街镇,Songming: Xiao Jie Town,Very High,> 0.3272 g,0,,0
+S078,杨林镇,Songming: Yang Lin Town,Very Low,≤ 0.2316 g,0,0.0,5
+S078,杨林镇,Songming: Yang Lin Town,Low,0.2316–0.2567 g,0,0.0,5
+S078,杨林镇,Songming: Yang Lin Town,Moderate,0.2567–0.2844 g,0,0.0,5
+S078,杨林镇,Songming: Yang Lin Town,High,0.2844–0.3272 g,0,0.0,5
+S078,杨林镇,Songming: Yang Lin Town,Very High,> 0.3272 g,5,100.0,5
+S079,拓东街道,Panlong: Tuo Dong Subdistrict,Very Low,≤ 0.2316 g,149,20.694444444444443,720
+S079,拓东街道,Panlong: Tuo Dong Subdistrict,Low,0.2316–0.2567 g,571,79.30555555555556,720
+S079,拓东街道,Panlong: Tuo Dong Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,720
+S079,拓东街道,Panlong: Tuo Dong Subdistrict,High,0.2844–0.3272 g,0,0.0,720
+S079,拓东街道,Panlong: Tuo Dong Subdistrict,Very High,> 0.3272 g,0,0.0,720
+S080,嵩阳街道,Songming: Song Yang Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S080,嵩阳街道,Songming: Song Yang Subdistrict,Low,0.2316–0.2567 g,0,,0
+S080,嵩阳街道,Songming: Song Yang Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S080,嵩阳街道,Songming: Song Yang Subdistrict,High,0.2844–0.3272 g,0,,0
+S080,嵩阳街道,Songming: Song Yang Subdistrict,Very High,> 0.3272 g,0,,0
+S081,联盟街道,Panlong: Lian Meng Subdistrict,Very Low,≤ 0.2316 g,0,0.0,1922
+S081,联盟街道,Panlong: Lian Meng Subdistrict,Low,0.2316–0.2567 g,1671,86.94068678459938,1922
+S081,联盟街道,Panlong: Lian Meng Subdistrict,Moderate,0.2567–0.2844 g,251,13.059313215400625,1922
+S081,联盟街道,Panlong: Lian Meng Subdistrict,High,0.2844–0.3272 g,0,0.0,1922
+S081,联盟街道,Panlong: Lian Meng Subdistrict,Very High,> 0.3272 g,0,0.0,1922
+S082,牛栏江镇,Songming: Niu Lan Jiang Town,Very Low,≤ 0.2316 g,0,,0
+S082,牛栏江镇,Songming: Niu Lan Jiang Town,Low,0.2316–0.2567 g,0,,0
+S082,牛栏江镇,Songming: Niu Lan Jiang Town,Moderate,0.2567–0.2844 g,0,,0
+S082,牛栏江镇,Songming: Niu Lan Jiang Town,High,0.2844–0.3272 g,0,,0
+S082,牛栏江镇,Songming: Niu Lan Jiang Town,Very High,> 0.3272 g,0,,0
+S083,二街镇,晋宁县: Er Jie Town,Very Low,≤ 0.2316 g,0,,0
+S083,二街镇,晋宁县: Er Jie Town,Low,0.2316–0.2567 g,0,,0
+S083,二街镇,晋宁县: Er Jie Town,Moderate,0.2567–0.2844 g,0,,0
+S083,二街镇,晋宁县: Er Jie Town,High,0.2844–0.3272 g,0,,0
+S083,二街镇,晋宁县: Er Jie Town,Very High,> 0.3272 g,0,,0
+S084,六街镇,晋宁县: Liu Jie Town,Very Low,≤ 0.2316 g,0,,0
+S084,六街镇,晋宁县: Liu Jie Town,Low,0.2316–0.2567 g,0,,0
+S084,六街镇,晋宁县: Liu Jie Town,Moderate,0.2567–0.2844 g,0,,0
+S084,六街镇,晋宁县: Liu Jie Town,High,0.2844–0.3272 g,0,,0
+S084,六街镇,晋宁县: Liu Jie Town,Very High,> 0.3272 g,0,,0
+S085,双河彝族乡,晋宁县: Shuang He Yi Zu Township,Very Low,≤ 0.2316 g,0,,0
+S085,双河彝族乡,晋宁县: Shuang He Yi Zu Township,Low,0.2316–0.2567 g,0,,0
+S085,双河彝族乡,晋宁县: Shuang He Yi Zu Township,Moderate,0.2567–0.2844 g,0,,0
+S085,双河彝族乡,晋宁县: Shuang He Yi Zu Township,High,0.2844–0.3272 g,0,,0
+S085,双河彝族乡,晋宁县: Shuang He Yi Zu Township,Very High,> 0.3272 g,0,,0
+S086,夕阳彝族乡,晋宁县: Xi Yang Yi Zu Township,Very Low,≤ 0.2316 g,0,,0
+S086,夕阳彝族乡,晋宁县: Xi Yang Yi Zu Township,Low,0.2316–0.2567 g,0,,0
+S086,夕阳彝族乡,晋宁县: Xi Yang Yi Zu Township,Moderate,0.2567–0.2844 g,0,,0
+S086,夕阳彝族乡,晋宁县: Xi Yang Yi Zu Township,High,0.2844–0.3272 g,0,,0
+S086,夕阳彝族乡,晋宁县: Xi Yang Yi Zu Township,Very High,> 0.3272 g,0,,0
+S087,东华街道,Panlong: Dong Hua Subdistrict,Very Low,≤ 0.2316 g,472,42.03027604630454,1123
+S087,东华街道,Panlong: Dong Hua Subdistrict,Low,0.2316–0.2567 g,651,57.969723953695464,1123
+S087,东华街道,Panlong: Dong Hua Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,1123
+S087,东华街道,Panlong: Dong Hua Subdistrict,High,0.2844–0.3272 g,0,0.0,1123
+S087,东华街道,Panlong: Dong Hua Subdistrict,Very High,> 0.3272 g,0,0.0,1123
+S088,松华街道,Panlong: Song Hua Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S088,松华街道,Panlong: Song Hua Subdistrict,Low,0.2316–0.2567 g,0,,0
+S088,松华街道,Panlong: Song Hua Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S088,松华街道,Panlong: Song Hua Subdistrict,High,0.2844–0.3272 g,0,,0
+S088,松华街道,Panlong: Song Hua Subdistrict,Very High,> 0.3272 g,0,,0
+S089,金辰街道,Panlong: Jin Chen Subdistrict,Very Low,≤ 0.2316 g,437,24.250832408435073,1802
+S089,金辰街道,Panlong: Jin Chen Subdistrict,Low,0.2316–0.2567 g,1365,75.74916759156493,1802
+S089,金辰街道,Panlong: Jin Chen Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,1802
+S089,金辰街道,Panlong: Jin Chen Subdistrict,High,0.2844–0.3272 g,0,0.0,1802
+S089,金辰街道,Panlong: Jin Chen Subdistrict,Very High,> 0.3272 g,0,0.0,1802
+S090,龙泉街道,Panlong: Long Quan Subdistrict,Very Low,≤ 0.2316 g,661,48.60294117647059,1360
+S090,龙泉街道,Panlong: Long Quan Subdistrict,Low,0.2316–0.2567 g,699,51.397058823529406,1360
+S090,龙泉街道,Panlong: Long Quan Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,1360
+S090,龙泉街道,Panlong: Long Quan Subdistrict,High,0.2844–0.3272 g,0,0.0,1360
+S090,龙泉街道,Panlong: Long Quan Subdistrict,Very High,> 0.3272 g,0,0.0,1360
+S091,青云街道,Panlong: Qing Yun Subdistrict,Very Low,≤ 0.2316 g,2371,99.83157894736841,2375
+S091,青云街道,Panlong: Qing Yun Subdistrict,Low,0.2316–0.2567 g,4,0.16842105263157894,2375
+S091,青云街道,Panlong: Qing Yun Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,2375
+S091,青云街道,Panlong: Qing Yun Subdistrict,High,0.2844–0.3272 g,0,0.0,2375
+S091,青云街道,Panlong: Qing Yun Subdistrict,Very High,> 0.3272 g,0,0.0,2375
+S092,鼓楼街道,Panlong: Gu Lou Subdistrict,Very Low,≤ 0.2316 g,0,0.0,821
+S092,鼓楼街道,Panlong: Gu Lou Subdistrict,Low,0.2316–0.2567 g,817,99.51278928136419,821
+S092,鼓楼街道,Panlong: Gu Lou Subdistrict,Moderate,0.2567–0.2844 g,4,0.48721071863580995,821
+S092,鼓楼街道,Panlong: Gu Lou Subdistrict,High,0.2844–0.3272 g,0,0.0,821
+S092,鼓楼街道,Panlong: Gu Lou Subdistrict,Very High,> 0.3272 g,0,0.0,821
+S093,盘龙区滇源街道,Panlong: Pan Long Qu Dian Yuan Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S093,盘龙区滇源街道,Panlong: Pan Long Qu Dian Yuan Subdistrict,Low,0.2316–0.2567 g,0,,0
+S093,盘龙区滇源街道,Panlong: Pan Long Qu Dian Yuan Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S093,盘龙区滇源街道,Panlong: Pan Long Qu Dian Yuan Subdistrict,High,0.2844–0.3272 g,0,,0
+S093,盘龙区滇源街道,Panlong: Pan Long Qu Dian Yuan Subdistrict,Very High,> 0.3272 g,0,,0
+S094,盘龙区阿子营街道,Panlong: Pan Long Qu A Zi Ying Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S094,盘龙区阿子营街道,Panlong: Pan Long Qu A Zi Ying Subdistrict,Low,0.2316–0.2567 g,0,,0
+S094,盘龙区阿子营街道,Panlong: Pan Long Qu A Zi Ying Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S094,盘龙区阿子营街道,Panlong: Pan Long Qu A Zi Ying Subdistrict,High,0.2844–0.3272 g,0,,0
+S094,盘龙区阿子营街道,Panlong: Pan Long Qu A Zi Ying Subdistrict,Very High,> 0.3272 g,0,,0
+S095,圭山镇,Shilin Yi: Gui Shan Town,Very Low,≤ 0.2316 g,0,,0
+S095,圭山镇,Shilin Yi: Gui Shan Town,Low,0.2316–0.2567 g,0,,0
+S095,圭山镇,Shilin Yi: Gui Shan Town,Moderate,0.2567–0.2844 g,0,,0
+S095,圭山镇,Shilin Yi: Gui Shan Town,High,0.2844–0.3272 g,0,,0
+S095,圭山镇,Shilin Yi: Gui Shan Town,Very High,> 0.3272 g,0,,0
+S096,大可乡,Shilin Yi: Da Ke Township,Very Low,≤ 0.2316 g,0,,0
+S096,大可乡,Shilin Yi: Da Ke Township,Low,0.2316–0.2567 g,0,,0
+S096,大可乡,Shilin Yi: Da Ke Township,Moderate,0.2567–0.2844 g,0,,0
+S096,大可乡,Shilin Yi: Da Ke Township,High,0.2844–0.3272 g,0,,0
+S096,大可乡,Shilin Yi: Da Ke Township,Very High,> 0.3272 g,0,,0
+S097,七星镇,Xundian Hui and Yi: Qi Xing Town,Very Low,≤ 0.2316 g,0,,0
+S097,七星镇,Xundian Hui and Yi: Qi Xing Town,Low,0.2316–0.2567 g,0,,0
+S097,七星镇,Xundian Hui and Yi: Qi Xing Town,Moderate,0.2567–0.2844 g,0,,0
+S097,七星镇,Xundian Hui and Yi: Qi Xing Town,High,0.2844–0.3272 g,0,,0
+S097,七星镇,Xundian Hui and Yi: Qi Xing Town,Very High,> 0.3272 g,0,,0
+S098,长湖镇,Shilin Yi: Zhang Hu Town,Very Low,≤ 0.2316 g,0,,0
+S098,长湖镇,Shilin Yi: Zhang Hu Town,Low,0.2316–0.2567 g,0,,0
+S098,长湖镇,Shilin Yi: Zhang Hu Town,Moderate,0.2567–0.2844 g,0,,0
+S098,长湖镇,Shilin Yi: Zhang Hu Town,High,0.2844–0.3272 g,0,,0
+S098,长湖镇,Shilin Yi: Zhang Hu Town,Very High,> 0.3272 g,0,,0
+S099,西街口镇,Shilin Yi: Xi Jie Kou Town,Very Low,≤ 0.2316 g,0,,0
+S099,西街口镇,Shilin Yi: Xi Jie Kou Town,Low,0.2316–0.2567 g,0,,0
+S099,西街口镇,Shilin Yi: Xi Jie Kou Town,Moderate,0.2567–0.2844 g,0,,0
+S099,西街口镇,Shilin Yi: Xi Jie Kou Town,High,0.2844–0.3272 g,0,,0
+S099,西街口镇,Shilin Yi: Xi Jie Kou Town,Very High,> 0.3272 g,0,,0
+S100,倘甸镇,Xundian Hui and Yi: Tang Dian Town,Very Low,≤ 0.2316 g,0,,0
+S100,倘甸镇,Xundian Hui and Yi: Tang Dian Town,Low,0.2316–0.2567 g,0,,0
+S100,倘甸镇,Xundian Hui and Yi: Tang Dian Town,Moderate,0.2567–0.2844 g,0,,0
+S100,倘甸镇,Xundian Hui and Yi: Tang Dian Town,High,0.2844–0.3272 g,0,,0
+S100,倘甸镇,Xundian Hui and Yi: Tang Dian Town,Very High,> 0.3272 g,0,,0
+S101,六哨乡,Xundian Hui and Yi: Liu Shao Township,Very Low,≤ 0.2316 g,0,,0
+S101,六哨乡,Xundian Hui and Yi: Liu Shao Township,Low,0.2316–0.2567 g,0,,0
+S101,六哨乡,Xundian Hui and Yi: Liu Shao Township,Moderate,0.2567–0.2844 g,0,,0
+S101,六哨乡,Xundian Hui and Yi: Liu Shao Township,High,0.2844–0.3272 g,0,,0
+S101,六哨乡,Xundian Hui and Yi: Liu Shao Township,Very High,> 0.3272 g,0,,0
+S102,甸沙乡,Xundian Hui and Yi: Dian Sha Township,Very Low,≤ 0.2316 g,0,,0
+S102,甸沙乡,Xundian Hui and Yi: Dian Sha Township,Low,0.2316–0.2567 g,0,,0
+S102,甸沙乡,Xundian Hui and Yi: Dian Sha Township,Moderate,0.2567–0.2844 g,0,,0
+S102,甸沙乡,Xundian Hui and Yi: Dian Sha Township,High,0.2844–0.3272 g,0,,0
+S102,甸沙乡,Xundian Hui and Yi: Dian Sha Township,Very High,> 0.3272 g,0,,0
+S103,凤合镇,Xundian Hui and Yi: Feng He Town,Very Low,≤ 0.2316 g,0,,0
+S103,凤合镇,Xundian Hui and Yi: Feng He Town,Low,0.2316–0.2567 g,0,,0
+S103,凤合镇,Xundian Hui and Yi: Feng He Town,Moderate,0.2567–0.2844 g,0,,0
+S103,凤合镇,Xundian Hui and Yi: Feng He Town,High,0.2844–0.3272 g,0,,0
+S103,凤合镇,Xundian Hui and Yi: Feng He Town,Very High,> 0.3272 g,0,,0
+S104,羊街镇,Xundian Hui and Yi: Yang Jie Town,Very Low,≤ 0.2316 g,0,,0
+S104,羊街镇,Xundian Hui and Yi: Yang Jie Town,Low,0.2316–0.2567 g,0,,0
+S104,羊街镇,Xundian Hui and Yi: Yang Jie Town,Moderate,0.2567–0.2844 g,0,,0
+S104,羊街镇,Xundian Hui and Yi: Yang Jie Town,High,0.2844–0.3272 g,0,,0
+S104,羊街镇,Xundian Hui and Yi: Yang Jie Town,Very High,> 0.3272 g,0,,0
+S105,功山镇,Xundian Hui and Yi: Gong Shan Town,Very Low,≤ 0.2316 g,0,,0
+S105,功山镇,Xundian Hui and Yi: Gong Shan Town,Low,0.2316–0.2567 g,0,,0
+S105,功山镇,Xundian Hui and Yi: Gong Shan Town,Moderate,0.2567–0.2844 g,0,,0
+S105,功山镇,Xundian Hui and Yi: Gong Shan Town,High,0.2844–0.3272 g,0,,0
+S105,功山镇,Xundian Hui and Yi: Gong Shan Town,Very High,> 0.3272 g,0,,0
+S106,柯渡镇,Xundian Hui and Yi: Ke Du Town,Very Low,≤ 0.2316 g,0,,0
+S106,柯渡镇,Xundian Hui and Yi: Ke Du Town,Low,0.2316–0.2567 g,0,,0
+S106,柯渡镇,Xundian Hui and Yi: Ke Du Town,Moderate,0.2567–0.2844 g,0,,0
+S106,柯渡镇,Xundian Hui and Yi: Ke Du Town,High,0.2844–0.3272 g,0,,0
+S106,柯渡镇,Xundian Hui and Yi: Ke Du Town,Very High,> 0.3272 g,0,,0
+S107,河口镇,Xundian Hui and Yi: He Kou Town,Very Low,≤ 0.2316 g,0,,0
+S107,河口镇,Xundian Hui and Yi: He Kou Town,Low,0.2316–0.2567 g,0,,0
+S107,河口镇,Xundian Hui and Yi: He Kou Town,Moderate,0.2567–0.2844 g,0,,0
+S107,河口镇,Xundian Hui and Yi: He Kou Town,High,0.2844–0.3272 g,0,,0
+S107,河口镇,Xundian Hui and Yi: He Kou Town,Very High,> 0.3272 g,0,,0
+S108,联合乡,Xundian Hui and Yi: Lian He Township,Very Low,≤ 0.2316 g,0,,0
+S108,联合乡,Xundian Hui and Yi: Lian He Township,Low,0.2316–0.2567 g,0,,0
+S108,联合乡,Xundian Hui and Yi: Lian He Township,Moderate,0.2567–0.2844 g,0,,0
+S108,联合乡,Xundian Hui and Yi: Lian He Township,High,0.2844–0.3272 g,0,,0
+S108,联合乡,Xundian Hui and Yi: Lian He Township,Very High,> 0.3272 g,0,,0
+S109,金源乡,Xundian Hui and Yi: Jin Yuan Township,Very Low,≤ 0.2316 g,0,,0
+S109,金源乡,Xundian Hui and Yi: Jin Yuan Township,Low,0.2316–0.2567 g,0,,0
+S109,金源乡,Xundian Hui and Yi: Jin Yuan Township,Moderate,0.2567–0.2844 g,0,,0
+S109,金源乡,Xundian Hui and Yi: Jin Yuan Township,High,0.2844–0.3272 g,0,,0
+S109,金源乡,Xundian Hui and Yi: Jin Yuan Township,Very High,> 0.3272 g,0,,0
+S110,鸡街镇,Xundian Hui and Yi: Ji Jie Town,Very Low,≤ 0.2316 g,0,,0
+S110,鸡街镇,Xundian Hui and Yi: Ji Jie Town,Low,0.2316–0.2567 g,0,,0
+S110,鸡街镇,Xundian Hui and Yi: Ji Jie Town,Moderate,0.2567–0.2844 g,0,,0
+S110,鸡街镇,Xundian Hui and Yi: Ji Jie Town,High,0.2844–0.3272 g,0,,0
+S110,鸡街镇,Xundian Hui and Yi: Ji Jie Town,Very High,> 0.3272 g,0,,0
+S111,中屏镇,Luquan Yi and Miao: Zhong Ping Town,Very Low,≤ 0.2316 g,0,,0
+S111,中屏镇,Luquan Yi and Miao: Zhong Ping Town,Low,0.2316–0.2567 g,0,,0
+S111,中屏镇,Luquan Yi and Miao: Zhong Ping Town,Moderate,0.2567–0.2844 g,0,,0
+S111,中屏镇,Luquan Yi and Miao: Zhong Ping Town,High,0.2844–0.3272 g,0,,0
+S111,中屏镇,Luquan Yi and Miao: Zhong Ping Town,Very High,> 0.3272 g,0,,0
+S112,乌蒙乡,Luquan Yi and Miao: Wu Meng Township,Very Low,≤ 0.2316 g,0,,0
+S112,乌蒙乡,Luquan Yi and Miao: Wu Meng Township,Low,0.2316–0.2567 g,0,,0
+S112,乌蒙乡,Luquan Yi and Miao: Wu Meng Township,Moderate,0.2567–0.2844 g,0,,0
+S112,乌蒙乡,Luquan Yi and Miao: Wu Meng Township,High,0.2844–0.3272 g,0,,0
+S112,乌蒙乡,Luquan Yi and Miao: Wu Meng Township,Very High,> 0.3272 g,0,,0
+S113,九龙镇,Luquan Yi and Miao: Jiu Long Town,Very Low,≤ 0.2316 g,0,,0
+S113,九龙镇,Luquan Yi and Miao: Jiu Long Town,Low,0.2316–0.2567 g,0,,0
+S113,九龙镇,Luquan Yi and Miao: Jiu Long Town,Moderate,0.2567–0.2844 g,0,,0
+S113,九龙镇,Luquan Yi and Miao: Jiu Long Town,High,0.2844–0.3272 g,0,,0
+S113,九龙镇,Luquan Yi and Miao: Jiu Long Town,Very High,> 0.3272 g,0,,0
+S114,县街街道,Anning: Xian Jie Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S114,县街街道,Anning: Xian Jie Subdistrict,Low,0.2316–0.2567 g,0,,0
+S114,县街街道,Anning: Xian Jie Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S114,县街街道,Anning: Xian Jie Subdistrict,High,0.2844–0.3272 g,0,,0
+S114,县街街道,Anning: Xian Jie Subdistrict,Very High,> 0.3272 g,0,,0
+S115,金马街道,Guandu: Jin Ma Subdistrict,Very Low,≤ 0.2316 g,1648,99.93935718617344,1649
+S115,金马街道,Guandu: Jin Ma Subdistrict,Low,0.2316–0.2567 g,1,0.06064281382656155,1649
+S115,金马街道,Guandu: Jin Ma Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,1649
+S115,金马街道,Guandu: Jin Ma Subdistrict,High,0.2844–0.3272 g,0,0.0,1649
+S115,金马街道,Guandu: Jin Ma Subdistrict,Very High,> 0.3272 g,0,0.0,1649
+S116,汤池街道,Yiliang: Tang Chi Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S116,汤池街道,Yiliang: Tang Chi Subdistrict,Low,0.2316–0.2567 g,0,,0
+S116,汤池街道,Yiliang: Tang Chi Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S116,汤池街道,Yiliang: Tang Chi Subdistrict,High,0.2844–0.3272 g,0,,0
+S116,汤池街道,Yiliang: Tang Chi Subdistrict,Very High,> 0.3272 g,0,,0
+S117,耿家营乡,Yiliang: Geng Jia Ying Township,Very Low,≤ 0.2316 g,0,,0
+S117,耿家营乡,Yiliang: Geng Jia Ying Township,Low,0.2316–0.2567 g,0,,0
+S117,耿家营乡,Yiliang: Geng Jia Ying Township,Moderate,0.2567–0.2844 g,0,,0
+S117,耿家营乡,Yiliang: Geng Jia Ying Township,High,0.2844–0.3272 g,0,,0
+S117,耿家营乡,Yiliang: Geng Jia Ying Township,Very High,> 0.3272 g,0,,0
+S118,九乡乡,Yiliang: Jiu Xiang Township,Very Low,≤ 0.2316 g,0,,0
+S118,九乡乡,Yiliang: Jiu Xiang Township,Low,0.2316–0.2567 g,0,,0
+S118,九乡乡,Yiliang: Jiu Xiang Township,Moderate,0.2567–0.2844 g,0,,0
+S118,九乡乡,Yiliang: Jiu Xiang Township,High,0.2844–0.3272 g,0,,0
+S118,九乡乡,Yiliang: Jiu Xiang Township,Very High,> 0.3272 g,0,,0
+S119,款庄镇,Fumin: Kuan Zhuang Town,Very Low,≤ 0.2316 g,0,,0
+S119,款庄镇,Fumin: Kuan Zhuang Town,Low,0.2316–0.2567 g,0,,0
+S119,款庄镇,Fumin: Kuan Zhuang Town,Moderate,0.2567–0.2844 g,0,,0
+S119,款庄镇,Fumin: Kuan Zhuang Town,High,0.2844–0.3272 g,0,,0
+S119,款庄镇,Fumin: Kuan Zhuang Town,Very High,> 0.3272 g,0,,0
+S120,罗免镇,Fumin: Luo Mian Town,Very Low,≤ 0.2316 g,0,,0
+S120,罗免镇,Fumin: Luo Mian Town,Low,0.2316–0.2567 g,0,,0
+S120,罗免镇,Fumin: Luo Mian Town,Moderate,0.2567–0.2844 g,0,,0
+S120,罗免镇,Fumin: Luo Mian Town,High,0.2844–0.3272 g,0,,0
+S120,罗免镇,Fumin: Luo Mian Town,Very High,> 0.3272 g,0,,0
+S121,赤鹫镇,Fumin: Chi Jiu Town,Very Low,≤ 0.2316 g,0,,0
+S121,赤鹫镇,Fumin: Chi Jiu Town,Low,0.2316–0.2567 g,0,,0
+S121,赤鹫镇,Fumin: Chi Jiu Town,Moderate,0.2567–0.2844 g,0,,0
+S121,赤鹫镇,Fumin: Chi Jiu Town,High,0.2844–0.3272 g,0,,0
+S121,赤鹫镇,Fumin: Chi Jiu Town,Very High,> 0.3272 g,0,,0
+S122,永定街道,Fumin: Yong Ding Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S122,永定街道,Fumin: Yong Ding Subdistrict,Low,0.2316–0.2567 g,0,,0
+S122,永定街道,Fumin: Yong Ding Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S122,永定街道,Fumin: Yong Ding Subdistrict,High,0.2844–0.3272 g,0,,0
+S122,永定街道,Fumin: Yong Ding Subdistrict,Very High,> 0.3272 g,0,,0
+S123,上蒜镇,晋宁县: Shang Suan Town,Very Low,≤ 0.2316 g,0,,0
+S123,上蒜镇,晋宁县: Shang Suan Town,Low,0.2316–0.2567 g,0,,0
+S123,上蒜镇,晋宁县: Shang Suan Town,Moderate,0.2567–0.2844 g,0,,0
+S123,上蒜镇,晋宁县: Shang Suan Town,High,0.2844–0.3272 g,0,,0
+S123,上蒜镇,晋宁县: Shang Suan Town,Very High,> 0.3272 g,0,,0
+S124,晋城镇,晋宁县: Jin Cheng Town,Very Low,≤ 0.2316 g,0,,0
+S124,晋城镇,晋宁县: Jin Cheng Town,Low,0.2316–0.2567 g,0,,0
+S124,晋城镇,晋宁县: Jin Cheng Town,Moderate,0.2567–0.2844 g,0,,0
+S124,晋城镇,晋宁县: Jin Cheng Town,High,0.2844–0.3272 g,0,,0
+S124,晋城镇,晋宁县: Jin Cheng Town,Very High,> 0.3272 g,0,,0
+S125,昆阳街道,晋宁县: Kun Yang Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S125,昆阳街道,晋宁县: Kun Yang Subdistrict,Low,0.2316–0.2567 g,0,,0
+S125,昆阳街道,晋宁县: Kun Yang Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S125,昆阳街道,晋宁县: Kun Yang Subdistrict,High,0.2844–0.3272 g,0,,0
+S125,昆阳街道,晋宁县: Kun Yang Subdistrict,Very High,> 0.3272 g,0,,0
+S126,碧鸡街道,Xishan: Bi Ji Subdistrict,Very Low,≤ 0.2316 g,0,0.0,408
+S126,碧鸡街道,Xishan: Bi Ji Subdistrict,Low,0.2316–0.2567 g,0,0.0,408
+S126,碧鸡街道,Xishan: Bi Ji Subdistrict,Moderate,0.2567–0.2844 g,0,0.0,408
+S126,碧鸡街道,Xishan: Bi Ji Subdistrict,High,0.2844–0.3272 g,408,100.0,408
+S126,碧鸡街道,Xishan: Bi Ji Subdistrict,Very High,> 0.3272 g,0,0.0,408
+S127,鹿阜街道,Shilin Yi: Lu Fu Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S127,鹿阜街道,Shilin Yi: Lu Fu Subdistrict,Low,0.2316–0.2567 g,0,,0
+S127,鹿阜街道,Shilin Yi: Lu Fu Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S127,鹿阜街道,Shilin Yi: Lu Fu Subdistrict,High,0.2844–0.3272 g,0,,0
+S127,鹿阜街道,Shilin Yi: Lu Fu Subdistrict,Very High,> 0.3272 g,0,,0
+S128,屏山街道,Luquan Yi and Miao: Ping Shan Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S128,屏山街道,Luquan Yi and Miao: Ping Shan Subdistrict,Low,0.2316–0.2567 g,0,,0
+S128,屏山街道,Luquan Yi and Miao: Ping Shan Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S128,屏山街道,Luquan Yi and Miao: Ping Shan Subdistrict,High,0.2844–0.3272 g,0,,0
+S128,屏山街道,Luquan Yi and Miao: Ping Shan Subdistrict,Very High,> 0.3272 g,0,,0
+S129,撒营盘镇,Luquan Yi and Miao: Sa Ying Pan Town,Very Low,≤ 0.2316 g,0,,0
+S129,撒营盘镇,Luquan Yi and Miao: Sa Ying Pan Town,Low,0.2316–0.2567 g,0,,0
+S129,撒营盘镇,Luquan Yi and Miao: Sa Ying Pan Town,Moderate,0.2567–0.2844 g,0,,0
+S129,撒营盘镇,Luquan Yi and Miao: Sa Ying Pan Town,High,0.2844–0.3272 g,0,,0
+S129,撒营盘镇,Luquan Yi and Miao: Sa Ying Pan Town,Very High,> 0.3272 g,0,,0
+S130,皎平渡镇,Luquan Yi and Miao: Jiao Ping Du Town,Very Low,≤ 0.2316 g,0,,0
+S130,皎平渡镇,Luquan Yi and Miao: Jiao Ping Du Town,Low,0.2316–0.2567 g,0,,0
+S130,皎平渡镇,Luquan Yi and Miao: Jiao Ping Du Town,Moderate,0.2567–0.2844 g,0,,0
+S130,皎平渡镇,Luquan Yi and Miao: Jiao Ping Du Town,High,0.2844–0.3272 g,0,,0
+S130,皎平渡镇,Luquan Yi and Miao: Jiao Ping Du Town,Very High,> 0.3272 g,0,,0
+S131,仁德街道,Xundian Hui and Yi: Ren De Subdistrict,Very Low,≤ 0.2316 g,0,,0
+S131,仁德街道,Xundian Hui and Yi: Ren De Subdistrict,Low,0.2316–0.2567 g,0,,0
+S131,仁德街道,Xundian Hui and Yi: Ren De Subdistrict,Moderate,0.2567–0.2844 g,0,,0
+S131,仁德街道,Xundian Hui and Yi: Ren De Subdistrict,High,0.2844–0.3272 g,0,,0
+S131,仁德街道,Xundian Hui and Yi: Ren De Subdistrict,Very High,> 0.3272 g,0,,0
+S132,汤郎乡,Luquan Yi and Miao: Tang Lang Township,Very Low,≤ 0.2316 g,0,,0
+S132,汤郎乡,Luquan Yi and Miao: Tang Lang Township,Low,0.2316–0.2567 g,0,,0
+S132,汤郎乡,Luquan Yi and Miao: Tang Lang Township,Moderate,0.2567–0.2844 g,0,,0
+S132,汤郎乡,Luquan Yi and Miao: Tang Lang Township,High,0.2844–0.3272 g,0,,0
+S132,汤郎乡,Luquan Yi and Miao: Tang Lang Township,Very High,> 0.3272 g,0,,0
+S133,翠华镇,Luquan Yi and Miao: Cui Hua Town,Very Low,≤ 0.2316 g,0,,0
+S133,翠华镇,Luquan Yi and Miao: Cui Hua Town,Low,0.2316–0.2567 g,0,,0
+S133,翠华镇,Luquan Yi and Miao: Cui Hua Town,Moderate,0.2567–0.2844 g,0,,0
+S133,翠华镇,Luquan Yi and Miao: Cui Hua Town,High,0.2844–0.3272 g,0,,0
+S133,翠华镇,Luquan Yi and Miao: Cui Hua Town,Very High,> 0.3272 g,0,,0
+S134,禄劝工业园区管理委员会,Luquan Yi and Miao: Lu Quan Gong Ye Yuan Qu Guan Li Wei Yuan Hui,Very Low,≤ 0.2316 g,0,,0
+S134,禄劝工业园区管理委员会,Luquan Yi and Miao: Lu Quan Gong Ye Yuan Qu Guan Li Wei Yuan Hui,Low,0.2316–0.2567 g,0,,0
+S134,禄劝工业园区管理委员会,Luquan Yi and Miao: Lu Quan Gong Ye Yuan Qu Guan Li Wei Yuan Hui,Moderate,0.2567–0.2844 g,0,,0
+S134,禄劝工业园区管理委员会,Luquan Yi and Miao: Lu Quan Gong Ye Yuan Qu Guan Li Wei Yuan Hui,High,0.2844–0.3272 g,0,,0
+S134,禄劝工业园区管理委员会,Luquan Yi and Miao: Lu Quan Gong Ye Yuan Qu Guan Li Wei Yuan Hui,Very High,> 0.3272 g,0,,0

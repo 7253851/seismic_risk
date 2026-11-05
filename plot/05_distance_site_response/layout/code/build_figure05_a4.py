@@ -16,7 +16,7 @@ import sys
 from zoneinfo import ZoneInfo
 
 os.environ.setdefault("MPLCONFIGDIR", "/private/tmp/seismic_risk_mpl")
-ROOT = Path("/Users/bin/Projects/seismic_risk")
+ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_OUTPUT = Path(__file__).resolve().parents[1] / "work"  # never the adopted files in layout/
 SOURCE = ROOT / "plot/05_distance_site_response/code/combine_hazard_site_response.py"
 sys.path[:0] = [str(ROOT / "project/code"), str(ROOT / "plot/shared")]

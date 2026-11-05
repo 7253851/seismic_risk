@@ -111,7 +111,7 @@ def main():
         '## 后续定性所需证据', '',
         '优先核对昆明城市活动断层探测报告及配套原图、先锋矿区原始地质报告；再查具体露头的擦痕/侧伏角、地层或阶地水系错断。与断层空间匹配的震源机制可提供补充，但单个附近地震不能直接确定整条断层。', '',
         '当前制图可继续使用普通断层线。候选性质如需展示，应明确标注资料解释/待核；两条线不使用确定的左旋、右旋箭头，梨花海也不直接画成已证实逆断层。', '',
-        '复现：`/Users/bin/miniforge3/envs/seismic/bin/python plot/shared/qgis/scripts/infer_lihuahai_machang_properties.py`。输出为本目录的JSON、CSV和本文。在线原文已核查，保存链接与页码，未存完整PDF副本。']
+        '复现：`python plot/shared/qgis/scripts/infer_lihuahai_machang_properties.py`。输出为本目录的JSON、CSV和本文。在线原文已核查，保存链接与页码，未存完整PDF副本。']
     report = OUT / '性质推断.md'
     report.write_text('\n'.join(lines) + '\n')
     print(json.dumps({'report': str(report), 'proposals': 2, 'GIS_written': False, 'source_hashes_unchanged': True}, ensure_ascii=False))

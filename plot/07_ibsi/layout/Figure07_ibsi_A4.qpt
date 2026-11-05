@@ -3373,18 +3373,18 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer name="地震震中 · 深度 10 km" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp">__________10_km_3cddf192_2cc1_4106_b678_95e5c0589ef4</Layer>
-   <Layer name="昆明周边历史地震 · 原项目84点" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__edd1d178_ecfb_4b0e_bc06_056068f627d0</Layer>
-   <Layer name="断层 · 危险性计算输入（59 条记录）" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aff55151_d216_4549_890a_4d2050d99eda</Layer>
-   <Layer name="滇池边界 · 2016年文献参考岸线" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp">_______2016________aadd870a_4324_47ef_8cca_bcaabe07512a</Layer>
-   <Layer name="昆明区县边界 · 原项目14面" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')">____________14__f286df56_d4d7_440f_9fe7_b414d6da29e3</Layer>
-   <Layer name="昆明乡镇街道边界 · 原项目134面" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp">______________134__c1dc1597_8c4e_41cf_a9b3_c79161a1ac27</Layer>
-   <Layer name="IBSI · saved building inventory" provider="ogr" source="/Users/bin/Projects/seismic_risk/result/vulnerability/scs_paper_method/01_building_vulnerability_metrics.gpkg|layername=building_vulnerability_metrics">IBSI___saved_building_inventory_f1a5080a_8e61_4f37_b9c0_7723194008cb</Layer>
-   <Layer name="OSM waterways · 无标注" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______87071cc0_b295_4a41_8228_12a15e5aeb29</Layer>
-   <Layer name="灰色山体阴影 · Esri World Hillshade（底图缓存）" provider="gdal" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif">_______Esri_World_Hillshade_______1c6ca26a_163e_4015_bc1c_cb087ad04012</Layer>
+   <Layer name="地震震中 · 深度 10 km" provider="ogr" source="../../../data/validation/cases/event_epicenter.shp">__________10_km_3cddf192_2cc1_4106_b678_95e5c0589ef4</Layer>
+   <Layer name="昆明周边历史地震 · 原项目84点" provider="ogr" source="../../../data/earthquakes/kunming_surrounding_earthquakes.shp">______________84__edd1d178_ecfb_4b0e_bc06_056068f627d0</Layer>
+   <Layer name="断层 · 危险性计算输入（59 条记录）" provider="ogr" source="../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched">_____________59______aff55151_d216_4549_890a_4d2050d99eda</Layer>
+   <Layer name="滇池边界 · 2016年文献参考岸线" provider="ogr" source="../../../data/water/dianchi_2016_reference.shp">_______2016________aadd870a_4324_47ef_8cca_bcaabe07512a</Layer>
+   <Layer name="昆明区县边界 · 原项目14面" provider="ogr" source="../../../data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')">____________14__f286df56_d4d7_440f_9fe7_b414d6da29e3</Layer>
+   <Layer name="昆明乡镇街道边界 · 原项目134面" provider="ogr" source="../../../data/administrative/kunming_streets.shp">______________134__c1dc1597_8c4e_41cf_a9b3_c79161a1ac27</Layer>
+   <Layer name="IBSI · saved building inventory" provider="ogr" source="../../../result/vulnerability/scs_paper_method/01_building_vulnerability_metrics.gpkg|layername=building_vulnerability_metrics">IBSI___saved_building_inventory_f1a5080a_8e61_4f37_b9c0_7723194008cb</Layer>
+   <Layer name="OSM waterways · 无标注" provider="ogr" source="../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways">OSM_waterways_______87071cc0_b295_4a41_8228_12a15e5aeb29</Layer>
+   <Layer name="灰色山体阴影 · Esri World Hillshade（底图缓存）" provider="gdal" source="../../../data/cartography/terrain/kunming_esri_hillshade.tif">_______Esri_World_Hillshade_______1c6ca26a_163e_4015_bc1c_cb087ad04012</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle name="IBSI · saved building inventory" provider="ogr" source="/Users/bin/Projects/seismic_risk/result/vulnerability/scs_paper_method/01_building_vulnerability_metrics.gpkg|layername=building_vulnerability_metrics" layerid="IBSI___saved_building_inventory_f1a5080a_8e61_4f37_b9c0_7723194008cb">
+   <LayerStyle name="IBSI · saved building inventory" provider="ogr" source="../../../result/vulnerability/scs_paper_method/01_building_vulnerability_metrics.gpkg|layername=building_vulnerability_metrics" layerid="IBSI___saved_building_inventory_f1a5080a_8e61_4f37_b9c0_7723194008cb">
     <qgis symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyDrawingTol="1" version="3.44.15-Solothurn" labelsEnabled="0" minScale="100000000" autoRefreshMode="Disabled" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4223,7 +4223,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="OSM waterways · 无标注" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/cartography/kunming_simple_basemap.gpkg|layername=waterways" layerid="OSM_waterways_______87071cc0_b295_4a41_8228_12a15e5aeb29">
+   <LayerStyle name="OSM waterways · 无标注" provider="ogr" source="../../../data/cartography/kunming_simple_basemap.gpkg|layername=waterways" layerid="OSM_waterways_______87071cc0_b295_4a41_8228_12a15e5aeb29">
     <qgis symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyDrawingTol="1" version="3.44.15-Solothurn" labelsEnabled="0" minScale="100000000" autoRefreshMode="Disabled" readOnly="1" maxScale="0" simplifyLocal="1" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4528,7 +4528,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="滇池边界 · 2016年文献参考岸线" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp" layerid="_______2016________aadd870a_4324_47ef_8cca_bcaabe07512a">
+   <LayerStyle name="滇池边界 · 2016年文献参考岸线" provider="ogr" source="../../../data/water/dianchi_2016_reference.shp" layerid="_______2016________aadd870a_4324_47ef_8cca_bcaabe07512a">
     <qgis symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyDrawingTol="1" version="3.44.15-Solothurn" labelsEnabled="0" minScale="100000000" autoRefreshMode="Disabled" readOnly="1" maxScale="0" simplifyLocal="1" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4817,7 +4817,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="灰色山体阴影 · Esri World Hillshade（底图缓存）" provider="gdal" source="/Users/bin/Projects/seismic_risk/data/cartography/terrain/kunming_esri_hillshade.tif" layerid="_______Esri_World_Hillshade_______1c6ca26a_163e_4015_bc1c_cb087ad04012">
+   <LayerStyle name="灰色山体阴影 · Esri World Hillshade（底图缓存）" provider="gdal" source="../../../data/cartography/terrain/kunming_esri_hillshade.tif" layerid="_______Esri_World_Hillshade_______1c6ca26a_163e_4015_bc1c_cb087ad04012">
     <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" version="3.44.15-Solothurn" minScale="1e+08" autoRefreshMode="Disabled" maxScale="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4983,7 +4983,7 @@
      <blendMode>0</blendMode>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="地震震中 · 深度 10 km" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp" layerid="__________10_km_3cddf192_2cc1_4106_b678_95e5c0589ef4">
+   <LayerStyle name="地震震中 · 深度 10 km" provider="ogr" source="../../../data/validation/cases/event_epicenter.shp" layerid="__________10_km_3cddf192_2cc1_4106_b678_95e5c0589ef4">
     <qgis symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyDrawingTol="1" version="3.44.15-Solothurn" labelsEnabled="0" minScale="100000000" autoRefreshMode="Disabled" readOnly="1" maxScale="0" simplifyLocal="1" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5417,7 +5417,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="昆明区县边界 · 原项目14面" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" layerid="____________14__f286df56_d4d7_440f_9fe7_b414d6da29e3">
+   <LayerStyle name="昆明区县边界 · 原项目14面" provider="ogr" source="../../../data/administrative/kunming_districts.shp|subset=&quot;name&quot; IN ('五华区','盘龙区','西山区','官渡区','呈贡区')" layerid="____________14__f286df56_d4d7_440f_9fe7_b414d6da29e3">
     <qgis symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyDrawingTol="1" version="3.44.15-Solothurn" labelsEnabled="0" minScale="100000000" autoRefreshMode="Disabled" readOnly="1" maxScale="0" simplifyLocal="1" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5804,7 +5804,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="断层 · 危险性计算输入（59 条记录）" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/faults/kunming_faults_literature.gpkg|layername=faults_enriched" layerid="_____________59______aff55151_d216_4549_890a_4d2050d99eda">
+   <LayerStyle name="断层 · 危险性计算输入（59 条记录）" provider="ogr" source="../../../data/faults/kunming_faults_literature.gpkg|layername=faults_enriched" layerid="_____________59______aff55151_d216_4549_890a_4d2050d99eda">
     <qgis symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyDrawingTol="1" version="3.44.15-Solothurn" labelsEnabled="0" minScale="100000000" autoRefreshMode="Disabled" readOnly="1" maxScale="0" simplifyLocal="1" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -6290,7 +6290,7 @@
      </labeling>
      <customproperties>
       <Option type="Map">
-       <Option name="fault_literature/original_source" type="QString" value="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp"/>
+       <Option name="fault_literature/original_source" type="QString" value="../../../data/faults/02_Kunming_Fault_Processed.shp"/>
        <Option name="fault_literature/review_date" type="QString" value="2026-10-14"/>
        <Option name="fault_literature/reviewed_input_sha256" type="QString" value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408"/>
        <Option name="seismic_building/base_key" type="QString" value="faults"/>
@@ -6716,7 +6716,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="昆明乡镇街道边界 · 原项目134面" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp" layerid="______________134__c1dc1597_8c4e_41cf_a9b3_c79161a1ac27">
+   <LayerStyle name="昆明乡镇街道边界 · 原项目134面" provider="ogr" source="../../../data/administrative/kunming_streets.shp" layerid="______________134__c1dc1597_8c4e_41cf_a9b3_c79161a1ac27">
     <qgis symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyDrawingTol="1" version="3.44.15-Solothurn" labelsEnabled="0" minScale="100000000" autoRefreshMode="Disabled" readOnly="1" maxScale="0" simplifyLocal="1" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7090,7 +7090,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle name="昆明周边历史地震 · 原项目84点" provider="ogr" source="/Users/bin/Projects/seismic_risk/data/earthquakes/kunming_surrounding_earthquakes.shp" layerid="______________84__edd1d178_ecfb_4b0e_bc06_056068f627d0">
+   <LayerStyle name="昆明周边历史地震 · 原项目84点" provider="ogr" source="../../../data/earthquakes/kunming_surrounding_earthquakes.shp" layerid="______________84__edd1d178_ecfb_4b0e_bc06_056068f627d0">
     <qgis symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyDrawingTol="1" version="3.44.15-Solothurn" labelsEnabled="0" minScale="100000000" autoRefreshMode="Disabled" readOnly="1" maxScale="0" simplifyLocal="1" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>

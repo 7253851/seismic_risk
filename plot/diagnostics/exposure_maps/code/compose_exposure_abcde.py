@@ -32,9 +32,8 @@ from matplotlib.colors import to_hex
 import numpy as np
 from PIL import Image
 
-RUNTIME = Path("/Users/bin/.cache/codex-runtimes/codex-primary-runtime/dependencies")
-PDF_PYTHON = RUNTIME / "python/bin/python3"
-PDFTOPPM = RUNTIME / "bin/override/pdftoppm"
+PDF_PYTHON = Path(sys.executable)
+PDFTOPPM = Path(shutil.which("pdftoppm") or "pdftoppm")
 SHARED_SOURCE = ROOT / "plot/diagnostics/exposure_distribution/code/draw_exposure_2x2.py"
 spec = importlib.util.spec_from_file_location("exposure_statistics", SHARED_SOURCE)
 shared = importlib.util.module_from_spec(spec)

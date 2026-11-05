@@ -10,7 +10,7 @@ import re
 import pdfplumber
 from pypdf import PdfReader
 
-ROOT = Path('/Users/bin/Projects/seismic_risk')
+ROOT = Path(__file__).resolve().parents[3]
 DRAFT = Path(__file__).resolve().parents[1]
 BACKUP = ROOT / 'backups/2026-10-21_15-15-56_figure05_fonts'
 BASELINE = ROOT / 'drafts/2026-10-21_15-02-53_figure05_a4/figure05_A4.pdf'

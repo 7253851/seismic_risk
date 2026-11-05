@@ -9,6 +9,10 @@
 !/.gitignore
 !/.github/README.md
 !/docs/*.md
+!/LICENSE
+
+# --- Public result tables (attribute tables only, no geometry) ----------------
+!/data_release/**
 
 # --- 数值模型与实验入口 ---------------------------------------------------
 !/project/**/*.py

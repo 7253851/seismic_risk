@@ -1,0 +1,26 @@
+﻿static_class,insar_class,building_count,share_of_40000_pct,share_within_static_class_pct
+Very Low,Very Low,12866,32.164999999999999,95.537239177248082
+Very Low,Low,601,1.5024999999999999,4.4627608227519122
+Very Low,Moderate,0,0,0
+Very Low,High,0,0,0
+Very Low,Very High,0,0,0
+Low,Very Low,0,0,0
+Low,Low,10816,27.039999999999999,93.040860215053769
+Low,Moderate,809,2.0225,6.9591397849462364
+Low,High,0,0,0
+Low,Very High,0,0,0
+Moderate,Very Low,0,0,0
+Moderate,Low,0,0,0
+Moderate,Moderate,7673,19.182500000000001,91.519561068702288
+Moderate,High,711,1.7775000000000001,8.4804389312977104
+Moderate,Very High,0,0,0
+High,Very Low,0,0,0
+High,Low,0,0,0
+High,Moderate,0,0,0
+High,High,4678,11.695,93.87918924342766
+High,Very High,305,0.76249999999999996,6.1208107565723457
+Very High,Very Low,0,0,0
+Very High,Low,0,0,0
+Very High,Moderate,0,0,0
+Very High,High,0,0,0
+Very High,Very High,1541,3.8525,100

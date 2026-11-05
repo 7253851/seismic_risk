@@ -3104,18 +3104,18 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer name="2026 Kunming Earthquake Epicenter" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp" provider="ogr">2026_Kunming_Earthquake_Epicenter_694d6ab3_09b8_41ce_a33c_82a297d9aa92</Layer>
-   <Layer name="Historical Earthquake Catalog · 2012–2024" source="/Users/bin/Projects/seismic_risk/data/earthquakes/historical_catalog_2012_2024.shp|subset=&quot;gb&quot; IN ('156530102', '156530103', '156530111', '156530112', '156530113', '156530114', '156530115', '156530124', '156530125', '156530126', '156530127', '156530128', '156530129', '156530181')" provider="ogr">Historical_Earthquake_Catalog___2012_2024_1581981c_5a31_424d_95ef_a67bfc1638e4</Layer>
-   <Layer name="Faults · 59 Source Features" source="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" provider="ogr">Faults___59_Source_Features_007cbf2a_5bb4_4377_88a8_ce1a7fba523a</Layer>
-   <Layer name="Dianchi Lake · 2016 Reference Shoreline" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp" provider="ogr">Dianchi_Lake___2016_Reference_Shoreline_49a71d5f_22d6_4cbe_be78_3cb321ceb94e</Layer>
-   <Layer name="Subdistrict and Township Boundaries" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp" provider="ogr">Subdistrict_and_Township_Boundaries_d62f006b_a5f2_47e1_aa56_d00a7e2dd9af</Layer>
-   <Layer name="Kunming District Boundaries · GS(2024)0650" source="/Users/bin/Projects/seismic_risk/data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp|subset=&quot;gb&quot; LIKE '1565301%'" provider="ogr">Kunming_District_Boundaries___GS_2024_0650_52eb640f_b7e7_4826_af0a_47943e469112</Layer>
-   <Layer name="Study Buildings · 57,228" source="/Users/bin/Projects/seismic_risk/result/hazard/scs_pipeline/06_building_hazard.gpkg|layername=building_hazard" provider="ogr">Study_Buildings___57_228_4e072f0b_4e52_483d_9e40_dfcd34b511ba</Layer>
-   <Layer name="Built-up Areas · ArcGIS Pro Study Area" source="/Users/bin/Projects/seismic_risk/data/study_area/built_up.gpkg|layername=built_up" provider="ogr">Built_up_Areas___ArcGIS_Pro_Study_Area_cdd36628_cbac_4fdf_9b61_aa7a64e9fc11</Layer>
-   <Layer name="Yunnan DEM · Hypsometric Tint and Hillshade · terrain_detail" source="/Users/bin/Projects/seismic_risk/result/intermediate/cartography/study_area_terrain/terrain_detail_d10624ab0050bfad.tif" provider="gdal">Yunnan_DEM___Hypsometric_Tint_and_Hillshade___terrain_detail_f788fe3b_d568_4f41_821c_0364b407cc98</Layer>
+   <Layer name="2026 Kunming Earthquake Epicenter" source="../../../data/validation/cases/event_epicenter.shp" provider="ogr">2026_Kunming_Earthquake_Epicenter_694d6ab3_09b8_41ce_a33c_82a297d9aa92</Layer>
+   <Layer name="Historical Earthquake Catalog · 2012–2024" source="../../../data/earthquakes/historical_catalog_2012_2024.shp|subset=&quot;gb&quot; IN ('156530102', '156530103', '156530111', '156530112', '156530113', '156530114', '156530115', '156530124', '156530125', '156530126', '156530127', '156530128', '156530129', '156530181')" provider="ogr">Historical_Earthquake_Catalog___2012_2024_1581981c_5a31_424d_95ef_a67bfc1638e4</Layer>
+   <Layer name="Faults · 59 Source Features" source="../../../data/faults/02_Kunming_Fault_Processed.shp" provider="ogr">Faults___59_Source_Features_007cbf2a_5bb4_4377_88a8_ce1a7fba523a</Layer>
+   <Layer name="Dianchi Lake · 2016 Reference Shoreline" source="../../../data/water/dianchi_2016_reference.shp" provider="ogr">Dianchi_Lake___2016_Reference_Shoreline_49a71d5f_22d6_4cbe_be78_3cb321ceb94e</Layer>
+   <Layer name="Subdistrict and Township Boundaries" source="../../../data/administrative/kunming_streets.shp" provider="ogr">Subdistrict_and_Township_Boundaries_d62f006b_a5f2_47e1_aa56_d00a7e2dd9af</Layer>
+   <Layer name="Kunming District Boundaries · GS(2024)0650" source="../../../data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp|subset=&quot;gb&quot; LIKE '1565301%'" provider="ogr">Kunming_District_Boundaries___GS_2024_0650_52eb640f_b7e7_4826_af0a_47943e469112</Layer>
+   <Layer name="Study Buildings · 57,228" source="../../../result/hazard/scs_pipeline/06_building_hazard.gpkg|layername=building_hazard" provider="ogr">Study_Buildings___57_228_4e072f0b_4e52_483d_9e40_dfcd34b511ba</Layer>
+   <Layer name="Built-up Areas · ArcGIS Pro Study Area" source="../../../data/study_area/built_up.gpkg|layername=built_up" provider="ogr">Built_up_Areas___ArcGIS_Pro_Study_Area_cdd36628_cbac_4fdf_9b61_aa7a64e9fc11</Layer>
+   <Layer name="Yunnan DEM · Hypsometric Tint and Hillshade · terrain_detail" source="../../../result/intermediate/cartography/study_area_terrain/terrain_detail_d10624ab0050bfad.tif" provider="gdal">Yunnan_DEM___Hypsometric_Tint_and_Hillshade___terrain_detail_f788fe3b_d568_4f41_821c_0364b407cc98</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle layerid="2026_Kunming_Earthquake_Epicenter_694d6ab3_09b8_41ce_a33c_82a297d9aa92" name="2026 Kunming Earthquake Epicenter" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp" provider="ogr">
+   <LayerStyle layerid="2026_Kunming_Earthquake_Epicenter_694d6ab3_09b8_41ce_a33c_82a297d9aa92" name="2026 Kunming Earthquake Epicenter" source="../../../data/validation/cases/event_epicenter.shp" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -3472,7 +3472,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Built_up_Areas___ArcGIS_Pro_Study_Area_cdd36628_cbac_4fdf_9b61_aa7a64e9fc11" name="Built-up Areas · ArcGIS Pro Study Area" source="/Users/bin/Projects/seismic_risk/data/study_area/built_up.gpkg|layername=built_up" provider="ogr">
+   <LayerStyle layerid="Built_up_Areas___ArcGIS_Pro_Study_Area_cdd36628_cbac_4fdf_9b61_aa7a64e9fc11" name="Built-up Areas · ArcGIS Pro Study Area" source="../../../data/study_area/built_up.gpkg|layername=built_up" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" maxScale="0" readOnly="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -3791,7 +3791,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Dianchi_Lake___2016_Reference_Shoreline_49a71d5f_22d6_4cbe_be78_3cb321ceb94e" name="Dianchi Lake · 2016 Reference Shoreline" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp" provider="ogr">
+   <LayerStyle layerid="Dianchi_Lake___2016_Reference_Shoreline_49a71d5f_22d6_4cbe_be78_3cb321ceb94e" name="Dianchi Lake · 2016 Reference Shoreline" source="../../../data/water/dianchi_2016_reference.shp" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="1" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4171,7 +4171,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Faults___59_Source_Features_007cbf2a_5bb4_4377_88a8_ce1a7fba523a" name="Faults · 59 Source Features" source="/Users/bin/Projects/seismic_risk/data/faults/02_Kunming_Fault_Processed.shp" provider="ogr">
+   <LayerStyle layerid="Faults___59_Source_Features_007cbf2a_5bb4_4377_88a8_ce1a7fba523a" name="Faults · 59 Source Features" source="../../../data/faults/02_Kunming_Fault_Processed.shp" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="1" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -4877,7 +4877,7 @@
      <layerGeometryType>1</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Historical_Earthquake_Catalog___2012_2024_1581981c_5a31_424d_95ef_a67bfc1638e4" name="Historical Earthquake Catalog · 2012–2024" source="/Users/bin/Projects/seismic_risk/data/earthquakes/historical_catalog_2012_2024.shp|subset=&quot;gb&quot; IN ('156530102', '156530103', '156530111', '156530112', '156530113', '156530114', '156530115', '156530124', '156530125', '156530126', '156530127', '156530128', '156530129', '156530181')" provider="ogr">
+   <LayerStyle layerid="Historical_Earthquake_Catalog___2012_2024_1581981c_5a31_424d_95ef_a67bfc1638e4" name="Historical Earthquake Catalog · 2012–2024" source="../../../data/earthquakes/historical_catalog_2012_2024.shp|subset=&quot;gb&quot; IN ('156530102', '156530103', '156530111', '156530112', '156530113', '156530114', '156530115', '156530124', '156530125', '156530126', '156530127', '156530128', '156530129', '156530181')" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5294,7 +5294,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Kunming_District_Boundaries___GS_2024_0650_52eb640f_b7e7_4826_af0a_47943e469112" name="Kunming District Boundaries · GS(2024)0650" source="/Users/bin/Projects/seismic_risk/data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp|subset=&quot;gb&quot; LIKE '1565301%'" provider="ogr">
+   <LayerStyle layerid="Kunming_District_Boundaries___GS_2024_0650_52eb640f_b7e7_4826_af0a_47943e469112" name="Kunming District Boundaries · GS(2024)0650" source="../../../data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp|subset=&quot;gb&quot; LIKE '1565301%'" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="1" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -5685,7 +5685,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Study_Buildings___57_228_4e072f0b_4e52_483d_9e40_dfcd34b511ba" name="Study Buildings · 57,228" source="/Users/bin/Projects/seismic_risk/result/hazard/scs_pipeline/06_building_hazard.gpkg|layername=building_hazard" provider="ogr">
+   <LayerStyle layerid="Study_Buildings___57_228_4e072f0b_4e52_483d_9e40_dfcd34b511ba" name="Study Buildings · 57,228" source="../../../result/hazard/scs_pipeline/06_building_hazard.gpkg|layername=building_hazard" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -6592,7 +6592,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Subdistrict_and_Township_Boundaries_d62f006b_a5f2_47e1_aa56_d00a7e2dd9af" name="Subdistrict and Township Boundaries" source="/Users/bin/Projects/seismic_risk/data/administrative/kunming_streets.shp" provider="ogr">
+   <LayerStyle layerid="Subdistrict_and_Township_Boundaries_d62f006b_a5f2_47e1_aa56_d00a7e2dd9af" name="Subdistrict and Township Boundaries" source="../../../data/administrative/kunming_streets.shp" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -6887,7 +6887,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Yunnan_DEM___Hypsometric_Tint_and_Hillshade___terrain_detail_f788fe3b_d568_4f41_821c_0364b407cc98" name="Yunnan DEM · Hypsometric Tint and Hillshade · terrain_detail" source="/Users/bin/Projects/seismic_risk/result/intermediate/cartography/study_area_terrain/terrain_detail_d10624ab0050bfad.tif" provider="gdal">
+   <LayerStyle layerid="Yunnan_DEM___Hypsometric_Tint_and_Hillshade___terrain_detail_f788fe3b_d568_4f41_821c_0364b407cc98" name="Yunnan DEM · Hypsometric Tint and Hillshade · terrain_detail" source="../../../result/intermediate/cartography/study_area_terrain/terrain_detail_d10624ab0050bfad.tif" provider="gdal">
     <qgis version="3.44.15-Solothurn" styleCategories="AllStyleCategories" minScale="1e+08" maxScale="0" autoRefreshMode="Disabled" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7243,16 +7243,16 @@
    </spatialrefsys>
   </crs>
   <LayerSet>
-   <Layer name="2026 Kunming Earthquake Epicenter" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp" provider="ogr">2026_Kunming_Earthquake_Epicenter_694d6ab3_09b8_41ce_a33c_82a297d9aa92</Layer>
-   <Layer name="Historical Earthquake Catalog · 2012–2024" source="/Users/bin/Projects/seismic_risk/data/earthquakes/historical_catalog_2012_2024.shp|subset=&quot;gb&quot; IN ('156530102', '156530103', '156530111', '156530112', '156530113', '156530114', '156530115', '156530124', '156530125', '156530126', '156530127', '156530128', '156530129', '156530181')" provider="ogr">Historical_Earthquake_Catalog___2012_2024_1581981c_5a31_424d_95ef_a67bfc1638e4</Layer>
-   <Layer name="TSX1 Coverage" source="/Users/bin/Projects/seismic_risk/data/study_area/TSX1_Extent.shp" provider="ogr">TSX1_Coverage_d037bdac_41a1_42c9_9a78_44e5661224a3</Layer>
-   <Layer name="TSX2 Coverage" source="/Users/bin/Projects/seismic_risk/data/study_area/TSX2_Extent.shp" provider="ogr">TSX2_Coverage_66fccfb2_f2bd_483c_9604_ec57a290a139</Layer>
-   <Layer name="Dianchi Lake · 2016 Reference Shoreline" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp" provider="ogr">Dianchi_Lake___2016_Reference_Shoreline_49a71d5f_22d6_4cbe_be78_3cb321ceb94e</Layer>
-   <Layer name="Kunming District Boundaries · GS(2024)0650" source="/Users/bin/Projects/seismic_risk/data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp|subset=&quot;gb&quot; LIKE '1565301%'" provider="ogr">Kunming_District_Boundaries___GS_2024_0650_52eb640f_b7e7_4826_af0a_47943e469112</Layer>
-   <Layer name="Kunming City Boundary · GS(2024)0650" source="/Users/bin/Projects/seismic_risk/data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_cities.shp|subset=&quot;gb&quot; = '156530100'" provider="ogr">Kunming_City_Boundary___GS_2024_0650_667bc566_d4c7_47d6_a214_7306c0bb5e9f</Layer>
+   <Layer name="2026 Kunming Earthquake Epicenter" source="../../../data/validation/cases/event_epicenter.shp" provider="ogr">2026_Kunming_Earthquake_Epicenter_694d6ab3_09b8_41ce_a33c_82a297d9aa92</Layer>
+   <Layer name="Historical Earthquake Catalog · 2012–2024" source="../../../data/earthquakes/historical_catalog_2012_2024.shp|subset=&quot;gb&quot; IN ('156530102', '156530103', '156530111', '156530112', '156530113', '156530114', '156530115', '156530124', '156530125', '156530126', '156530127', '156530128', '156530129', '156530181')" provider="ogr">Historical_Earthquake_Catalog___2012_2024_1581981c_5a31_424d_95ef_a67bfc1638e4</Layer>
+   <Layer name="TSX1 Coverage" source="../../../data/study_area/TSX1_Extent.shp" provider="ogr">TSX1_Coverage_d037bdac_41a1_42c9_9a78_44e5661224a3</Layer>
+   <Layer name="TSX2 Coverage" source="../../../data/study_area/TSX2_Extent.shp" provider="ogr">TSX2_Coverage_66fccfb2_f2bd_483c_9604_ec57a290a139</Layer>
+   <Layer name="Dianchi Lake · 2016 Reference Shoreline" source="../../../data/water/dianchi_2016_reference.shp" provider="ogr">Dianchi_Lake___2016_Reference_Shoreline_49a71d5f_22d6_4cbe_be78_3cb321ceb94e</Layer>
+   <Layer name="Kunming District Boundaries · GS(2024)0650" source="../../../data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp|subset=&quot;gb&quot; LIKE '1565301%'" provider="ogr">Kunming_District_Boundaries___GS_2024_0650_52eb640f_b7e7_4826_af0a_47943e469112</Layer>
+   <Layer name="Kunming City Boundary · GS(2024)0650" source="../../../data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_cities.shp|subset=&quot;gb&quot; = '156530100'" provider="ogr">Kunming_City_Boundary___GS_2024_0650_667bc566_d4c7_47d6_a214_7306c0bb5e9f</Layer>
   </LayerSet>
   <LayerStyles>
-   <LayerStyle layerid="2026_Kunming_Earthquake_Epicenter_694d6ab3_09b8_41ce_a33c_82a297d9aa92" name="2026 Kunming Earthquake Epicenter" source="/Users/bin/Projects/seismic_risk/data/validation/cases/event_epicenter.shp" provider="ogr">
+   <LayerStyle layerid="2026_Kunming_Earthquake_Epicenter_694d6ab3_09b8_41ce_a33c_82a297d9aa92" name="2026 Kunming Earthquake Epicenter" source="../../../data/validation/cases/event_epicenter.shp" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7609,7 +7609,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Dianchi_Lake___2016_Reference_Shoreline_49a71d5f_22d6_4cbe_be78_3cb321ceb94e" name="Dianchi Lake · 2016 Reference Shoreline" source="/Users/bin/Projects/seismic_risk/data/water/dianchi_2016_reference.shp" provider="ogr">
+   <LayerStyle layerid="Dianchi_Lake___2016_Reference_Shoreline_49a71d5f_22d6_4cbe_be78_3cb321ceb94e" name="Dianchi Lake · 2016 Reference Shoreline" source="../../../data/water/dianchi_2016_reference.shp" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -7989,7 +7989,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Historical_Earthquake_Catalog___2012_2024_1581981c_5a31_424d_95ef_a67bfc1638e4" name="Historical Earthquake Catalog · 2012–2024" source="/Users/bin/Projects/seismic_risk/data/earthquakes/historical_catalog_2012_2024.shp|subset=&quot;gb&quot; IN ('156530102', '156530103', '156530111', '156530112', '156530113', '156530114', '156530115', '156530124', '156530125', '156530126', '156530127', '156530128', '156530129', '156530181')" provider="ogr">
+   <LayerStyle layerid="Historical_Earthquake_Catalog___2012_2024_1581981c_5a31_424d_95ef_a67bfc1638e4" name="Historical Earthquake Catalog · 2012–2024" source="../../../data/earthquakes/historical_catalog_2012_2024.shp|subset=&quot;gb&quot; IN ('156530102', '156530103', '156530111', '156530112', '156530113', '156530114', '156530115', '156530124', '156530125', '156530126', '156530127', '156530128', '156530129', '156530181')" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -8406,7 +8406,7 @@
      <layerGeometryType>0</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Kunming_City_Boundary___GS_2024_0650_667bc566_d4c7_47d6_a214_7306c0bb5e9f" name="Kunming City Boundary · GS(2024)0650" source="/Users/bin/Projects/seismic_risk/data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_cities.shp|subset=&quot;gb&quot; = '156530100'" provider="ogr">
+   <LayerStyle layerid="Kunming_City_Boundary___GS_2024_0650_667bc566_d4c7_47d6_a214_7306c0bb5e9f" name="Kunming City Boundary · GS(2024)0650" source="../../../data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_cities.shp|subset=&quot;gb&quot; = '156530100'" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -8701,7 +8701,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="Kunming_District_Boundaries___GS_2024_0650_52eb640f_b7e7_4826_af0a_47943e469112" name="Kunming District Boundaries · GS(2024)0650" source="/Users/bin/Projects/seismic_risk/data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp|subset=&quot;gb&quot; LIKE '1565301%'" provider="ogr">
+   <LayerStyle layerid="Kunming_District_Boundaries___GS_2024_0650_52eb640f_b7e7_4826_af0a_47943e469112" name="Kunming District Boundaries · GS(2024)0650" source="../../../data/china_administrative_boundaries_gs_2024_0650/shapefile_converted/china_counties.shp|subset=&quot;gb&quot; LIKE '1565301%'" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="1" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -9092,7 +9092,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="TSX1_Coverage_d037bdac_41a1_42c9_9a78_44e5661224a3" name="TSX1 Coverage" source="/Users/bin/Projects/seismic_risk/data/study_area/TSX1_Extent.shp" provider="ogr">
+   <LayerStyle layerid="TSX1_Coverage_d037bdac_41a1_42c9_9a78_44e5661224a3" name="TSX1 Coverage" source="../../../data/study_area/TSX1_Extent.shp" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>
@@ -9363,7 +9363,7 @@
      <layerGeometryType>2</layerGeometryType>
     </qgis>
    </LayerStyle>
-   <LayerStyle layerid="TSX2_Coverage_66fccfb2_f2bd_483c_9604_ec57a290a139" name="TSX2 Coverage" source="/Users/bin/Projects/seismic_risk/data/study_area/TSX2_Extent.shp" provider="ogr">
+   <LayerStyle layerid="TSX2_Coverage_66fccfb2_f2bd_483c_9604_ec57a290a139" name="TSX2 Coverage" source="../../../data/study_area/TSX2_Extent.shp" provider="ogr">
     <qgis version="3.44.15-Solothurn" simplifyMaxScale="1" styleCategories="AllStyleCategories" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0" maxScale="0" simplifyLocal="1" autoRefreshMode="Disabled" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
      <flags>
       <Identifiable>1</Identifiable>

@@ -162,7 +162,7 @@ manifest.json记录源文件路径、SHA-256、导出文件行数、区间约定
 在seismic_risk根目录运行：
 
 ```sh
-/Users/bin/miniforge3/envs/seismic/bin/python plot/04_seismic_hazard/code/export_plot_data.py
+python plot/04_seismic_hazard/code/export_plot_data.py
 ```
 
 脚本按固定名称更新本目录的数据，并与当前拼图保存的统计信息核对；图表或模型结果更新后，先重建拼图，再更新此数据快照。

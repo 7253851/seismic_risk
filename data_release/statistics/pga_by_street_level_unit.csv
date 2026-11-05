@@ -1,0 +1,135 @@
+﻿省,市,县,乡,Admin_Unit_ID,Admin_Name,County_Name,County_Name_EN,Admin_Name_Pinyin,Admin_Name_EN,Building_Count,Mean_PGA_g,Median_PGA_g,SD_PGA_g,Min_PGA_g,P95_PGA_g,Max_PGA_g,High_or_Very_High_Count,High_or_Very_High_Pct,Very_Low_Count,Very_Low_Pct,Low_Count,Low_Pct,Moderate_Count,Moderate_Pct,High_Count,High_Pct,Very_High_Count,Very_High_Pct
+云南省,昆明市,五华区,西翥街道,S001,西翥街道,五华区,Wuhua District,Xi Zhu Subdistrict,Wuhua: Xi Zhu Subdistrict,6,0.30705488403690545,0.30701044081230333,0.0005086081394174895,0.3064328280359454,0.30767889700468226,0.3077789436114931,6,100.0,0,0.0,0,0.0,0,0.0,6,100.0,0,0.0
+云南省,昆明市,五华区,龙翔街道,S002,龙翔街道,五华区,Wuhua District,Long Xiang Subdistrict,Wuhua: Long Xiang Subdistrict,794,0.269438843882972,0.2696209944880378,0.003593779967647814,0.2621109260073277,0.27537576920820583,0.2760862341494236,0,0.0,0,0.0,0,0.0,794,100.0,0,0.0,0,0.0
+云南省,昆明市,安宁市,草铺街道,S003,草铺街道,安宁市,Anning City,Cao Pu Subdistrict,Anning: Cao Pu Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,西山区,西苑街道,S004,西苑街道,西山区,Xishan District,Xi Yuan Subdistrict,Xishan: Xi Yuan Subdistrict,473,0.27542569783315224,0.2748364520699651,0.0022525157238879353,0.2708216418306201,0.27952828311489336,0.2806500386026597,0,0.0,0,0.0,0,0.0,473,100.0,0,0.0,0,0.0
+云南省,昆明市,西山区,棕树营街道,S005,棕树营街道,西山区,Xishan District,Zong Shu Ying Subdistrict,Xishan: Zong Shu Ying Subdistrict,967,0.26955719613002577,0.2697088352455662,0.00207442677334043,0.2644163053797835,0.27266570708439897,0.2747702591211404,0,0.0,0,0.0,0,0.0,967,100.0,0,0.0,0,0.0
+云南省,昆明市,西山区,金碧街道,S006,金碧街道,西山区,Xishan District,Jin Bi Subdistrict,Xishan: Jin Bi Subdistrict,2030,0.25658548558647487,0.2572796984232134,0.006827242883273776,0.2428229764433986,0.266511570991956,0.2692724685548365,0,0.0,0,0.0,966,47.58620689655172,1064,52.41379310344828,0,0.0,0,0.0
+云南省,昆明市,西山区,昆明滇池国家旅游度假区,S007,昆明滇池国家旅游度假区,西山区,Xishan District,Kun Ming Dian Chi Guo Jia Lv You Du Jia Qu,Xishan: Kun Ming Dian Chi Guo Jia Lv You Du Jia Qu,4177,0.26864939989235126,0.2695638968010593,0.008838723782946206,0.2452893135511001,0.28120712232284517,0.2988674221721246,112,2.681350251376586,0,0.0,341,8.163753890351927,3724,89.15489585827149,112,2.681350251376586,0,0.0
+云南省,昆明市,寻甸回族彝族自治县,先锋镇,S008,先锋镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Xian Feng Town,Xundian Hui and Yi: Xian Feng Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,西山区,前卫街道,S009,前卫街道,西山区,Xishan District,Qian Wei Subdistrict,Xishan: Qian Wei Subdistrict,1183,0.2540146906252282,0.2532884376347275,0.005899455521963325,0.2434566468114761,0.2638730694981072,0.2662844591278172,0,0.0,0,0.0,748,63.229078613694,435,36.770921386306,0,0.0,0,0.0
+云南省,昆明市,五华区,丰宁街道,S010,丰宁街道,五华区,Wuhua District,Feng Ning Subdistrict,Wuhua: Feng Ning Subdistrict,1538,0.27752894367143943,0.27746844354360856,0.0029789665391938645,0.2702366066577069,0.2827514024714857,0.2848096505598789,11,0.7152145643693107,0,0.0,0,0.0,1527,99.28478543563068,11,0.7152145643693107,0,0.0
+云南省,昆明市,五华区,红云街道,S011,红云街道,五华区,Wuhua District,Hong Yun Subdistrict,Wuhua: Hong Yun Subdistrict,1289,0.2545526238771232,0.2534973698942651,0.00745517171856129,0.2407174571139943,0.26796188039469665,0.2751480557102751,0,0.0,0,0.0,831,64.46858029480217,458,35.53141970519783,0,0.0,0,0.0
+云南省,昆明市,五华区,华山街道,S012,华山街道,五华区,Wuhua District,Hua Shan Subdistrict,Wuhua: Hua Shan Subdistrict,1315,0.2603543091276847,0.2603247144156617,0.004821042969346904,0.2509924569721256,0.2684720235158718,0.271837481251185,0,0.0,0,0.0,350,26.61596958174905,965,73.38403041825094,0,0.0,0,0.0
+云南省,昆明市,五华区,大观街道,S013,大观街道,五华区,Wuhua District,Da Guan Subdistrict,Wuhua: Da Guan Subdistrict,1135,0.25993405676795234,0.2600553046481189,0.003693349606376296,0.2503873093927701,0.26593926516286326,0.2674132704476065,0,0.0,0,0.0,230,20.26431718061674,905,79.73568281938326,0,0.0,0,0.0
+云南省,昆明市,东川区,拖布卡镇,S014,拖布卡镇,东川区,Dongchuan District,Tuo Bu Ka Town,Dongchuan: Tuo Bu Ka Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,东川区,红土地镇,S015,红土地镇,东川区,Dongchuan District,Hong Tu Di Town,Dongchuan: Hong Tu Di Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,东川区,铜都街道,S016,铜都街道,东川区,Dongchuan District,Tong Dou Subdistrict,Dongchuan: Tong Dou Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,呈贡区,马金铺街道,S017,马金铺街道,呈贡区,Chenggong District,Ma Jin Pu Subdistrict,Chenggong: Ma Jin Pu Subdistrict,210,0.32514738269612425,0.32884517345942443,0.02385723467240797,0.2754167908440367,0.35698058795843124,0.3653517111549322,177,84.28571428571429,0,0.0,0,0.0,33,15.714285714285714,62,29.523809523809526,115,54.761904761904766
+云南省,昆明市,官渡区,官渡街道,S018,官渡街道,官渡区,Guandu District,Guan Du Subdistrict,Guandu: Guan Du Subdistrict,1921,0.22123776636488407,0.2201823670689349,0.009705446774564079,0.20813278916037,0.2385562967715478,0.2420762899761443,0,0.0,1576,82.04060385216033,345,17.95939614783967,0,0.0,0,0.0,0,0.0
+云南省,昆明市,安宁市,八街街道,S019,八街街道,安宁市,Anning City,Ba Jie Subdistrict,Anning: Ba Jie Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,安宁市,温泉街道,S020,温泉街道,安宁市,Anning City,Wen Quan Subdistrict,Anning: Wen Quan Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,安宁市,禄脿街道,S021,禄脿街道,安宁市,Anning City,Lu Biao Subdistrict,Anning: Lu Biao Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,五华区,护国街道,S022,护国街道,五华区,Wuhua District,Hu Guo Subdistrict,Wuhua: Hu Guo Subdistrict,601,0.2501737625036896,0.2503178836946424,0.0030583207453681216,0.242893059613164,0.255294563869701,0.2564003907522796,0,0.0,0,0.0,601,100.0,0,0.0,0,0.0,0,0.0
+云南省,昆明市,东川区,乌龙镇,S023,乌龙镇,东川区,Dongchuan District,Wu Long Town,Dongchuan: Wu Long Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,东川区,阿旺镇,S024,阿旺镇,东川区,Dongchuan District,A Wang Town,Dongchuan: A Wang Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,东川区,因民镇,S025,因民镇,东川区,Dongchuan District,Yin Min Town,Dongchuan: Yin Min Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,东川区,汤丹镇,S026,汤丹镇,东川区,Dongchuan District,Tang Dan Town,Dongchuan: Tang Dan Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,东川区,舍块乡,S027,舍块乡,东川区,Dongchuan District,She Kuai Township,Dongchuan: She Kuai Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,五华区,普吉街道,S028,普吉街道,五华区,Wuhua District,Pu Ji Subdistrict,Wuhua: Pu Ji Subdistrict,779,0.2902652574665813,0.2897194981890643,0.006160105476032723,0.2779762755150666,0.3026784549747023,0.30625471687367,632,81.12965340179717,0,0.0,0,0.0,147,18.870346598202826,632,81.12965340179717,0,0.0
+云南省,昆明市,五华区,莲华街道,S029,莲华街道,五华区,Wuhua District,Lian Hua Subdistrict,Wuhua: Lian Hua Subdistrict,2386,0.2695463472951856,0.2702928680811909,0.0064716876222728845,0.2541826067110077,0.2796339703494307,0.2826929433064382,0,0.0,0,0.0,63,2.6404023470243088,2323,97.3595976529757,0,0.0,0,0.0
+云南省,昆明市,西山区,团结街道,S030,团结街道,西山区,Xishan District,Tuan Jie Subdistrict,Xishan: Tuan Jie Subdistrict,10,0.2556163583815454,0.25498687903679684,0.0013891084187549405,0.2541972546176056,0.2577027298212998,0.2580163250094166,0,0.0,0,0.0,7,70.0,3,30.0,0,0.0,0,0.0
+云南省,昆明市,西山区,永昌街道,S031,永昌街道,西山区,Xishan District,Yong Chang Subdistrict,Xishan: Yong Chang Subdistrict,837,0.2532983956373443,0.2529311930010438,0.0038940526406896314,0.2447399727610335,0.2603044029604845,0.2621671886885842,0,0.0,0,0.0,639,76.34408602150538,198,23.655913978494624,0,0.0,0,0.0
+云南省,昆明市,西山区,福海街道,S032,福海街道,西山区,Xishan District,Fu Hai Subdistrict,Xishan: Fu Hai Subdistrict,1539,0.2684035361039514,0.2689875520619689,0.003840073290901743,0.2596141753893777,0.2742890558176471,0.275411759792071,0,0.0,0,0.0,0,0.0,1539,100.0,0,0.0,0,0.0
+云南省,昆明市,西山区,海口街道,S033,海口街道,西山区,Xishan District,Hai Kou Subdistrict,Xishan: Hai Kou Subdistrict,48,0.23174643286175714,0.23174845365495406,0.0025150443333039636,0.2272094932736532,0.23686121071826746,0.2371283466291716,0,0.0,22,45.83333333333333,26,54.166666666666664,0,0.0,0,0.0,0,0.0
+云南省,昆明市,西山区,马街街道,S034,马街街道,西山区,Xishan District,Ma Jie Subdistrict,Xishan: Ma Jie Subdistrict,1096,0.2897260309746369,0.2884474397251473,0.008374115881140403,0.2719837639880531,0.30038503652198134,0.303248241465868,802,73.17518248175182,0,0.0,0,0.0,294,26.824817518248175,802,73.17518248175182,0,0.0
+云南省,昆明市,官渡区,六甲街道,S035,六甲街道,官渡区,Guandu District,Liu Jia Subdistrict,Guandu: Liu Jia Subdistrict,1225,0.2505562736150704,0.2506625823061202,0.007496901477131816,0.2368275268308808,0.2617927474006137,0.263118897787068,0,0.0,0,0.0,849,69.3061224489796,376,30.69387755102041,0,0.0,0,0.0
+云南省,昆明市,五华区,黑林铺街道,S036,黑林铺街道,五华区,Wuhua District,Hei Lin Pu Subdistrict,Wuhua: Hei Lin Pu Subdistrict,906,0.29568478292557876,0.2961408377422514,0.006590714698662346,0.2796044226447693,0.30450613368968604,0.3080533424355337,842,92.93598233995584,0,0.0,0,0.0,64,7.06401766004415,842,92.93598233995584,0,0.0
+云南省,昆明市,五华区,昆明国家高新技术产业开发区,S037,昆明国家高新技术产业开发区,五华区,Wuhua District,Kun Ming Guo Jia Gao Xin Ji Shu Chan Ye Kai Fa Qu,Wuhua: Kun Ming Guo Jia Gao Xin Ji Shu Chan Ye Kai Fa Qu,837,0.28137114756920384,0.2797117621035647,0.006379594278179602,0.2741571832111465,0.29898961974034755,0.299613915938468,175,20.908004778972522,0,0.0,0,0.0,662,79.09199522102747,175,20.908004778972522,0,0.0
+云南省,昆明市,寻甸回族彝族自治县,昆明倘甸产业园区轿子山旅游开发区,S038,昆明倘甸产业园区轿子山旅游开发区,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Kun Ming Tang Dian Chan Ye Yuan Qu Jiao Zi Shan Lv You Kai Fa Qu,Xundian Hui and Yi: Kun Ming Tang Dian Chan Ye Yuan Qu Jiao Zi Shan Lv You Kai Fa Qu,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,呈贡区,七甸街道,S039,七甸街道,呈贡区,Chenggong District,Qi Dian Subdistrict,Chenggong: Qi Dian Subdistrict,15,0.44889567684180925,0.4479187919810964,0.025295741045468355,0.3778892424809375,0.4743786758060262,0.4744421171897485,15,100.0,0,0.0,0,0.0,0,0.0,0,0.0,15,100.0
+云南省,昆明市,呈贡区,乌龙街道,S040,乌龙街道,呈贡区,Chenggong District,Wu Long Subdistrict,Chenggong: Wu Long Subdistrict,686,0.2672234134283666,0.2639030070489139,0.01035694466211571,0.2500019545974081,0.28791840787745465,0.290376494889476,70,10.204081632653061,0,0.0,76,11.078717201166182,540,78.71720116618076,70,10.204081632653061,0,0.0
+云南省,昆明市,呈贡区,大渔街道,S041,大渔街道,呈贡区,Chenggong District,Da Yu Subdistrict,Chenggong: Da Yu Subdistrict,221,0.29785168363028564,0.3040779790595768,0.01528268203262114,0.2689203243067629,0.3160116643916267,0.317956439288828,161,72.85067873303167,0,0.0,0,0.0,60,27.149321266968325,161,72.85067873303167,0,0.0
+云南省,昆明市,呈贡区,斗南街道,S042,斗南街道,呈贡区,Chenggong District,Dou Nan Subdistrict,Chenggong: Dou Nan Subdistrict,136,0.24873596650161864,0.2477239997852742,0.006492278835563397,0.229342857287044,0.2585044372735259,0.2605439432459173,0,0.0,3,2.2058823529411766,114,83.82352941176471,19,13.970588235294118,0,0.0,0,0.0
+云南省,昆明市,呈贡区,洛羊街道,S043,洛羊街道,呈贡区,Chenggong District,Luo Yang Subdistrict,Chenggong: Luo Yang Subdistrict,2062,0.2926397762548876,0.29020893201583253,0.017717635522346068,0.248663593616097,0.32215549291636675,0.3356665813295617,1406,68.18622696411252,0,0.0,20,0.9699321047526674,636,30.84384093113482,1372,66.53734238603299,34,1.6488845780795343
+云南省,昆明市,呈贡区,洛龙街道,S044,洛龙街道,呈贡区,Chenggong District,Luo Long Subdistrict,Chenggong: Luo Long Subdistrict,517,0.3068626078462074,0.3082809050792683,0.008852985978162553,0.2829466705298981,0.31904190303130325,0.3366506584494628,508,98.25918762088975,0,0.0,0,0.0,9,1.7408123791102514,507,98.06576402321083,1,0.19342359767891684
+云南省,昆明市,呈贡区,雨花街道,S045,雨花街道,呈贡区,Chenggong District,Yu Hua Subdistrict,Chenggong: Yu Hua Subdistrict,489,0.3027551005266899,0.3025674528046863,0.009884095192336718,0.2840496144362303,0.3214514395952036,0.3438072737108049,487,99.59100204498978,0,0.0,0,0.0,2,0.408997955010225,484,98.97750511247445,3,0.6134969325153374
+云南省,昆明市,呈贡区,龙城街道,S046,龙城街道,呈贡区,Chenggong District,Long Cheng Subdistrict,Chenggong: Long Cheng Subdistrict,1045,0.26264086885018895,0.2608774400045944,0.008665622016997944,0.2482187984239308,0.27629281436703074,0.2814281549604168,0,0.0,0,0.0,340,32.535885167464116,705,67.46411483253588,0,0.0,0,0.0
+云南省,昆明市,呈贡区,吴家营街道,S047,吴家营街道,呈贡区,Chenggong District,Wu Jia Ying Subdistrict,Chenggong: Wu Jia Ying Subdistrict,845,0.33071320727005754,0.3326625615385535,0.01486508564735733,0.3014951366444133,0.3545444701622653,0.3671888728386269,845,100.0,0,0.0,0,0.0,0,0.0,343,40.59171597633136,502,59.408284023668635
+云南省,昆明市,官渡区,太和街道,S048,太和街道,官渡区,Guandu District,Tai He Subdistrict,Guandu: Tai He Subdistrict,1380,0.23861419889287713,0.23859080177760106,0.0034580424794618952,0.230334807147839,0.24402105602387072,0.2451343426058288,0,0.0,25,1.8115942028985508,1355,98.18840579710145,0,0.0,0,0.0,0,0.0
+云南省,昆明市,安宁市,连然街道,S049,连然街道,安宁市,Anning City,Lian Ran Subdistrict,Anning: Lian Ran Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,安宁市,金方街道,S050,金方街道,安宁市,Anning City,Jin Fang Subdistrict,Anning: Jin Fang Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,安宁市,青龙街道,S051,青龙街道,安宁市,Anning City,Qing Long Subdistrict,Anning: Qing Long Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,安宁市,太平新城街道,S052,太平新城街道,安宁市,Anning City,Tai Ping Xin Cheng Subdistrict,Anning: Tai Ping Xin Cheng Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,官渡区,矣六街道,S053,矣六街道,官渡区,Guandu District,Yi Liu Subdistrict,Guandu: Yi Liu Subdistrict,2052,0.22109192837053876,0.21992739030662534,0.007850882105539927,0.209809770718659,0.2398308756721409,0.2493696677345107,0,0.0,1858,90.5458089668616,194,9.4541910331384,0,0.0,0,0.0,0,0.0
+云南省,昆明市,官渡区,关上街道,S054,关上街道,官渡区,Guandu District,Guan Shang Subdistrict,Guandu: Guan Shang Subdistrict,2271,0.23006046571221392,0.2308844388910811,0.009169920881395347,0.2071702468460155,0.24262895963914055,0.2447371867106237,0,0.0,1193,52.53192426243945,1078,47.46807573756055,0,0.0,0,0.0,0,0.0
+云南省,昆明市,官渡区,吴井街道,S055,吴井街道,官渡区,Guandu District,Wu Jing Subdistrict,Guandu: Wu Jing Subdistrict,794,0.22839733695071643,0.227997610708005,0.003543617287238508,0.2211994698844495,0.2339496061337225,0.2348360393771034,0,0.0,606,76.32241813602015,188,23.67758186397985,0,0.0,0,0.0,0,0.0
+云南省,昆明市,宜良县,马街镇,S056,马街镇,宜良县,Yiliang County,Ma Jie Town,Yiliang: Ma Jie Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,宜良县,北古城镇,S057,北古城镇,宜良县,Yiliang County,Bei Gu Cheng Town,Yiliang: Bei Gu Cheng Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,宜良县,匡远街道,S058,匡远街道,宜良县,Yiliang County,Kuang Yuan Subdistrict,Yiliang: Kuang Yuan Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,官渡区,阿拉街道,S059,阿拉街道,官渡区,Guandu District,A La Subdistrict,Guandu: A La Subdistrict,557,0.2543593656629139,0.2565984505371027,0.019050236186032212,0.2241378039705153,0.2777895179869631,0.3215744570642778,16,2.872531418312388,95,17.0556552962298,186,33.39317773788151,260,46.678635547576306,16,2.872531418312388,0,0.0
+云南省,昆明市,官渡区,大板桥街道,S060,大板桥街道,官渡区,Guandu District,Da Ban Qiao Subdistrict,Guandu: Da Ban Qiao Subdistrict,708,0.33599566891387705,0.318796578087163,0.0376972070372671,0.2855121090152083,0.39202216638955856,0.4222829378005124,708,100.0,0,0.0,0,0.0,0,0.0,381,53.813559322033896,327,46.186440677966104
+云南省,昆明市,盘龙区,茨坝街道,S061,茨坝街道,盘龙区,Panlong District,Ci Ba Subdistrict,Panlong: Ci Ba Subdistrict,925,0.2565704556996918,0.2565577658136441,0.0058210866385498775,0.2447575428977575,0.26573819930995224,0.2709406184690464,0,0.0,0,0.0,470,50.810810810810814,455,49.18918918918919,0,0.0,0,0.0
+云南省,昆明市,官渡区,小板桥街道,S062,小板桥街道,官渡区,Guandu District,Xiao Ban Qiao Subdistrict,Guandu: Xiao Ban Qiao Subdistrict,1965,0.21670495147129304,0.2158157920176699,0.006397400823350956,0.2074153256771207,0.22933084307261406,0.2402370740745684,0,0.0,1891,96.23409669211196,74,3.76590330788804,0,0.0,0,0.0,0,0.0
+云南省,昆明市,官渡区,昆明经济技术开发区,S063,昆明经济技术开发区,官渡区,Guandu District,Kun Ming Jing Ji Ji Shu Kai Fa Qu,Guandu: Kun Ming Jing Ji Ji Shu Kai Fa Qu,1013,0.23359724114544078,0.2351432366201578,0.013486008992848712,0.21126196598392,0.25957726369125983,0.2682012622690842,0,0.0,417,41.16485686080948,534,52.7147087857848,62,6.1204343534057255,0,0.0,0,0.0
+云南省,昆明市,宜良县,狗街镇,S064,狗街镇,宜良县,Yiliang County,Gou Jie Town,Yiliang: Gou Jie Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,云龙乡,S065,云龙乡,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Yun Long Township,Luquan Yi and Miao: Yun Long Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,则黑乡,S066,则黑乡,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Ze Hei Township,Luquan Yi and Miao: Ze Hei Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,团街镇,S067,团街镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Tuan Jie Town,Luquan Yi and Miao: Tuan Jie Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,茂山镇,S068,茂山镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Mao Shan Town,Luquan Yi and Miao: Mao Shan Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,转龙镇,S069,转龙镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Zhuan Long Town,Luquan Yi and Miao: Zhuan Long Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,雪山乡,S070,雪山乡,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Xue Shan Township,Luquan Yi and Miao: Xue Shan Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,乌东德镇,S071,乌东德镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Wu Dong De Town,Luquan Yi and Miao: Wu Dong De Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,马鹿塘乡,S072,马鹿塘乡,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Ma Lu Tang Township,Luquan Yi and Miao: Ma Lu Tang Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,宜良县,竹山镇,S073,竹山镇,宜良县,Yiliang County,Zhu Shan Town,Yiliang: Zhu Shan Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,富民县,东村镇,S074,东村镇,富民县,Fumin County,Dong Cun Town,Fumin: Dong Cun Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,盘龙区,双龙街道,S075,双龙街道,盘龙区,Panlong District,Shuang Long Subdistrict,Panlong: Shuang Long Subdistrict,60,0.20813065247560628,0.20882913350434223,0.00570966876062505,0.1974516908685335,0.21591707101056548,0.2170677801402865,0,0.0,60,100.0,0,0.0,0,0.0,0,0.0,0,0.0
+云南省,昆明市,富民县,散旦镇,S076,散旦镇,富民县,Fumin County,San Dan Town,Fumin: San Dan Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,嵩明县,小街镇,S077,小街镇,嵩明县,Songming County,Xiao Jie Town,Songming: Xiao Jie Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,嵩明县,杨林镇,S078,杨林镇,嵩明县,Songming County,Yang Lin Town,Songming: Yang Lin Town,5,0.4024411784831298,0.3969243523223412,0.011983028750453276,0.3957296323548774,0.4188543279449147,0.4237450889687166,5,100.0,0,0.0,0,0.0,0,0.0,0,0.0,5,100.0
+云南省,昆明市,盘龙区,拓东街道,S079,拓东街道,盘龙区,Panlong District,Tuo Dong Subdistrict,Panlong: Tuo Dong Subdistrict,720,0.23582931596522552,0.23559435166002435,0.004477269284991539,0.2278942881976304,0.24289613447103908,0.245673559796867,0,0.0,149,20.694444444444443,571,79.30555555555556,0,0.0,0,0.0,0,0.0
+云南省,昆明市,嵩明县,嵩阳街道,S080,嵩阳街道,嵩明县,Songming County,Song Yang Subdistrict,Songming: Song Yang Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,盘龙区,联盟街道,S081,联盟街道,盘龙区,Panlong District,Lian Meng Subdistrict,Panlong: Lian Meng Subdistrict,1922,0.24794277481986143,0.2476531846360545,0.006778781995366931,0.234804609309614,0.2583247203100782,0.2614778860925313,0,0.0,0,0.0,1671,86.94068678459938,251,13.059313215400625,0,0.0,0,0.0
+云南省,昆明市,嵩明县,牛栏江镇,S082,牛栏江镇,嵩明县,Songming County,Niu Lan Jiang Town,Songming: Niu Lan Jiang Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,晋宁县,二街镇,S083,二街镇,晋宁县,晋宁县,Er Jie Town,晋宁县: Er Jie Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,晋宁县,六街镇,S084,六街镇,晋宁县,晋宁县,Liu Jie Town,晋宁县: Liu Jie Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,晋宁县,双河彝族乡,S085,双河彝族乡,晋宁县,晋宁县,Shuang He Yi Zu Township,晋宁县: Shuang He Yi Zu Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,晋宁县,夕阳彝族乡,S086,夕阳彝族乡,晋宁县,晋宁县,Xi Yang Yi Zu Township,晋宁县: Xi Yang Yi Zu Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,盘龙区,东华街道,S087,东华街道,盘龙区,Panlong District,Dong Hua Subdistrict,Panlong: Dong Hua Subdistrict,1123,0.23230327786614097,0.2326608871832406,0.0047477546211919025,0.221981138253209,0.23963434672215736,0.2418472836575198,0,0.0,472,42.03027604630454,651,57.969723953695464,0,0.0,0,0.0,0,0.0
+云南省,昆明市,盘龙区,松华街道,S088,松华街道,盘龙区,Panlong District,Song Hua Subdistrict,Panlong: Song Hua Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,盘龙区,金辰街道,S089,金辰街道,盘龙区,Panlong District,Jin Chen Subdistrict,Panlong: Jin Chen Subdistrict,1802,0.23788276835420374,0.2402360145000189,0.010177851869800464,0.209813504134019,0.2517510316968633,0.2554818626036382,0,0.0,437,24.250832408435073,1365,75.74916759156493,0,0.0,0,0.0,0,0.0
+云南省,昆明市,盘龙区,龙泉街道,S090,龙泉街道,盘龙区,Panlong District,Long Quan Subdistrict,Panlong: Long Quan Subdistrict,1360,0.22616646414186606,0.2330738910831524,0.014768515232517343,0.1992713099365233,0.24329837243771749,0.2480807633238224,0,0.0,661,48.60294117647059,699,51.397058823529406,0,0.0,0,0.0,0,0.0
+云南省,昆明市,盘龙区,青云街道,S091,青云街道,盘龙区,Panlong District,Qing Yun Subdistrict,Panlong: Qing Yun Subdistrict,2375,0.2145794084547807,0.2141016346758098,0.006696717787134221,0.200911229722399,0.22584909254844768,0.2327323158974028,0,0.0,2371,99.83157894736841,4,0.16842105263157894,0,0.0,0,0.0,0,0.0
+云南省,昆明市,盘龙区,鼓楼街道,S092,鼓楼街道,盘龙区,Panlong District,Gu Lou Subdistrict,Panlong: Gu Lou Subdistrict,821,0.24438880113656358,0.2452790971214371,0.0048068943213662035,0.233396546825351,0.250924604447477,0.257464395354873,0,0.0,0,0.0,817,99.51278928136419,4,0.48721071863580995,0,0.0,0,0.0
+云南省,昆明市,盘龙区,盘龙区滇源街道,S093,盘龙区滇源街道,盘龙区,Panlong District,Pan Long Qu Dian Yuan Subdistrict,Panlong: Pan Long Qu Dian Yuan Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,盘龙区,盘龙区阿子营街道,S094,盘龙区阿子营街道,盘龙区,Panlong District,Pan Long Qu A Zi Ying Subdistrict,Panlong: Pan Long Qu A Zi Ying Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,石林彝族自治县,圭山镇,S095,圭山镇,石林彝族自治县,Shilin Yi Autonomous County,Gui Shan Town,Shilin Yi: Gui Shan Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,石林彝族自治县,大可乡,S096,大可乡,石林彝族自治县,Shilin Yi Autonomous County,Da Ke Township,Shilin Yi: Da Ke Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,七星镇,S097,七星镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Qi Xing Town,Xundian Hui and Yi: Qi Xing Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,石林彝族自治县,长湖镇,S098,长湖镇,石林彝族自治县,Shilin Yi Autonomous County,Zhang Hu Town,Shilin Yi: Zhang Hu Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,石林彝族自治县,西街口镇,S099,西街口镇,石林彝族自治县,Shilin Yi Autonomous County,Xi Jie Kou Town,Shilin Yi: Xi Jie Kou Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,倘甸镇,S100,倘甸镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Tang Dian Town,Xundian Hui and Yi: Tang Dian Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,六哨乡,S101,六哨乡,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Liu Shao Township,Xundian Hui and Yi: Liu Shao Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,甸沙乡,S102,甸沙乡,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Dian Sha Township,Xundian Hui and Yi: Dian Sha Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,凤合镇,S103,凤合镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Feng He Town,Xundian Hui and Yi: Feng He Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,羊街镇,S104,羊街镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Yang Jie Town,Xundian Hui and Yi: Yang Jie Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,功山镇,S105,功山镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Gong Shan Town,Xundian Hui and Yi: Gong Shan Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,柯渡镇,S106,柯渡镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Ke Du Town,Xundian Hui and Yi: Ke Du Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,河口镇,S107,河口镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,He Kou Town,Xundian Hui and Yi: He Kou Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,联合乡,S108,联合乡,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Lian He Township,Xundian Hui and Yi: Lian He Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,金源乡,S109,金源乡,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Jin Yuan Township,Xundian Hui and Yi: Jin Yuan Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,鸡街镇,S110,鸡街镇,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Ji Jie Town,Xundian Hui and Yi: Ji Jie Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,中屏镇,S111,中屏镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Zhong Ping Town,Luquan Yi and Miao: Zhong Ping Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,乌蒙乡,S112,乌蒙乡,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Wu Meng Township,Luquan Yi and Miao: Wu Meng Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,九龙镇,S113,九龙镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Jiu Long Town,Luquan Yi and Miao: Jiu Long Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,安宁市,县街街道,S114,县街街道,安宁市,Anning City,Xian Jie Subdistrict,Anning: Xian Jie Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,官渡区,金马街道,S115,金马街道,官渡区,Guandu District,Jin Ma Subdistrict,Guandu: Jin Ma Subdistrict,1649,0.21701383798510485,0.2174300798590122,0.006989099015300603,0.2034104169755188,0.2286414412090792,0.2317132151753737,0,0.0,1648,99.93935718617344,1,0.06064281382656155,0,0.0,0,0.0,0,0.0
+云南省,昆明市,宜良县,汤池街道,S116,汤池街道,宜良县,Yiliang County,Tang Chi Subdistrict,Yiliang: Tang Chi Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,宜良县,耿家营乡,S117,耿家营乡,宜良县,Yiliang County,Geng Jia Ying Township,Yiliang: Geng Jia Ying Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,宜良县,九乡乡,S118,九乡乡,宜良县,Yiliang County,Jiu Xiang Township,Yiliang: Jiu Xiang Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,富民县,款庄镇,S119,款庄镇,富民县,Fumin County,Kuan Zhuang Town,Fumin: Kuan Zhuang Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,富民县,罗免镇,S120,罗免镇,富民县,Fumin County,Luo Mian Town,Fumin: Luo Mian Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,富民县,赤鹫镇,S121,赤鹫镇,富民县,Fumin County,Chi Jiu Town,Fumin: Chi Jiu Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,富民县,永定街道,S122,永定街道,富民县,Fumin County,Yong Ding Subdistrict,Fumin: Yong Ding Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,晋宁县,上蒜镇,S123,上蒜镇,晋宁县,晋宁县,Shang Suan Town,晋宁县: Shang Suan Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,晋宁县,晋城镇,S124,晋城镇,晋宁县,晋宁县,Jin Cheng Town,晋宁县: Jin Cheng Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,晋宁县,昆阳街道,S125,昆阳街道,晋宁县,晋宁县,Kun Yang Subdistrict,晋宁县: Kun Yang Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,西山区,碧鸡街道,S126,碧鸡街道,西山区,Xishan District,Bi Ji Subdistrict,Xishan: Bi Ji Subdistrict,408,0.3034797917638214,0.30402775326322484,0.004137114305857806,0.2959259922808791,0.307864960339206,0.3092772064615759,408,100.0,0,0.0,0,0.0,0,0.0,408,100.0,0,0.0
+云南省,昆明市,石林彝族自治县,鹿阜街道,S127,鹿阜街道,石林彝族自治县,Shilin Yi Autonomous County,Lu Fu Subdistrict,Shilin Yi: Lu Fu Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,屏山街道,S128,屏山街道,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Ping Shan Subdistrict,Luquan Yi and Miao: Ping Shan Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,撒营盘镇,S129,撒营盘镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Sa Ying Pan Town,Luquan Yi and Miao: Sa Ying Pan Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,皎平渡镇,S130,皎平渡镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Jiao Ping Du Town,Luquan Yi and Miao: Jiao Ping Du Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,寻甸回族彝族自治县,仁德街道,S131,仁德街道,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Ren De Subdistrict,Xundian Hui and Yi: Ren De Subdistrict,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,汤郎乡,S132,汤郎乡,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Tang Lang Township,Luquan Yi and Miao: Tang Lang Township,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,翠华镇,S133,翠华镇,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Cui Hua Town,Luquan Yi and Miao: Cui Hua Town,0,,,,,,,0,,0,,0,,0,,0,,0,
+云南省,昆明市,禄劝彝族苗族自治县,禄劝工业园区管理委员会,S134,禄劝工业园区管理委员会,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Lu Quan Gong Ye Yuan Qu Guan Li Wei Yuan Hui,Luquan Yi and Miao: Lu Quan Gong Ye Yuan Qu Guan Li Wei Yuan Hui,0,,,,,,,0,,0,,0,,0,,0,,0,

@@ -274,7 +274,7 @@
                 <Option type="QString" name="color" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1" />
                 <Option type="QString" name="fixedAspectRatio" value="0" />
                 <Option type="QString" name="horizontal_anchor_point" value="1" />
-                <Option type="QString" name="name" value="/Users/bin/Projects/seismic_risk/plot/04_seismic_hazard/qgis/layouts/hazard/left_lateral_arrows.svg" />
+                <Option type="QString" name="name" value="../../../../../../plot/04_seismic_hazard/qgis/layouts/hazard/left_lateral_arrows.svg" />
                 <Option type="QString" name="offset" value="0,0" />
                 <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" />
                 <Option type="QString" name="offset_unit" value="MM" />
@@ -484,7 +484,7 @@
   </labeling>
   <customproperties>
     <Option type="Map">
-      <Option type="QString" name="fault_literature/original_source" value="/Users/bin/Projects/seismic_risk/QGIS/data/basic/faults/02_Kunming_Fault_Processed.shp" />
+      <Option type="QString" name="fault_literature/original_source" value="../../../../../../QGIS/data/basic/faults/02_Kunming_Fault_Processed.shp" />
       <Option type="QString" name="fault_literature/review_date" value="2026-10-14" />
       <Option type="QString" name="fault_literature/reviewed_input_sha256" value="f538ccc4b81416cef834b266c7e92cb8fe3dc3bef3f172b1cd5863c528b72408" />
       <Option type="QString" name="seismic_building/base_key" value="faults" />

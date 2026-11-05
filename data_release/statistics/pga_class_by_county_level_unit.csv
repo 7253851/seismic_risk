@@ -1,0 +1,71 @@
+﻿Admin_Unit_ID,Admin_Name,Admin_Name_EN,PGA_Class,PGA_Range,Building_Count,Percentage,Unit_Building_Count
+C001,呈贡区,Chenggong District,Very Low,≤ 0.2316 g,3,0.0484027105517909,6198
+C001,呈贡区,Chenggong District,Low,0.2316–0.2567 g,550,8.873830267828332,6198
+C001,呈贡区,Chenggong District,Moderate,0.2567–0.2844 g,1967,31.736043885124232,6198
+C001,呈贡区,Chenggong District,High,0.2844–0.3272 g,3008,48.53178444659568,6198
+C001,呈贡区,Chenggong District,Very High,> 0.3272 g,670,10.809938689899967,6198
+C002,晋宁区,Jinning District,Very Low,≤ 0.2316 g,0,,0
+C002,晋宁区,Jinning District,Low,0.2316–0.2567 g,0,,0
+C002,晋宁区,Jinning District,Moderate,0.2567–0.2844 g,0,,0
+C002,晋宁区,Jinning District,High,0.2844–0.3272 g,0,,0
+C002,晋宁区,Jinning District,Very High,> 0.3272 g,0,,0
+C003,西山区,Xishan District,Very Low,≤ 0.2316 g,22,0.17107309486780717,12860
+C003,西山区,Xishan District,Low,0.2316–0.2567 g,2756,21.430793157076206,12860
+C003,西山区,Xishan District,Moderate,0.2567–0.2844 g,8741,67.97045101088646,12860
+C003,西山区,Xishan District,High,0.2844–0.3272 g,1341,10.427682737169517,12860
+C003,西山区,Xishan District,Very High,> 0.3272 g,0,0.0,12860
+C004,东川区,Dongchuan District,Very Low,≤ 0.2316 g,0,,0
+C004,东川区,Dongchuan District,Low,0.2316–0.2567 g,0,,0
+C004,东川区,Dongchuan District,Moderate,0.2567–0.2844 g,0,,0
+C004,东川区,Dongchuan District,High,0.2844–0.3272 g,0,,0
+C004,东川区,Dongchuan District,Very High,> 0.3272 g,0,,0
+C005,官渡区,Guandu District,Very Low,≤ 0.2316 g,9341,60.27618248693295,15497
+C005,官渡区,Guandu District,Low,0.2316–0.2567 g,4706,30.36716783893657,15497
+C005,官渡区,Guandu District,Moderate,0.2567–0.2844 g,735,4.742853455507517,15497
+C005,官渡区,Guandu District,High,0.2844–0.3272 g,388,2.503710395560431,15497
+C005,官渡区,Guandu District,Very High,> 0.3272 g,327,2.110085823062528,15497
+C006,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Very Low,≤ 0.2316 g,0,,0
+C006,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Low,0.2316–0.2567 g,0,,0
+C006,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Moderate,0.2567–0.2844 g,0,,0
+C006,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,High,0.2844–0.3272 g,0,,0
+C006,寻甸回族彝族自治县,Xundian Hui and Yi Autonomous County,Very High,> 0.3272 g,0,,0
+C007,嵩明县,Songming County,Very Low,≤ 0.2316 g,0,0.0,5
+C007,嵩明县,Songming County,Low,0.2316–0.2567 g,0,0.0,5
+C007,嵩明县,Songming County,Moderate,0.2567–0.2844 g,0,0.0,5
+C007,嵩明县,Songming County,High,0.2844–0.3272 g,0,0.0,5
+C007,嵩明县,Songming County,Very High,> 0.3272 g,5,100.0,5
+C008,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Very Low,≤ 0.2316 g,0,,0
+C008,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Low,0.2316–0.2567 g,0,,0
+C008,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Moderate,0.2567–0.2844 g,0,,0
+C008,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,High,0.2844–0.3272 g,0,,0
+C008,禄劝彝族苗族自治县,Luquan Yi and Miao Autonomous County,Very High,> 0.3272 g,0,,0
+C009,宜良县,Yiliang County,Very Low,≤ 0.2316 g,0,,0
+C009,宜良县,Yiliang County,Low,0.2316–0.2567 g,0,,0
+C009,宜良县,Yiliang County,Moderate,0.2567–0.2844 g,0,,0
+C009,宜良县,Yiliang County,High,0.2844–0.3272 g,0,,0
+C009,宜良县,Yiliang County,Very High,> 0.3272 g,0,,0
+C010,石林彝族自治县,Shilin Yi Autonomous County,Very Low,≤ 0.2316 g,0,,0
+C010,石林彝族自治县,Shilin Yi Autonomous County,Low,0.2316–0.2567 g,0,,0
+C010,石林彝族自治县,Shilin Yi Autonomous County,Moderate,0.2567–0.2844 g,0,,0
+C010,石林彝族自治县,Shilin Yi Autonomous County,High,0.2844–0.3272 g,0,,0
+C010,石林彝族自治县,Shilin Yi Autonomous County,Very High,> 0.3272 g,0,,0
+C011,富民县,Fumin County,Very Low,≤ 0.2316 g,0,,0
+C011,富民县,Fumin County,Low,0.2316–0.2567 g,0,,0
+C011,富民县,Fumin County,Moderate,0.2567–0.2844 g,0,,0
+C011,富民县,Fumin County,High,0.2844–0.3272 g,0,,0
+C011,富民县,Fumin County,Very High,> 0.3272 g,0,,0
+C012,盘龙区,Panlong District,Very Low,≤ 0.2316 g,4118,36.67290052542524,11229
+C012,盘龙区,Panlong District,Low,0.2316–0.2567 g,6451,57.44946121649301,11229
+C012,盘龙区,Panlong District,Moderate,0.2567–0.2844 g,660,5.8776382580817526,11229
+C012,盘龙区,Panlong District,High,0.2844–0.3272 g,0,0.0,11229
+C012,盘龙区,Panlong District,Very High,> 0.3272 g,0,0.0,11229
+C013,五华区,Wuhua District,Very Low,≤ 0.2316 g,0,0.0,11439
+C013,五华区,Wuhua District,Low,0.2316–0.2567 g,1941,16.968266456858117,11439
+C013,五华区,Wuhua District,Moderate,0.2567–0.2844 g,7851,68.63362182008916,11439
+C013,五华区,Wuhua District,High,0.2844–0.3272 g,1647,14.398111723052715,11439
+C013,五华区,Wuhua District,Very High,> 0.3272 g,0,0.0,11439
+C014,安宁市,Anning City,Very Low,≤ 0.2316 g,0,,0
+C014,安宁市,Anning City,Low,0.2316–0.2567 g,0,,0
+C014,安宁市,Anning City,Moderate,0.2567–0.2844 g,0,,0
+C014,安宁市,Anning City,High,0.2844–0.3272 g,0,,0
+C014,安宁市,Anning City,Very High,> 0.3272 g,0,,0
