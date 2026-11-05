@@ -1,0 +1,17 @@
+{
+  "title": "Code and data for: Integrating PS-InSAR and multi-source geospatial data for condition-aware building-level seismic risk assessment",
+  "upload_type": "software",
+  "description": "<p>Code, QGIS cartographic projects and public building-level result tables supporting the manuscript <em>Integrating PS-InSAR and multi-source geospatial data for condition-aware building-level seismic risk assessment</em> (submitted to <em>GIScience &amp; Remote Sensing</em>). The release contains the hazard, InSAR-informed vulnerability (InSAR Building State Index), exposure and risk model code for 40,000 buildings in Kunming, China, the figure code, and attribute tables of the building-level results (data_release/, CC BY 4.0). Building geometries, TerraSAR-X products and raw housing prices are not included because of licence and regulatory restrictions.</p>",
+  "creators": [
+    {"name": "Huang, Weibin", "affiliation": "School of Earth Sciences, Yunnan University"},
+    {"name": "Yang, Mengshi", "affiliation": "School of Earth Sciences, Yunnan University"},
+    {"name": "Zhang, Yuhang", "affiliation": "School of Earth Sciences, Yunnan University"},
+    {"name": "Wu, Hao", "affiliation": "School of Earth Sciences, Yunnan University"},
+    {"name": "Yu, Yangwei", "affiliation": "Institute of International Rivers and Eco-Security, Yunnan University"},
+    {"name": "Yu, Hang", "affiliation": "School of Resources and Environment, University of Electronic Science and Technology of China"},
+    {"name": "Wang, Teng", "affiliation": "Institute of Geology, China Earthquake Administration"}
+  ],
+  "keywords": ["PS-InSAR", "TerraSAR-X", "building-level seismic risk", "seismic vulnerability", "Kunming"],
+  "license": "MIT",
+  "access_right": "open"
+}

@@ -10,6 +10,7 @@
 !/.github/README.md
 !/docs/*.md
 !/LICENSE
+!/.zenodo.json
 
 # --- Public result tables (attribute tables only, no geometry) ----------------
 !/data_release/**
