@@ -25,7 +25,7 @@ A Chinese version of this README is available in [docs/README_zh.md](../docs/REA
 
 ## Data availability
 
-- **Released here** (`data_release/`, CC BY 4.0): building-level hazard, vulnerability (including IBSI components),
+- **Released here** (`data_release/`): building-level hazard, vulnerability (including IBSI components),
   exposure and risk attributes keyed by building ID, the InSAR contribution comparison, transect allocations,
   model parameters (scenario registry, class breaks, CRITIC weights, normalization bounds) and the summary
   statistics reported in the paper.
@@ -89,10 +89,15 @@ licences of this repository. Satellite image insets use Esri World Imagery (© E
 
 ## Licence
 
-Code is released under the [MIT License](../LICENSE). The tables in `data_release/` are released under
-[CC BY 4.0](../data_release/LICENSE). Third-party data and images keep their original licences.
+All contents of this repository, including the code, the tables in `data_release/` and the documentation, are
+released under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](../LICENSE).
+Third-party data and images, including the damage photographs in `figures/figure13.png`, are not covered and keep
+their original licences.
 
 ## Citation
 
-Please cite the paper (details will be added on publication) and the archived release of this repository
-(Zenodo DOI to be added).
+Please cite the paper (details will be added on publication) and the archived release of this repository:
+
+Huang, W., Yang, M., Zhang, Y., Wu, H., Yu, Y., Yu, H. and Wang, T. 2026. Code and data for: Integrating PS-InSAR
+and multi-source geospatial data for condition-aware building-level seismic risk assessment. Zenodo.
+https://doi.org/10.5281/zenodo.23969880
